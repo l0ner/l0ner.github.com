@@ -4,16 +4,22 @@ body { background: #000 url('img/bg_lines.png'); color: #fff; font-family: sans-
 .darkred { color: #060000; }
 .red { color: #f00; }
 .temp { font-size: 30px; color: #6a6a6a; }
+div.border { border: 1px red solid; }
+img.clock { margin: 0; padding: 0; border: 0px; margin-bottom: 0px; display: block; float: left; }
+table { width:150px;table-layout:fixed; border-collapse:collapse; }
+table tr { height:25px;  }
+td { overflow:hidden;white-space:nowrap; border-spacing:0; }
 div.icon { 
 	float: left;
 	width: 150px;
 	height: 150px;
 	margin: 10px;
 	}
-	
+/*firefox hack*/
+a img { border: 0px; }
 div#iconcontainer {
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 51px;
 	min-width: 340px;
 	max-width: 870px;
 	}
