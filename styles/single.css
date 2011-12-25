@@ -41,7 +41,7 @@ p {
 	height: 60px;
 	top: 0px;
 	left: 0px;
-	background: url("../img/paski_overlay.png");
+	background: url("/img/paski_overlay.png");
 	}
 #post {
 	margin-top: 10px;
@@ -50,7 +50,7 @@ p {
 	border: 0px;
 	height: 5px;
 	margin: 3px 0 3px 0;
-	background: url("../img/stripes.png");
+	background: url("/img/stripes.png");
 	clear: both;
 	}
 ul.menu {
