@@ -13,7 +13,8 @@ div.icon {
 	
 div#iconcontainer {
 	margin: auto;
-	min-width: 210px;
+	margin-top: 50px;
+	min-width: 340px;
 	max-width: 870px;
 	}
 	
