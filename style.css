@@ -1,0 +1,20 @@
+body { background: #000 url('img/bg_lines.png'); color: #fff; font-family: sans-serif; }
+.zalgotxt { color: #060606; font-size: 8px; }
+.center { text-align: center; }
+.darkred { color: #060000; }
+.red { color: #f00; }
+.temp { font-size: 30px; color: #6a6a6a; }
+div.icon { 
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	}
+	
+div#iconcontainer {
+	margin: auto;
+	min-width: 210px;
+	max-width: 870px;
+	}
+	
+div.clear { clear: both; }
