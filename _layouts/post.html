@@ -11,11 +11,11 @@
 				<div id="content_wrapper">
 					<div class="post">
 						<div class="post_header">
-							<div class="title">{{ post.date }} - {{ post.title }}</div>
-							<div class="meta">Categories: {{ post.categories }}</div>
+							<div class="post_title"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></div>
+							<div class="post_meta">Posted on: {{ post.date | date_to_string }} in: {{ post.categories }}</div>
 						</div>
 						<div class="post_content">
-							{{ content }}
+							{{ post.content }}
 						</div>
 						<div class="comments_wrapper">
 							<div class="post_comment">
