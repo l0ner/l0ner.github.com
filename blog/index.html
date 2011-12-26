@@ -18,6 +18,7 @@ title: l0ner.github.com - blog
 			</div>
 	{% else %}
 		{% assign forloop.index = ( forloop.index | minus 1 ) %}
+		{{ forloop.index }}
 	{% endunless %}
 {% endfor %}
 <h3 class="postlist">Older posts:</h3>
