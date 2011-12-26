@@ -18,6 +18,7 @@ title: l0ner.github.com - blog
 			</div>
 	{% else %}
 		{% assign post_limit = ( post_limit | plus 1 ) %}
+		{{ post_limit }}
 	{% endunless %}
 {% endfor %}
 <h3 class="postlist">Older posts:</h3>
