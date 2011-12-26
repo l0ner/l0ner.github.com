@@ -45,6 +45,10 @@ table#clock {
 	margin: 0px;
 }
 
+#clock img {
+	display: block;
+	}
+
 #logo {
 	margin-top: 0px;
 	margin-bottom: 0px;
