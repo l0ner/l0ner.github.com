@@ -26,16 +26,16 @@
 div.post {
 	margin: 10px;
 	margin-bottom: 15px;
-	font-family: Pixel;
-	font-size: 8px;
+	font-family: sans;
+	font-size: 14px;
 	color: #fff;
 	border: 0px #f00 dashed;
 	}
 
 div.post_meta {
-	font-family: Sans;
+	font-family: Pixel;
 	color: #fff;
-	font-size: 14px;
+	font-size: 8px;
 	padding: 7px 0 7px 20px;
 	background: url('/img/meta_bg.png');
 }
