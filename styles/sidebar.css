@@ -35,9 +35,13 @@
 	background: #f00;
 }
 
+#sidebar ul {
+	list-style-image: url('/img/li_bullet.png');
+	margin-left: 5px;
+}
+
 #sidebar li {
 	margin-bottom: 5px;
-	list-style-image: url('/img/li_bullet.png');
 	}
 
 #credit {
