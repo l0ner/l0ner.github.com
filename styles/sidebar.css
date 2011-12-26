@@ -22,7 +22,7 @@
   font-size: 16px;
   padding: 0px 0 11px 20px;
   background: url('/img/nav_h3_bg.png') repeat-x;
-  margin: 0;
+  margin-bottom: 5px;
 }
 
 #sidebar a {
@@ -36,7 +36,7 @@
 }
 
 #sidebar ul {
-	list-style-image: url('/img/li_bullet.png');
+	list-style: square url('/img/li_bullet.png');
 	margin-left: 5px;
 }
 
