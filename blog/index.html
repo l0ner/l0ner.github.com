@@ -13,7 +13,7 @@ title: l0ner.github.com - blog
 	<div class="post_content">{{ post.content | truncatewords: 100 }}
 	{% capture word_count %}{{ post.content | number_of_words }}{% endcapture %}
 	{{ word_count }}
-	{% if word_count >= "100" %}
+	{% if word_count.size >= "100" %}
 		<a href="{{ post.url }}" class="readmore">Read more...</a>
 	{% endif %}
 	</div>
