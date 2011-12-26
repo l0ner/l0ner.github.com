@@ -27,15 +27,21 @@
 	font-size: 8px;
 	color: #f00;
 	text-decoration: none;
-	}
+}
 
 #sidebar a:hover {
 	color: #000;
 	background: #f00;
+}
+
+#sidebar li {
+	margin-bottom: 5px;
+	border-bottom: 2px #f00 dashed;
 	}
 
 #credit {
-   margin-top: 10px;
-   color: #6a6a6a;
-   font-size: 8px;
+  margin-top: 10px;
+  color: #6a6a6a;
+  font-size: 8px;
+	text-align: center;
 }
