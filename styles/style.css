@@ -1,22 +1,34 @@
 @font-face {  
-   font-family: Pixel;  
-   src: url('/fonts/PressStart2P.ttf');  
+  font-family: Pixel;  
+  src: url('/fonts/PressStart2P.ttf');  
 }  
 
 @font-face {  
-   font-family: Pixel2;  
-   src: url('/fonts/visitor2.ttf');  
+  font-family: Pixel2;  
+  src: url('/fonts/visitor2.ttf');  
 }  
 
 body {
-   background: #000 url('/img/bg_lines.png') fixed;
-   font-family: sans-serif;
-   font-size: 8px;
-	 color: #f00;
-   margin: 0;
-   padding: 0;
+  background: #000 url('/img/bg_lines.png') fixed;
+  font-family: sans-serif;
+  font-size: 8px;
+	color: #f00;
+  margin: 0;
+  padding: 0;
 }
 
 div {
-   border: 0px dashed #f00;
+  border: 0px dashed #f00;
+}
+
+table#clock { 
+	padding: 0px;  
+	margin: 0; 
+	border-collapse: collapse; 
+	border-spacing: 0; 
+	border: none; 
+}
+
+#clock td{ 
+	padding: 0px; 
 }
