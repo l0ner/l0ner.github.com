@@ -3,6 +3,7 @@
 #main {
    width: 90%;
 	 min-width: 520px;
+	 max-width: 1040px;
    margin: 0 auto;
    overflow: hidden;
    position: relative;
