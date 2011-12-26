@@ -33,9 +33,9 @@ div.post {
 	}
 
 div.post_meta {
-	font-family: Pixel;
+	font-family: Sans;
 	color: #fff;
-	font-size: 8px;
+	font-size: 14px;
 	padding: 7px 0 7px 20px;
 	background: url('/img/meta_bg.png');
 }
