@@ -39,6 +39,7 @@ div.post_meta {
 	}
 	
 .post_title h3 {
+	font-family: Pixel;
   font-size: 16px;
   padding: 0px 0 11px 20px;
   background: url('/img/nav_h3_bg.png') repeat-x;
