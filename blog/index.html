@@ -10,8 +10,8 @@ title: l0ner.github.com - blog
 		<div class="post_title"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></div>
 		<div class="post_meta">Commited on: {{ post.date | date_to_string }} in: {{ post.categories }}</div>
 	</div>
-	<div class="post_content">{{ post.content | truncate: 450 }}
-	{% if post.content | number_of_words > 450}
+	<div class="post_content">{{ post.content | truncatewords: 45 }}
+	{% if post.content | number_of_words > 45 %}
 		<a href="{{ post.url }}" class="readmore">Read more...</a>
 	{% endif %}
 	</div>
