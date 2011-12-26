@@ -32,3 +32,13 @@ table#clock {
 #clock td{ 
 	padding: 0px; 
 }
+
+#clock h1 {
+	font-family: Pixel;
+	font-size: 14px;
+	text-align: center;
+	}
+	
+#logo {
+	background: #f00;
+	}
