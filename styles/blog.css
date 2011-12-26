@@ -25,7 +25,7 @@
 
 div.post {
 	font-family: sans;
-	font-size: 10px;
+	font-size: 12px;
 	border: 0px #f00 dashed;
 	margin: 10px;
 	}
@@ -46,10 +46,14 @@ a.readmore {
 .post_title h3 {
 	font-family: Pixel;
   font-size: 16px;
-  padding: 0px 0 11px 20px;
-  background: url('/img/nav_h3_bg.png') repeat-x;
+	padding: 0;
   margin-bottom: 5px;
 	letter-spacing: -2px;
+}
+
+.post_meta {
+	 background: url('/img/meta_bg.png');
+	padding: 0px 0 11px 20px;
 }
 	
 a {
