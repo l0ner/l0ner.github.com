@@ -40,13 +40,13 @@ table#clock {
 }
 
 #logo {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0;
 	background: #f00;
 	height: 50px;
 	font-family: Pixel;
 	font-size: 24px;
 	text-align: center;
 	color: #000;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding: 0;
 	}
