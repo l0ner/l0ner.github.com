@@ -31,18 +31,19 @@ div.post {
 	border: 2px #f00 dashed;
 	margin: 10px;
 	}
-	
-div.post_title {
-	font-family: Pixel;
-	color: #f00;
-	font-size: 16px;
-	}	
 
 div.post_meta {
 	font-family: Pixel;
 	color: #fff;
 	font-size: 8px;
 	}
+	
+.post_title h3 {
+  font-size: 16px;
+  padding: 0px 0 11px 20px;
+  background: url('/img/nav_h3_bg.png') repeat-x;
+  margin-bottom: 5px;
+}
 	
 a {
 	color: #f00;
