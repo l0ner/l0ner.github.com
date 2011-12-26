@@ -5,22 +5,18 @@ title: l0ner.github.com - blog
 
 {% assign post_limit = 3 %}
 <h3 class="postlist">Latest posts:</h3>
-{% for post in site.posts limit: post_limit %}
-	{% unless post.categories contains "photoblog" %}
+{% for post in site.categories.blog limit: post_limit %}
 			<div class="post">
 				<div class="post_header">
 					<div class="post_title"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></div>
 					<div class="post_meta">Commited on: {{ post.date | date_to_string }} in: {{ post.categories }}</div>
 				</div>
-				<div class="post_content">{{ post.content | truncatewords: 100 }}
+				<div class="post_content">{{ post.excerpt }}
 				<a href="{{ post.url }}" class="readmore">Read more...</a>
 				</div>
 			</div>
-	{% endunless %}
 {% endfor %}
 <h3 class="postlist">Older posts:</h3>
-{% for post in site.posts offset: post_limit %}
-	{% unless post.categories contains photoblog %}
+{% for post in site.categories.blog offset: post_limit %}
 		<h6 class="postlist">{{ post.date | date_to_string }}: <a href="{{ post.url }}">{{ post.title }} - Read</a></h6><br />
-	{% endunless %}
 {% endfor %}
