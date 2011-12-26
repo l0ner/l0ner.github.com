@@ -24,8 +24,9 @@
 }
 
 div.post {
-	font-family: sans;
-	font-size: 12px;
+	font-family: Pixel;
+	font-size: 8px;
+	color: #fff;
 	border: 0px #f00 dashed;
 	margin: 10px;
 	}
@@ -55,6 +56,7 @@ a.readmore {
 	 background: url('/img/meta_bg.png');
 	padding: 7px 0 7px 20px;
 }
+
 	
 a {
 	color: #f00;
