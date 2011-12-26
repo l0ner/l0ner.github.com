@@ -1,26 +1,27 @@
 #sidebar {
-   width: 250px;
-   position: fixed;
-   float: left;
-   color: #fff;
-   font-family: Pixel;
-   overflow: auto;
+	margin-top: 25px;
+  width: 250px;
+  position: fixed;
+  float: left;
+  color: #fff;
+  font-family: Pixel;
+  overflow: auto;
 }
 
 #about {
-   padding: 0;
-	 margin: 0 50px;
+  padding: 0;
+	margin: 0 50px;
 }
 
 #side_pages{
-   margin-top: 10px;
+  margin-top: 10px;
 }
 
 #sidebar h3 {
-   font-size: 16px;
-   padding: 0px 0 11px 20px;
-   background: url('/img/nav_h3_bg.png') repeat-x;
-   margin: 0;
+  font-size: 16px;
+  padding: 0px 0 11px 20px;
+  background: url('/img/nav_h3_bg.png') repeat-x;
+  margin: 0;
 }
 
 #sidebar a {
