@@ -35,13 +35,19 @@ div.post_meta {
 	font-size: 8px;
 	}
 	
+.right {
+	float: right;
+	clear: both;
+	text-align: right;
+	}
+	
 .post_title h3 {
 	font-family: Pixel;
   font-size: 16px;
   padding: 0px 0 11px 20px;
   background: url('/img/nav_h3_bg.png') repeat-x;
   margin-bottom: 5px;
-	letter-spacing: -6px;
+	letter-spacing: -2px;
 }
 	
 a {
