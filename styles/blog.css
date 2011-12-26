@@ -24,6 +24,7 @@
 }
 
 div.post {
+	padding-top: 10px;
 	font-family: Pixel;
 	font-size: 8px;
 	color: #fff;
@@ -49,6 +50,7 @@ a.readmore {
   font-size: 16px;
 	padding: 0;
   margin-bottom: 5px;
+	padding-left: 10px;
 	letter-spacing: -2px;
 }
 
