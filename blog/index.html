@@ -6,7 +6,7 @@ title: l0ner.github.com - blog
 {% assign post_limit = 3 %}
 <h3 class="postlist">Latest posts:</h3>
 {% for post in site.posts limit: post_limit %}
-	{% unless post.categories == photoblog %}
+	{% unless post.categories contains "photoblog" %}
 			<div class="post">
 				<div class="post_header">
 					<div class="post_title"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></div>
@@ -20,7 +20,7 @@ title: l0ner.github.com - blog
 {% endfor %}
 <h3 class="postlist">Older posts:</h3>
 {% for post in site.posts offset: post_limit %}
-	{% unless post.categories == photoblog %}
+	{% unless post.categories contains photoblog %}
 		<h6 class="postlist">{{ post.date | date_to_string }}: <a href="{{ post.url }}">{{ post.title }} - Read</a></h6><br />
 	{% endunless %}
 {% endfor %}
