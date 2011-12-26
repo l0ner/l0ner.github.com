@@ -1,10 +1,10 @@
-body { background: #000 url('/img/bg_lines.png'); color: #f00; font-family: sans-serif; }
+
 .zalgotxt { color: #060606; font-size: 8px; }
 .center { text-align: center; }
 .darkred { color: #060000; }
 .red { color: #f00; }
 .temp { font-size: 30px; color: #6a6a6a; }
-div.border { border: 1px red solid; }
+
 img.clock { margin: 0; padding: 0; border: 0px; margin-bottom: 0px; display: block; float: left; }
 table#clock { padding: 0px;  margin: 0; border-collapse: collapse; border-spacing: 0; border: none; }
 #clock td{ padding: 0px; }
@@ -25,3 +25,4 @@ div#iconcontainer {
 	}
 	
 div.clear { clear: both; }
+

@@ -1,27 +1,6 @@
 /* Main Things */
 
-@font-face {  
-   font-family: Pixel;  
-   src: url('/fonts/PressStart2P.ttf');  
-}  
 
-@font-face {  
-   font-family: Pixel2;  
-   src: url('/fonts/visitor2.ttf');  
-}  
-
-body {
-   background: #000 url('/img/bg_lines.png') fixed;
-   font-family: sans-serif;
-   font-size: 8px;
-   display: block;
-   margin: 0;
-   padding: 0;
-}
-
-div {
-   border: 0px dashed #f00;
-}
 
 #wrapper {
    width: 1024px;
