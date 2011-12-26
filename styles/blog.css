@@ -47,6 +47,7 @@ div.comments_wrapper {
 	
 a.readmore {
 	float: right;
+	clear: both;
 	text-align: right;
 	font-family: Pixel;
 	font-size: 8px;
