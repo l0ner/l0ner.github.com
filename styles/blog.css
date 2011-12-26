@@ -41,6 +41,7 @@ div.post_meta {
   padding: 0px 0 11px 20px;
   background: url('/img/nav_h3_bg.png') repeat-x;
   margin-bottom: 5px;
+	letter-spacing: -6px;
 }
 	
 a {
