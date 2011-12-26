@@ -8,6 +8,12 @@
   src: url('/fonts/visitor2.ttf');  
 }  
 
+/* simple reset */
+* {
+	margin: 0;
+  padding: 0;
+}
+
 body {
   background: #000 url('/img/bg_lines.png') fixed;
   font-family: sans-serif;
@@ -33,7 +39,7 @@ table#clock {
 	padding: 0px; 
 }
 
-#clock h2{
+#clock h2 {
 	font-family: Pixel;
 	font-size: 24px;
 	text-align: center;
