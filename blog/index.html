@@ -3,28 +3,23 @@ layout: default
 title: l0ner.github.com - blog
 ---
 
-{% for post in site.posts %}
+{% assign post_limit = 3 %}
+{% for post in site.posts limit: post_limit %}
 	{% unless post.categories == photoblog %}
-		{% if forloop.index <= 2 %}
 			<div class="post">
 				<div class="post_header">
 					<div class="post_title"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></div>
 					<div class="post_meta">Commited on: {{ post.date | date_to_string }} in: {{ post.categories }}</div>
 				</div>
 				<div class="post_content">{{ post.content | truncatewords: 100 }}
-				{% capture word_count %}{{ post.content | number_of_words }}{% endcapture %}
-				{% if word_count >= 100 %}
-					<a href="{{ post.url }}" class="readmore">Read more...</a>
-				{% endif %}
+				<a href="{{ post.url }}" class="readmore">Read more...</a>
 				</div>
 			</div>
-		{% else %}
-			<div class="post">
-				<div class="post_header">
-					<div class="post_title"><h3><a href="{{ post.url }}">{{ post.title }} - Read...</a></h3></div>
-					<div class="post_meta">Commited on: {{ post.date | date_to_string }} in: {{ post.categories }}</div>
-				</div>
-			</div>
-		{% endif %}
+	{% endunless %}
+{% endfor %}
+<h3>Older posts:</h3>
+{% for post in site.posts offset: post_limit %}
+	{% unless post.categories == photoblog %}
+		<div class="post_title"><h3>{{ post.date | date_to_string }}: <a href="{{ post.url }}">{{ post.title }} - Read</a></h3></div>
 	{% endunless %}
 {% endfor %}
