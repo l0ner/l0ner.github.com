@@ -1,0 +1,64 @@
+#sidebar {
+   width: 300px;
+   position: fixed;
+   float: left;
+   color: #fff;
+   font-family: Pixel;
+   overflow: auto;
+}
+
+#sidebar div {
+   margin-top: 10px;
+}
+
+#about {
+   padding: 15px;
+}
+
+#sidebar h1 {
+   color: #f00;
+   font-size: 32px;
+   text-align: center;
+   text-transform: lowercase;
+   letter-spacing: -6px;
+   margin-bottom: 10px;
+}
+
+#sidebar h3 {
+   font-size: 16px;
+   padding: 11px 0 11px 20px;
+   background: url('/img/nav_h3_bg.png') repeat-x;
+   margin: 0;
+}
+
+#sidebar .avatar {
+   float: left;
+   padding: 0px 3px 0px 0px;
+}
+
+#description {
+   margin: 0px;
+}
+
+#side_search {
+   clear: both;
+}
+
+#social a img {
+   padding: 5px;
+}
+
+.pages {
+   clear: both;
+}
+
+#credit {
+   margin-top: 10px;
+   color: #444;
+   font-size: 8px;
+}
+
+#credit a {
+   color: #ccc;
+   link-style: none;
+}
