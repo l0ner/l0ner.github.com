@@ -4,19 +4,26 @@ title: l0ner.github.com - blog
 ---
 
 {% for post in site.posts %}
-{% unless post.categories == photoblog %}
-<div class="post">
-	<div class="post_header">
-		<div class="post_title"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></div>
-		<div class="post_meta">Commited on: {{ post.date | date_to_string }} in: {{ post.categories }}</div>
-	</div>
-	<div class="post_content">{{ post.content | truncatewords: 100 }}
-	{% capture word_count %}{{ post.content | number_of_words }}{% endcapture %}
-	{% if word_count >= 100 %}
-		<a href="{{ post.url }}" class="readmore">Read more...</a>
-	{% endif %}
-	</div>
-</div>
-{{ forloop.index }}
-{% endunless %}
+	{% unless post.categories == photoblog %}
+		{% if forloop.index <= 2 %}
+			<div class="post">
+				<div class="post_header">
+					<div class="post_title"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></div>
+					<div class="post_meta">Commited on: {{ post.date | date_to_string }} in: {{ post.categories }}</div>
+				</div>
+				<div class="post_content">{{ post.content | truncatewords: 100 }}
+				{% capture word_count %}{{ post.content | number_of_words }}{% endcapture %}
+				{% if word_count >= 100 %}
+					<a href="{{ post.url }}" class="readmore">Read more...</a>
+				{% endif %}
+				</div>
+			</div>
+		{% else %}
+			<div class="post">
+				<div class="post_header">
+					<div class="post_title"><h3><a href="{{ post.url }}">{{ post.title }} - Read...</a></h3></div>
+					<div class="post_meta">Commited on: {{ post.date | date_to_string }} in: {{ post.categories }}</div>
+				</div>
+			</div>
+	{% endunless %}
 {% endfor %}
