@@ -5,6 +5,7 @@
   float: left;
   color: #fff;
   font-family: Pixel;
+	font-size: 8px;
   overflow: auto;
 }
 
@@ -25,7 +26,6 @@
 }
 
 #sidebar a {
-	font-size: 8px;
 	color: #f00;
 	text-decoration: none;
 }
@@ -37,7 +37,6 @@
 
 #sidebar li {
 	margin-bottom: 5px;
-	list-style-position: outside; 
 	list-style-image: url('/img/li_bullet.png');
 	}
 
