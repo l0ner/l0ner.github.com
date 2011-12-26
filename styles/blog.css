@@ -73,11 +73,12 @@ h3.postlist {
   background: url('/img/nav_h3_bg.png') repeat-x;
 }
 
-.postlist h6 {
+h6.postlist {
 	color: #fff;
 	font-family: Pixel;
   font-size: 8px;
 	}
+	
 div.post_content {
 	padding-top: 10px;
 }
