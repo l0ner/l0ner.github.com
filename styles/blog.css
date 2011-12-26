@@ -23,20 +23,32 @@
 }
 
 div.post {
-	width: 250px;
+	width: 500px;
 	height: 250px;
 	float: left;
 	font-family: sans;
 	font-size: 10px;
+	border: 2px #f00 dashed;
+	margin: 10px;
 	}
 	
 div.post_title {
 	font-family: Pixel;
 	color: #f00;
 	font-size: 16px;
-	}
+	}	
+
 div.post_meta {
 	font-family: Pixel;
 	color: #fff;
 	font-size: 8px;
+	}
+	
+a {
+	color: #f00;
+	text-decoration: none;
+	}
+a:hover {
+	color: #000;
+	background: #f00;
 	}
