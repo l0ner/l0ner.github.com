@@ -35,10 +35,10 @@ div.post_meta {
 	font-size: 8px;
 	}
 	
-.right {
-	float: right;
-	clear: both;
+a.readmore {
 	text-align: right;
+	font-family: Pixel;
+	font-size: 8px;
 	}
 	
 .post_title h3 {
