@@ -61,6 +61,21 @@ a.readmore {
 	letter-spacing: -2px;
 }
 
+h3 {
+	font-family: Pixel;
+  font-size: 16px;
+	padding: 0;
+	color: #f00;
+  margin-bottom: 5px;
+	padding-left: 10px;
+	letter-spacing: -2px;
+}
+
+h6 {
+	color: #f00;
+	font-family: Pixel;
+  font-size: 8px;
+	}
 div.post_content {
 	padding-top: 10px;
 }
