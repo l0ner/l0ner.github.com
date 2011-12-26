@@ -24,7 +24,6 @@
 }
 
 div.post {
-	padding-top: 10px;
 	font-family: Pixel;
 	font-size: 8px;
 	color: #fff;
@@ -54,11 +53,14 @@ a.readmore {
 	letter-spacing: -2px;
 }
 
-.post_meta {
-	 background: url('/img/meta_bg.png');
+div.post_meta {
+	background: url('/img/meta_bg.png');
 	padding: 7px 0 7px 20px;
 }
 
+div.post_content {
+	padding-top: 10px;
+}
 	
 a {
 	color: #f00;
