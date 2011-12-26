@@ -2,16 +2,16 @@
 
 @font-face {  
    font-family: Pixel;  
-   src: url('PressStart2P.ttf');  
+   src: url('/fonts/PressStart2P.ttf');  
 }  
 
 @font-face {  
    font-family: Pixel2;  
-   src: url('visitor2.ttf');  
+   src: url('/fonts/visitor2.ttf');  
 }  
 
 body {
-   background: #000 url('bg_lines.png') fixed;
+   background: #000 url('/img/bg_lines.png') fixed;
    font-family: Pixel;
    font-size: 8px;
    display: block;
@@ -61,7 +61,7 @@ div {
 #sidebar h3 {
    font-size: 16px;
    padding: 11px 0 11px 20px;
-   background: url('nav_h3_bg.png') repeat-x;
+   background: url('/img/nav_h3_bg.png') repeat-x;
    margin: 0;
 }
 
