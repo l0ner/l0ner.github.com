@@ -6,7 +6,7 @@ title: l0ner.github.com - blog
 {% assign post_limit = 1 %}
 <h3 class="postlist">Latest posts:</h3>
 {% for post in site.posts limit: post_limit %}
-	{% unless post.categories contains "photoblog" %}
+	{% if post.categories contains "photoblog" %}
 			<div class="post">
 				<div class="post_header">
 					<div class="post_title"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></div>
