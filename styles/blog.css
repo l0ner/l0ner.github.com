@@ -1,0 +1,281 @@
+/* Main Things */
+
+@font-face {  
+   font-family: Pixel;  
+   src: url('PressStart2P.ttf');  
+}  
+
+@font-face {  
+   font-family: Pixel2;  
+   src: url('visitor2.ttf');  
+}  
+
+body {
+   background: #000 url('bg_lines.png') fixed;
+   font-family: Pixel;
+   font-size: 8px;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+
+div {
+   border: 1px dashed #f00;
+}
+
+#wrapper {
+   width: 1024px;
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+}
+
+/* Side Bar */ 		 
+
+#sidebar {
+   width: 300px;
+   position: fixed;
+   float: left;
+   color: #fff;
+   font-family: Pixel;
+   overflow: auto;
+}
+
+#sidebar div {
+   margin-top: 10px;
+}
+
+#about {
+   padding: 15px;
+}
+
+#sidebar h1 {
+   color: #f00;
+   font-size: 32px;
+   text-align: center;
+   text-transform: lowercase;
+   letter-spacing: -6px;
+   margin-bottom: 10px;
+}
+
+#sidebar h3 {
+   font-size: 16px;
+   padding: 11px 0 11px 20px;
+   background: url('nav_h3_bg.png') repeat-x;
+   margin: 0;
+}
+
+#sidebar .avatar {
+   float: left;
+   padding: 0px 3px 0px 0px;
+}
+
+#description {
+   margin: 0px;
+}
+
+#side_search {
+   clear: both;
+}
+
+#social a img {
+   padding: 5px;
+}
+
+.pages {
+   clear: both;
+}
+
+#credit {
+   margin-top: 10px;
+   color: #444;
+   font-size: 8px;
+}
+
+#credit a {
+   color: #ccc;
+   link-style: none;
+}
+
+
+/* Main wrapper */
+
+#main {
+   float: right;
+   width: 640px;
+   height: 100%;
+   padding: 0 20px 20px;
+   overflow: hidden;
+   color: #fff;
+}
+
+ul, ol {
+   list-style: none;
+}
+
+#notes {
+   margin-top: 15px;
+}
+
+#notes p {
+   color: #ccc;
+}
+
+#notes p a {
+   color: #ccc;
+}
+
+/*Content*/
+
+.textpost, .quotepost, .photopost, .photosetpost, .linkpost, .audiopost, .videopost, .chatpost {
+   margin: 60px 0 0 0;
+}
+
+/*Headings*/
+
+/*Links*/ 
+a {
+   color: #f00;
+   text-decoration: underline;
+}
+
+a:hover {
+   color: #CCCCCC;
+}
+
+a:active, a:focus {
+   outline: 0;
+}
+
+h1 a {
+   text-decoration: none;
+}
+/* Notes*/
+ol.notes {
+   padding: 0px;
+   margin: 15px 0px;
+   list-style-type: none;
+}
+
+ol.notes li.note {
+   padding: 10px;
+}
+
+ol.notes li.note img.avatar {
+   vertical-align: -4px;
+   margin-right: 10px;
+   width: 16px;
+   height: 16px;
+}
+
+ol.notes li.note span.action {
+   font-weight: bold;
+}
+
+ol.notes li.note .answer_content {
+   font-weight: normal;
+}
+
+ol.notes li.note blockquote {
+   border-color: #eee;
+   padding: 4px 10px;
+   margin: 10px 0px 0px 25px;
+}
+
+ol.notes li.note blockquote a {
+   text-decoration: none;
+}
+/*Quote Post*/
+li.quotepost {
+   background: url(index_files/simpleth.png) no-repeat top left;
+   font-size: 35px;
+   margin: 60px 20px 20px 0;
+   padding-left: 45px;
+}
+
+.source {
+   margin-top: 10px;
+   font-style: italic;
+   font-size: 15px;
+}
+
+/*Photo Post*/
+li.photopost img {
+   position: relative;
+   padding: 10px;
+   background:#fff;
+   border: 1px solid #ccc;
+}
+
+/*Audio Post*/
+.album-overlay {
+   background-image: url(index_files/vinyl000.png);
+   width: 96px;
+   height: 76px;
+   z-index: 2;
+   position: absolute;
+}
+
+.albumart img {
+   width: 72px;
+   height: 72px;
+   float: left;
+   margin: 0;
+   border: 0;
+}
+
+.albumart {
+   float: left;
+   clear: none;
+   margin: 0 40px 0 40px;
+}
+
+/*Link Post*/
+
+
+/*Chat Post*/
+.chat {
+   width: 500px;
+}
+
+.chat ul {
+   margin: 0 auto;
+   padding: 0 auto;
+}
+
+.chat li.even {
+   background-color: #fff;
+   list-style: none;
+   padding: 5px;
+   border-bottom: 1px solid #000;
+}
+
+.chat li.odd {
+   background-color: #E8E8E8;
+   list-style: none;
+   padding: 5px;
+   border-bottom: 1px solid #000;
+}
+
+.chat li:first-child {
+   border-top: 1px solid #000;
+}
+
+.chat .label {
+   font-weight: bold;
+}
+
+.postmeta {
+   margin-top: 20px;
+   border-top: 1px #CCCCCC solid;
+   padding-bottom: 5px;
+}
+
+.postmeta a {
+   color: #CCCCCC;
+   font-style: bold;
+}
+
+
+
+/*Sidebar*/

@@ -1,4 +1,4 @@
-body { background: #000 url('img/bg_lines.png'); color: #fff; font-family: sans-serif; }
+body { background: #000 url('/img/bg_lines.png'); color: #f00; font-family: sans-serif; }
 .zalgotxt { color: #060606; font-size: 8px; }
 .center { text-align: center; }
 .darkred { color: #060000; }
