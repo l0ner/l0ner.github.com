@@ -24,12 +24,12 @@
 }
 
 div.post {
+	margin: 10px;
 	margin-bottom: 15px;
 	font-family: Pixel;
 	font-size: 8px;
 	color: #fff;
 	border: 0px #f00 dashed;
-	margin: 10px;
 	}
 
 div.post_meta {
