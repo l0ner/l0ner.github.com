@@ -7,22 +7,13 @@
    overflow: auto;
 }
 
-#sidebar div {
-   margin-top: 10px;
-}
-
 #about {
    padding: 0;
 	 margin: 0 50px;
 }
 
-#sidebar h1 {
-   color: #f00;
-   font-size: 32px;
-   text-align: center;
-   text-transform: lowercase;
-   letter-spacing: 0px;
-   margin-bottom: 10px;
+#side_pages{
+   margin-top: 10px;
 }
 
 #sidebar h3 {
@@ -32,34 +23,19 @@
    margin: 0;
 }
 
-#sidebar .avatar {
-   float: left;
-   padding: 0px 3px 0px 0px;
-}
+#sidebar a {
+	font-size: 8px;
+	color: #f00;
+	text-decoration: none;
+	}
 
-#description {
-   margin: 0px;
-}
-
-#side_search {
-   clear: both;
-}
-
-#social a img {
-   padding: 5px;
-}
-
-.pages {
-   clear: both;
-}
+#sidebar a:hover {
+	color: #000;
+	background: #f00;
+	}
 
 #credit {
    margin-top: 10px;
-   color: #444;
+   color: #6a6a6a;
    font-size: 8px;
-}
-
-#credit a {
-   color: #ccc;
-   link-style: none;
 }
