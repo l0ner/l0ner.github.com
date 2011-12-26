@@ -36,7 +36,14 @@ div.post_meta {
 	font-family: Pixel;
 	color: #fff;
 	font-size: 8px;
-	}
+	padding: 7px 0 7px 20px;
+	background: url('/img/meta_bg.png');
+}
+	
+div.comments_wrapper {
+	padding-top: 7px;
+	background: url('/img/meta_bg.png') repeat-x;
+}
 	
 a.readmore {
 	float: right;
@@ -52,11 +59,6 @@ a.readmore {
   margin-bottom: 5px;
 	padding-left: 10px;
 	letter-spacing: -2px;
-}
-
-div.post_meta {
-	background: url('/img/meta_bg.png');
-	padding: 7px 0 7px 20px;
 }
 
 div.post_content {
