@@ -37,6 +37,7 @@ table#clock {
 
 #clock td{ 
 	padding: 0px; 
+	margin: 0px;
 }
 
 #logo {
