@@ -16,6 +16,7 @@ title: l0ner.github.com - blog
 				<a href="{{ post.url }}" class="readmore">Read more...</a>
 				</div>
 			</div>
+	{% assign forloop.index = ( forloop.index | minus 1 ) %}
 	{% endunless %}
 {% endfor %}
 <h3 class="postlist">Older posts:</h3>
