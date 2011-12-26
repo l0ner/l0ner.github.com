@@ -16,7 +16,7 @@ title: l0ner.github.com - blog
 				<a href="{{ post.url }}" class="readmore">Read more...</a>
 				</div>
 			</div>
-	{% endunless %}
+	{% endif %}
 {% endfor %}
 <h3 class="postlist">Older posts:</h3>
 {% for post in site.posts offset: post_limit %}
