@@ -11,7 +11,8 @@ title: l0ner.github.com - blog
 		<div class="post_meta">Commited on: {{ post.date | date_to_string }} in: {{ post.categories }}</div>
 	</div>
 	<div class="post_content">{{ post.content | truncatewords: 100 }}
-	{% if post.content | number_of_words >= 100 %}
+	{% capture word_count %}{{ post.content | number_of_words }}{% endcapture %}
+	{% if word_count >= 100 %}
 		<a href="{{ post.url }}" class="readmore">Read more...</a>
 	{% endif %}
 	</div>
