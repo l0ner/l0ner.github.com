@@ -3,7 +3,7 @@ layout: default
 title: l0ner.github.com - blog
 ---
 
-{% assign post_limit = 1 %}
+{% assign post_limit = 3 %}
 <h3 class="postlist">Latest posts:</h3>
 {% for post in site.posts limit: post_limit %}
 	{% unless post.categories contains "photoblog" %}
