@@ -1,33 +1,15 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en_US">
-<head>
-<title>{{ page.title }}</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" href="/styles/single.css" type="text/css" />
-<link rel="icon" type="image/png" href="/img/fav.png"/>
-
-</head>
-<body class='flexcroll'>
-	<div id="center">
-		<div id="logo_container">
-			<div id="logo"><img src="/img/logo1.png"></div>
-			<div class="pasek"></div>
+{% include header.html %}
+		<link rel="stylesheet" href="/styles/blog.css" />
+		<link rel="stylesheet" href="/styles/sidebar.css" />
+	</head>
+	 <body onload="binaryize();">
+      <div id="main">
+         <!--Sidebar-->
+         {% include sidebar.html %}
+         <!--End Sidebar-->
+         <div id="content">
+				{{ content }}
+			</div>	
 		</div>
-		<div id="menu">
-			<ul class="menu">
-					<li>MENU:</li>
-				</ul>
-				<div class="pasek"></div>
-		</div>
-
-		{{ content }}
-		
-		<div id="stopka">
-			<div class="pasek"></div>
-			<div id="copyright">Copyleft © 2011 Pawel "l0ner: Soltys. | Powered by <a href="http://github.com">Github.com</a> | CC:BY-SA-NC </div>
-			<div id="tagi">
-			</div>
-		</div>
-	</div>
-</body>
+   </body>
 </html>

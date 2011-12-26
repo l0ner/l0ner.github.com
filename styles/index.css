@@ -1,11 +1,6 @@
 
-.zalgotxt { color: #060606; font-size: 8px; }
 .center { text-align: center; }
-.darkred { color: #060000; }
 .red { color: #f00; }
-.temp { font-size: 30px; color: #6a6a6a; }
-
-img.clock { margin: 0; padding: 0; border: 0px; margin-bottom: 0px; display: block; float: left; }
 
 div.icon { 
 	float: left;
@@ -13,8 +8,10 @@ div.icon {
 	height: 150px;
 	margin: 10px;
 	}
+
 /*firefox hack*/
 a img { border: 0px; }
+
 div#iconcontainer {
 	margin: auto;
 	margin-top: 51px;

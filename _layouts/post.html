@@ -1,0 +1,36 @@
+{% include header.html %}
+		<link rel="stylesheet" href="/styles/blog.css" />
+		<link rel="stylesheet" href="/styles/sidebar.css" />
+	</head>
+	 <body onload="binaryize();">
+      <div id="main">
+         <!--Sidebar-->
+         {% include sidebar.html %}
+         <!--End Sidebar-->
+         <div id="content">
+				<div id="content_wrapper">
+					<div class="post">
+						<div class="post_header">
+							<div class="title">{{ post.date }} - {{ post.title }}</div>
+							<div class="meta">Categories: {{ post.categories }}</div>
+						</div>
+						<div class="post_content">
+							{{ post.content }}
+						</div>
+						<div class="comments_wrapper">
+							<div class="post_comment">
+								<div class="comment_meta">Someone @ 13:24 15-02-2009</div>
+								<div class="comment_content">bla bla bal bla bla bal bal bal</div>
+							</div>
+							<div class="post_comment">
+								<div class="comment_meta">Someone @ 13:24 15-02-2009</div>
+								<div class="comment_content">bla bla bal bla bla bal bal bal</div>
+							</div>
+						</div>
+							<div id="commentform"></div>
+					</div>
+				</div>
+         </div>
+      </div>
+   </body>
+</html>
