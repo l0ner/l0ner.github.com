@@ -39,7 +39,9 @@ table#clock {
 	padding: 0px; 
 }
 
-.clock_h2 {
+#logo {
+	background: #f00;
+	height: 50px;
 	font-family: Pixel;
 	font-size: 24px;
 	text-align: center;
@@ -47,9 +49,4 @@ table#clock {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding: 0;
-	}
-	
-#logo {
-	background: #f00;
-	height: 50px;
 	}
