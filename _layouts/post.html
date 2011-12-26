@@ -11,8 +11,8 @@
 				<div id="content_wrapper">
 					<div class="post">
 						<div class="post_header">
-							<div class="post_title"><h3>{{ post.title }}</h3></div>
-							<div class="post_meta">Posted on: {{ post.date | date_to_string }} in: {{ categories }}</div>
+							<div class="post_title"><h3>{{ page.title }}</h3></div>
+							<div class="post_meta">Commited on: {{ page.date | date_to_string }} in: {{ categories }}</div>
 						</div>
 						<div class="post_content">
 							{{ content }}
