@@ -7,7 +7,7 @@ categories:
 - Italian
 date: 2011-12-27 22:16
 ---
-
+Il titolo dovrebbe spiegare tutto.
 Funziona su 
 * iPod touch 3G
 * iPod touch 4G
