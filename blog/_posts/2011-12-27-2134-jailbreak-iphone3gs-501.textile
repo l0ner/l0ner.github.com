@@ -50,3 +50,6 @@ MacOS X: "redsn0w 0.9.10b1":https://sites.google.com/a/iphone-dev.com/files/home
 # Cliccate su Ripristina.
 !http://gdeluxe.com/wp-content/uploads/2011/11/jailbreak-5.0-5.1-iphone-3gs-untethered-12.jpg!
 # Aspettate... e fatto!
+
+Guida tradotta dal sito "gdeluxe.com":http://gdeluxe.com/jailbreak-5-0-1-untethered-download-links-updated/
+Le immagini sono state prese dallo stesso sito.
