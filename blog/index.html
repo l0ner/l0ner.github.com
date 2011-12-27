@@ -12,7 +12,9 @@ title: l0ner.github.com - blog
 					<div class="post_meta pixel">Commited on: {{ post.date | date_to_string }} in: {{ post.categories }} <a class="disqus-count-text" href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Comments</a></div>
 				</div>
 				<div class="post_content">{{ post.content | replace:'more start -->','' | replace:'<!-- more end','' }}
-				<a href="{{ post.url }}" class="readmore pixel">Read more...</a>
+				{% if post.content contains "<!--more start-->" %}
+					<a href="{{ post.url }}" class="readmore pixel">Read more...</a>
+				{% endif %}
 				</div>
 			</div>
 {% endfor %}
