@@ -12,17 +12,17 @@
 					<div class="post">
 						<div class="post_header">
 							<div class="post_title"><h3>{{ page.title }}</h3></div>
-							<div class="post_meta">Commited on: {{ page.date | date_to_string }} in: {{ page.categories }}</div>
+							<div class="post_meta pixel">Commited on: {{ page.date | date_to_string }} in: {{ page.categories }}</div>
 						</div>
 						<div class="post_content">
 							{{ content }}
 						</div>
 						<div class="separator">
 							{% if page.next %}
-								<div class="left"><a href="{{ page.next.url }}" class="next"><<Next Post</a></div>
+								<div class="left"><a href="{{ page.next.url }}" class="pixel"><<Next Post</a></div>
 							{% endif %}
 							{% if page.previous %}
-								<div class="right"><a href="{{ page.previous.url }}" class="previous">Previous Post>></a></div>
+								<div class="right"><a href="{{ page.previous.url }}" class="pixel">Previous Post>></a></div>
 							{% endif %}
 						</div>
 						{% include comments.html %}

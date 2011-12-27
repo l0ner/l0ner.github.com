@@ -33,12 +33,46 @@ div.post {
 	}
 
 div.post_meta {
-	font-family: Pixel;
 	color: #fff;
 	font-size: 8px;
 	padding: 7px 0 7px 20px;
 	background: url('/img/meta_bg.png');
 }
+
+.pixel {
+	font-family: Pixel;
+	font-weight: normal;
+	}
+	
+h1 {
+	font-family: Pixel;
+	font-weight: normal;
+	}
+	
+h2 {
+	font-family: Pixel;
+	font-weight: normal;
+	}
+	
+h3 {
+	font-family: Pixel;
+	font-weight: normal;
+	}
+	
+h4 {
+	font-family: Pixel;
+	font-weight: normal;
+	}
+	
+h5 {
+	font-family: Pixel;
+	font-weight: normal;
+	}
+	
+h6{
+	font-family: Pixel;
+	font-weight: normal;
+	}
 	
 div.separator {
 	padding-top: 7px;
@@ -50,7 +84,6 @@ a.readmore {
 	float: right;
 	clear: both;
 	text-align: right;
-	font-family: Pixel;
 	font-size: 8px;
 	}
 	
@@ -65,7 +98,6 @@ a.readmore {
 }
 
 h3.postlist {
-	font-family: Pixel;
   font-size: 16px;
 	padding: 0;
 	color: #fff;
@@ -79,7 +111,6 @@ h3.postlist {
 
 h6.postlist {
 	color: #fff;
-	font-family: Pixel;
   font-size: 8px;
 	margin: 0;
 	margin-left: 15px;
