@@ -23,33 +23,44 @@ Windows: "redsn0w 0.9.10b1":https://sites.google.com/a/iphone-dev.com/files/home
 MacOS X: "redsn0w 0.9.10b1":https://sites.google.com/a/iphone-dev.com/files/home/redsn0w_mac_0.9.10b1.zip?attredirects=0
 
 # Scarica firmware originale in versione 5.0.1 dal sito "http://www.felixbruns.de/iPod/firmware/":http://www.felixbruns.de/iPod/firmware/ ("link diretto allo firmware":http://appldnld.apple.com/iPhone4/041-3307.20111109.5tGhu/iPhone2,1_5.0.1_9A405_Restore.ipsw)
-# Spachettate e avviate _redsn0w_ _Nota:_ Su windows Vista/7 redsn0w deve essere avviato come amministatore ( Click destro -> Avvia come Amministratore)
-# Nella finestra di _redsn0w_ cliccate su _Extras_
+# Spachettate e avviate *redsn0w*. *Nota:* Su windows Vista/7 redsn0w deve essere avviato come amministatore ( Click destro -> Avvia come Amministratore)
+# Nella finestra di *redsn0w* cliccate su *Extras*
 !http://gdeluxe.com/wp-content/uploads/2011/12/20111227-173837.jpg!
-# Cliccate su _Custom IPSW_.
+
+# Cliccate su *Custom IPSW*.
 !http://gdeluxe.com/wp-content/uploads/2011/11/jailbreak-5.0-5.1-iphone-3gs-untethered-2.jpg!
+
 # Scegliete il file di firmware che avevate scaricato prima.
 !http://gdeluxe.com/wp-content/uploads/2011/11/jailbreak-5.0-5.1-iphone-3gs-untethered-3.jpg!
+
 # Aspettate...
 !http://gdeluxe.com/wp-content/uploads/2011/11/jailbreak-5.0-5.1-iphone-3gs-untethered-4.jpg!
+
 # Il vosto firmware modificato dovrebbe essere stato creato. Cliccate su _OK_.
-# Cliccate nella finestra di _redsn0w_ _Pwned DFU_.
+# Cliccate nella finestra di *redsn0w* *Pwned DFU*.
 !http://gdeluxe.com/wp-content/uploads/2011/11/jailbreak-5.0-5.1-iphone-3gs-untethered-6.jpg!
-# Spengete _completamente_ il vostro iDispositivo e ataccate lo al computer
-# Cliccate su _Next_ dopo aver letto informazione.
+
+# Spengete *completamente* il vostro iDispositivo e attaccate lo al computer
+# Cliccate su *Next* dopo aver letto informazione.
 !http://gdeluxe.com/wp-content/uploads/2011/11/jailbreak-5.0-5.1-iphone-3gs-untethered-7.jpg!
+
 # Aspettate che il vostro iDispositivo entra nella modalita DFU.
 !http://gdeluxe.com/wp-content/uploads/2011/11/jailbreak-5.0-5.1-iphone-3gs-untethered-8.jpg!
-# Aprite _iTunes_ e scegliete il vosto iDispositivo.
-# Cliccate su _OK_
+
+# Aprite *iTunes* e scegliete il vosto iDispositivo.
+# Cliccate su *OK*
 !http://gdeluxe.com/wp-content/uploads/2011/11/jailbreak-5.0-5.1-iphone-3gs-untethered-9.jpg!
-# Nella pagina del vostro iDispositivo, tenendo premuto tasto _ALT su OS X_ oppure _CTRL su Windows_ cliccate su _Ripristina_.
+
+# Nella pagina del vostro iDispositivo, tenendo premuto tasto *ALT su OS X* oppure *CTRL su Windows* cliccate su *Ripristina*.
 !http://gdeluxe.com/wp-content/uploads/2011/11/jailbreak-5.0-5.1-iphone-3gs-untethered-10.jpg!
+
 # Nella finestra che vi apparira, scegliete il firmware modificato. Dovrebbe essere nello stesso posto di quello non-modificato con nome che inizia da _NO_BB_
 !http://gdeluxe.com/wp-content/uploads/2011/11/jailbreak-5.0-5.1-iphone-3gs-untethered-11.jpg!
+
 # Cliccate su Ripristina.
 !http://gdeluxe.com/wp-content/uploads/2011/11/jailbreak-5.0-5.1-iphone-3gs-untethered-12.jpg!
+
 # Aspettate... e fatto!
 
-Guida tradotta dal sito "gdeluxe.com":http://gdeluxe.com/jailbreak-5-0-1-untethered-download-links-updated/
+Guida tradotta dal sito "*gdeluxe.com*":http://gdeluxe.com/jailbreak-5-0-1-untethered-download-links-updated/
 Le immagini sono state prese dallo stesso sito.
