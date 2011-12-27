@@ -17,6 +17,14 @@
 						<div class="post_content">
 							{{ content }}
 						</div>
+						<div class="nawigation">
+							{% if paginator.previous_page %}
+								<div class="left"><a href="/page{{paginator.previous_page}}" class="previous">Previous</a></div>
+							{% endif %}
+							{% if paginator.next_page %}
+								<div class="right"><a href="/page{{paginator.next_page}}" class="next ">Next</a></div>
+							{% endif %}
+						</div>
 						{% include comments.html %}
 					</div>
 				</div>

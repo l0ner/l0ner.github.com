@@ -98,3 +98,7 @@ a:hover {
 	color: #000;
 	background: #f00;
 	}
+	
+div.navigation {
+	clear: both;
+	}

@@ -60,3 +60,10 @@ table#clock {
 	text-align: center;
 	color: #000;
 	}
+	
+.left {
+	float: left;
+	}
+.right {
+	float: right;
+	}
