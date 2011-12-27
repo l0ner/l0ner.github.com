@@ -1,0 +1,41 @@
+---
+layout: post
+title: Come eseguire unthetered jailbreak di iOS 5.0.1
+categories:
+- Informatics
+- Hacking
+- Italian
+---
+
+Funziona su 
+* iPod touch 3G
+* iPod touch 4G
+* iPad 1
+* iPhone 3GS
+* iPhone 4 (GSM)
+* iPhone 4 (CDMA)
+
+Presumo che abbiate gia installato l'ultima versione di iTunes sul vostro computer.
+
+# Scarica redsn0w versione 0.9.10b1 dal sito di "iphone-dev":http://blog.iphone.dev.org
+
+Windows: "redsn0w 0.9.10b1":https://sites.google.com/a/iphone-dev.com/files/home/redsn0w_win_0.9.10b1.zip?attredirects=0
+MacOS X: "redsn0w 0.9.10b1":https://sites.google.com/a/iphone-dev.com/files/home/redsn0w_mac_0.9.10b1.zip?attredirects=0
+
+# Scarica firmware originale in versione 5.0.1 dal sito "http://www.felixbruns.de/iPod/firmware/":http://www.felixbruns.de/iPod/firmware/ ("link diretto allo firmware":http://appldnld.apple.com/iPhone4/041-3307.20111109.5tGhu/iPhone2,1_5.0.1_9A405_Restore.ipsw)
+# Spachettate e avviate _redsn0w_ _Nota:_ Su windows Vista/7 redsn0w deve essere avviato come amministatore ( Click destro -> Avvia come Amministratore)
+# Nella finestra di _redsn0w_ cliccate su _Extras_
+# Cliccate su _Custom IPSW_.
+# Scegliete il file di firmware che avevate scaricato prima.
+# Aspettate...
+# Il vosto firmware modificato dovrebbe essere stato creato. Cliccate su _OK_.
+# Cliccate nella finestra di _redsn0w_ _Pwned DFU_.
+# Spengete _completamente_ il vostro iDispositivo e ataccate lo al computer
+# Cliccate su _Next_ dopo aver letto informazione.
+# Aspettate che il vostro iDispositivo entra nella modalita DFU.
+# Aprite _iTunes_ e scegliete il vosto iDispositivo.
+# Cliccate su _OK_
+# Tenendo premuto tasto _ALT su OS X_ oppure _CTRL su Windows_ cliccate su _Ripristina_
+# Nella finestra che vi apparira, scegliete il firmware modificato. Dovrebbe essere nello stesso posto di quello non-modificato con nome che inizia da _NO_BB_
+# Cliccate su Ripristina.
+# Aspettate... e fatto!

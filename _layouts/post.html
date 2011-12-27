@@ -19,10 +19,10 @@
 						</div>
 						<div class="separator paginator">
 							{% if page.next %}
-								<div class="left"><a href="{{ page.next.url }}" class="pixel">&lt;&lt;Next Post</a></div>
+								<div class="floatleft"><a href="{{ page.next.url }}" class="pixel">&lt;&lt;Next Post</a></div>
 							{% endif %}
 							{% if page.previous %}
-								<div class="right"><a href="{{ page.previous.url }}" class="pixel">Previous Post&gt;&gt;</a></div>
+								<div class="floatright"><a href="{{ page.previous.url }}" class="pixel">Previous Post&gt;&gt;</a></div>
 							{% endif %}
 						</div>
 						{% include comments.html %}

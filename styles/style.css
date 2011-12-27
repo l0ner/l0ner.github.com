@@ -61,9 +61,9 @@ table#clock {
 	color: #000;
 	}
 	
-.left {
+.floatleft {
 	float: left;
 	}
-.right {
+.floatright {
 	float: right;
 	}
