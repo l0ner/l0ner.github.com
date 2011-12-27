@@ -59,7 +59,8 @@ a.readmore {
 	padding: 0;
   margin-bottom: 5px;
 	padding-left: 10px;
-	letter-spacing: -2px;
+	letter-spacing: 0px;
+	font-weight: normal;
 }
 
 h3.postlist {
@@ -72,6 +73,7 @@ h3.postlist {
 	letter-spacing: -2px;
   padding-bottom: 11px;
   background: url('/img/nav_h3_bg.png') repeat-x;
+	font-weight: normal;
 }
 
 h6.postlist {
