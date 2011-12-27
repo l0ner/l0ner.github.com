@@ -76,10 +76,12 @@ h3.postlist {
 
 h6.postlist {
 	color: #fff;
-	font-family: Pixel2;
-  font-size: 12px;
+	font-family: Pixel;
+  font-size: 8px;
 	margin: 0;
 	margin-left: 15px;
+	margin-bottom: 3px;
+	font-weight: normal:
 	}
 	
 div.post_content {
