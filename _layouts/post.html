@@ -19,10 +19,10 @@
 						</div>
 						<div class="separator">
 							{% if page.next %}
-								<div class="left"><a href="{{ page.next.url }}" class="pixel"><<Next Post</a></div>
+								<div class="left"><a href="{{ page.next.url }}" class="pixel">&gt;&gt;Next Post</a></div>
 							{% endif %}
 							{% if page.previous %}
-								<div class="right"><a href="{{ page.previous.url }}" class="pixel">Previous Post>></a></div>
+								<div class="right"><a href="{{ page.previous.url }}" class="pixel">Previous Post&lt;&lt;</a></div>
 							{% endif %}
 						</div>
 						{% include comments.html %}
