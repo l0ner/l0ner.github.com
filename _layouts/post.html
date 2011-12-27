@@ -18,11 +18,11 @@
 							{{ content }}
 						</div>
 						<div class="nawigation">
-							{% if paginator.previous_page %}
-								<div class="left"><a href="/page{{paginator.previous_page}}" class="previous">Previous</a></div>
+							{% if page.previous.url %}
+								<div class="left"><a href="page.previous.url" class="previous">Previous</a></div>
 							{% endif %}
-							{% if paginator.next_page %}
-								<div class="right"><a href="/page{{paginator.next_page}}" class="next ">Next</a></div>
+							{% if page.next.url %}
+								<div class="right"><a href="page.next.url" class="next ">Next</a></div>
 							{% endif %}
 						</div>
 						{% include comments.html %}
