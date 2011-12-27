@@ -18,11 +18,11 @@
 							{{ content }}
 						</div>
 						<div class="separator">
-							{% if page.previous %}
-								<div class="left"><a href="{{ page.previous.url }}" class="previous">Previous</a></div>
-							{% endif %}
 							{% if page.next %}
-								<div class="right"><a href="{{ page.next.url }}" class="next">Next</a></div>
+								<div class="left"><a href="{{ page.next.url }}" class="next"><<Next Post</a></div>
+							{% endif %}
+							{% if page.previous %}
+								<div class="right"><a href="{{ page.previous.url }}" class="previous">Previous Post>></a></div>
 							{% endif %}
 						</div>
 						{% include comments.html %}
