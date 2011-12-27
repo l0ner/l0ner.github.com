@@ -42,7 +42,10 @@ div.post_meta {
 .pixel {
 	font-family: Pixel;
 	font-weight: normal;
-	font-size: 8px;
+	}
+	
+.paginator {
+	font-size: 12px;
 	}
 	
 h1 {
