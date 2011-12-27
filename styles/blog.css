@@ -40,9 +40,10 @@ div.post_meta {
 	background: url('/img/meta_bg.png');
 }
 	
-div.comments_wrapper {
+div.separator {
 	padding-top: 7px;
 	background: url('/img/meta_bg.png') repeat-x;
+		clear: both;
 }
 	
 a.readmore {
@@ -97,8 +98,4 @@ a {
 a:hover {
 	color: #000;
 	background: #f00;
-	}
-	
-div.navigation {
-	clear: both;
 	}
