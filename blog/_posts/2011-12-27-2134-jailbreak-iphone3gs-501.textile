@@ -17,7 +17,7 @@ Funziona su
 * iPhone 4 (CDMA)
 
 Presumo che abbiate gia installato l'ultima versione di iTunes sul vostro computer.
-
+<!-- more start -->
 # Scarica redsn0w versione 0.9.10b1 dal sito di "iphone-dev":http://blog.iphone.dev.org
 ** Windows: "redsn0w 0.9.10b1":https://sites.google.com/a/iphone-dev.com/files/home/redsn0w_win_0.9.10b1.zip?attredirects=0
 ** MacOS X: "redsn0w 0.9.10b1":https://sites.google.com/a/iphone-dev.com/files/home/redsn0w_mac_0.9.10b1.zip?attredirects=0
@@ -52,3 +52,4 @@ Presumo che abbiate gia installato l'ultima versione di iTunes sul vostro comput
 
 Guida tradotta dallo sito "*gdeluxe.com*":http://gdeluxe.com/jailbreak-5-0-1-untethered-download-links-updated/
 Le immagini sono state prese dallo stesso sito.
+<!-- more end -->
