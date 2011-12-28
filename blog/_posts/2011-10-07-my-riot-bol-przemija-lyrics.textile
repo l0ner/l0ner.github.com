@@ -72,7 +72,7 @@ Qualcuno ha detto
 Oggi sei tu. 
 
 |
-|\3 =.[Chorus:] |
+|\3. =.[Chorus:] |
 |=.Jak ja nie kochał nikt,
 Jak ja nie wierzył nikt
 Dostałem wszystko
@@ -139,7 +139,6 @@ tutto
 |=.Per loro è tutto stesso
 
 |
-
 |=.Dopóki schylasz głowę, zginasz kark
 Uciekasz wzrokiem poza kadr
 Słowa płyną, słowa giną
@@ -192,7 +191,7 @@ di quelle parole, che oggi
 sono per me tutto
 
 |
-|\3=. [Chorus] |
+|\3.=. [Chorus] |
 
 |=.I keep on looking, at myself in the mirror again
 (Znów obserwuje się w lustrze)
@@ -244,5 +243,5 @@ continuo a chiedermi
 devo riprendere l'arma?
 
 |
-|\3=.[Chorus]|
+|\3.=.[Chorus]|
 <!-- more stop -->
