@@ -90,7 +90,7 @@ Try "googling":google more on "google":google
 [google]http://google.com
 
 Images:
-!http://redcloth.org/hobix.com/textile/sample.jpg!:"Some alt text"
+!=http://redcloth.org/hobix.com/textile/sample.jpg!:"Some alt text"
 
 
 Acronyms:
