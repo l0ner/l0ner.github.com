@@ -16,7 +16,7 @@
 							<div class="post_meta pixel">Commited on: {{ page.date | date_to_string }} <a class="disqus-count-text" href="#disqus_thread" data-disqus-identifier="{{ page.id }}">Comments</a></div>
 						</div>
 						<div class="post_content">
-							Photo URL:{{ page.photourl }}
+							<img src="{{ page.photourl }}" alt="{{ page.title }}" />
 							{{ content }}
 						</div>
 						<div class="separator paginator clear">
