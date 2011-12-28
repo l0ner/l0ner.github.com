@@ -15,7 +15,7 @@ layout: nil
 
  {% for post in site.categories.photoblog %}
  <entry>
-   <title>{{ post.title }}</title>
+   <title>"{{ post.title }}"</title>
    <link href="http://l0ner.github.com/{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://l0ner.github.com/{{ post.id }}</id>
