@@ -20,8 +20,8 @@ title: l0ner.github.com - blog
 			</div>
 {% endfor %}
 <h4 class="postlist">Older photos:</h4>
-{% for post in site.categories.photoblog offset: post_limit %}
 	<div class="postlist">
-		<div class="floatleft photoarchive"><a href="{{ post.url }}"><img src="{{ post.photourl }}" width="200" alt="Photo: {{ post.title }}" /></a></div>
+		{% for post in site.categories.photoblog offset: post_limit %}
+			<div class="floatleft photoarchive"><a href="{{ post.url }}"><img src="{{ post.photourl }}" width="200" alt="Photo: {{ post.title }}" /></a></div>
+		{% endfor %}
 	</div>
-{% endfor %}
