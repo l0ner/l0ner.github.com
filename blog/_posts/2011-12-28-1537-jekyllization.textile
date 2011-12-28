@@ -2,6 +2,7 @@
 layout: post
 title: Website Jekyllization - Full control blogging
 ---
+
 I've nearly finished my new "github.com":http://github.com website. The whole idea I've based this website was to have some sort of hub for my apperances on the internet and having one blog to care about, but which separates blog form my photoblog.
 
 Up until now I was achieving this by relying on many smaller and free web services scattered around the internet. I used "about.me":http://about.me/l0ner/ as a hub. I used two separate "wordpress.com":http://wordpress.com/ blogs, one for my personal posts, second for my photoblog.
