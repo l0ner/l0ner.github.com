@@ -25,6 +25,7 @@ div.post_meta {
 	color: #fff;
 	font-size: 8px;
 	padding: 7px 0 7px 20px;
+	background: url('/img/meta_bg.png');
 }
 
 a.readmore {
@@ -47,5 +48,5 @@ div.post_content {
 
 div.separator {
 	padding-top: 7px;
-	background: url('/img/meta_bg.png');
+	background: url('/img/meta_bg.png') repeat-x;
 }
