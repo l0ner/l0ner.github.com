@@ -85,3 +85,7 @@ table#clock {
 }
 
 a img { border: 0px; }
+
+img {
+	max-width: 750px;
+}
