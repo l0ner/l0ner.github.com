@@ -62,6 +62,8 @@ div.separator {
 img.photoblog {
 	background: url('/img/photoarchive_bg.png') repeat;
 	padding: 4px;
+	max-height: 550px;
+	max-width: 550px;
 }
 
 img.photoblog:hover {
