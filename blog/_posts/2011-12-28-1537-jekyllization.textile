@@ -25,7 +25,7 @@ I can design my frontpage any way I want and put there anything I want.
 
 And above everything I like writing html code. And textile simplifies writing posts a lot.
 
-The whole site isn't really finished yet. I need to create template files for the photoblog section, I need to do some fine-tuning on how the comtent looks like. I need to understand how to get the code highlight working with textile files. The correct syntax should be:
+The whole site isn't really finished yet. I need to create template files for the photoblog section, I need to do some fine-tuning on how the comtent looks like. -I need to understand how to get the code highlight working with textile files.- Now it works:
 
 <notextile>
 {% highlight ruby linenos %}
@@ -35,7 +35,7 @@ end
 {% endhighlight %}
 </notextile>
 
-And yet it doesn't work. The second @%@ in the first line gets interpreted as textile escape character and converted into @<span>@ html tag. I looked and "Tom Preston-Werner site":http://tom.preston-werner.com/ source "code":https://github.com/mojombo/mojombo.github.com amnd for him it works like it should.
+I need to remember to add one empty line before and one after the code, and enclose the code to highlight between @<notextile>...</notextile>@ tags.
 
 And in the end, I don't think this site will ever be finished, now that I have full control over it.
 
