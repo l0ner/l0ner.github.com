@@ -1,5 +1,4 @@
 ---
-layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -19,7 +18,9 @@ layout: nil
    <link href="http://l0ner.github.com/{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://l0ner.github.com/{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape | truncatewords: 100 }}<br /><a href="http://l0ner.github.com/{{ post.url }}">Read whole story</a></content>
+   <content type="html"><img src="{{ post.photourl }}" alt="{{ post.title | xml_escape }}" />
+	 <br /><a href="http://l0ner.github.com/{{ post.url }}">Read whole story</a>
+	 </content>
  </entry>
  {% endfor %}
 </feed>
