@@ -22,8 +22,8 @@
 							{{ content }}
 						</div>
 						<div class="separator paginator clear">
-							{% if page.next %}
-								<div class="floatleft"><a href="{{ page.next.url }}" class="pixel">&lt;&lt;Next Post</a></div>
+							{% if page.categories.photoblog.next %}
+								<div class="floatleft"><a href="{{ page.categories.photoblog.next.url }}" class="pixel">&lt;&lt;Next Post</a></div>
 							{% endif %}
 							{% if page.previous %}
 								<div class="floatright"><a href="{{ page.previous.url }}" class="pixel">Previous Post&gt;&gt;</a></div>
