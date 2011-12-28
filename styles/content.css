@@ -59,6 +59,9 @@ a:hover {
 .floatright {
 	float: right;
 	}
+.center {
+	margin: auto;
+	}
 	
 ul {
 	list-style: square url('/img/li_bullet.png');
