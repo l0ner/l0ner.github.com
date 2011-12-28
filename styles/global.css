@@ -85,28 +85,3 @@ table#clock {
 }
 
 a img { border: 0px; }
-
-.clear { clear: both; }
-	
-.floatleft {
-	float: left;
-	}
-.floatright {
-	float: right;
-	}
-	
-a {
-	color: #f00;
-	text-decoration: none;
-	}
-a:hover {
-	color: #000;
-	background: #f00;
-	}
-	
-	.center_text { text-align: center; }
-	
-ul {
-	list-style: square url('/img/li_bullet.png');
-	margin-left: 5px;
-}
