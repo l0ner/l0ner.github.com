@@ -123,10 +123,10 @@ h3. Code
 
 Usage:
 @{% higlight codename %}@
-@(foo@
+@(. foo@
 @{% endhiglight %}@
 
-h5). ruby
+h5(. ruby
 
 Codename: @ruby@
 
