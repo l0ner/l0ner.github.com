@@ -52,10 +52,10 @@ div.separator {
 }
 
 .photoarchive {
-	width: 220px;
+	width: 228px;
 	height: 150px;
 	overflow: hidden;
 	margin: 9px;
 	padding: 4px;
-	background: url('/img/photoarchive_bg.png') repeat-x;
+	background: url('/img/photoarchive_bg.png') repeat;
 	}
