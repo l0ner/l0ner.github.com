@@ -89,3 +89,13 @@ a img { border: 0px; }
 img {
 	max-width: 750px;
 }
+
+.dsk-clearfix {
+	list-style: none;
+	font-family: Pixel;
+	font-size: 8px;
+}
+
+#dsk-content h3 {
+	font-size: 12px;
+}
