@@ -41,7 +41,7 @@ a.readmore {
 	border-bottom: 4px red dashed;
 }
 
-.postlist {
+h4.postlist {
   margin-top: 30px;
 	padding-left: 10px;
 	letter-spacing: -2px;
