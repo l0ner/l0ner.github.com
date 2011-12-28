@@ -11,8 +11,7 @@ div.post {
 }
 
 div.post_content {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 10px;
 }
 
 div.separator {
