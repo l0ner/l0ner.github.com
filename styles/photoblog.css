@@ -65,7 +65,7 @@ img.photoblog {
 }
 
 img.photoblog:hover {
-	background: url('/img/photoarchive_bg_a.png') repeat;
+	background: url('/img/photoblog_anim.gif') repeat;
 	padding: 4px;
 	}
 	
