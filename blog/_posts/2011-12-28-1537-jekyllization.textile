@@ -40,4 +40,4 @@ I need to remember to add one empty line before and one after the code, and encl
 And in the end, I don't think this site will ever be finished, now that I have full control over it.
 
 l0ner out.
-<!-- more stop -->
+<!-- more end -->
