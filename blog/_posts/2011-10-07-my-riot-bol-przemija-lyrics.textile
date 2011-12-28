@@ -6,9 +6,9 @@ p=. <iframe width="420" height="315" src="http://www.youtube.com/embed/dOogkFUdm
 
 <table>
 <tr>
-<td style="text-align:center;">Original</td>
-<td style="text-align:center;">English</td>
-<td style="text-align:center;">Italiano</td>
+<td style="text-align:center;">*Original*</td>
+<td style="text-align:center;">*English*</td>
+<td style="text-align:center;">*Italiano*</td>
 </tr>
 <tr>
 <td style="text-align:center;">Skazuje na ciemność, ból
