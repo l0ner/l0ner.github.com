@@ -1,20 +1,17 @@
 --- 
 layout: post
-title: "My Riot - B\xC3\xB3l przemija: lyrics translation/traduzione testo"
-tags: 
-- "b\xC3\xB3l przemija"
-- Lyrics
-- music
-- muzyka
-- my riot
-- sweet noise
-- Translations
+title: "My Riot - Ból przemija: lyrics translation/traduzione testo"
 ---
 p=. <iframe width="420" height="315" src="http://www.youtube.com/embed/dOogkFUdm2k" frameborder="0" allowfullscreen></iframe>
-<!-- more start -->
 
-|=.*Original*|=.*English*|=.*Italiano*|
-|=.Skazuje na ciemność, ból
+<table>
+<tr>
+<td style="text-align:center;">Original</td>
+<td style="text-align:center;">English</td>
+<td style="text-align:center;">Italiano</td>
+</tr>
+<tr>
+<td style="text-align:center;">Skazuje na ciemność, ból
 I dusza pęka w pół
 kiedy tęsknoty żar jest blisko
 taki kraj, to wszystko
@@ -33,7 +30,66 @@ uwiecznisz siebie
 ktoś powiedział
 dzisiaj jesteś ty
 
-|=.Condemns for darkness, pain
+[Chorus:]
+Jak ja nie kochał nikt,
+Jak ja nie wierzył nikt
+Dostałem wszystko
+Jeden dzień
+twoje serce blisko
+Jeden świat
+jeden głos
+jeden człowiek
+jeden los
+Jedna chwila
+Teraz wiesz
+Kiedy ból przemija
+
+Kiedy ból przemija
+I kiedy dzień się rodzi
+Kiedy ta jedna chwila
+jest dla mnie
+wszystkim
+
+Im przecież wszystko jedno
+
+Dopóki schylasz głowę, zginasz kark
+Uciekasz wzrokiem poza kadr
+Słowa płyną, słowa giną
+Słowa dzisiaj krótko żyją
+Za plecami, tuż za drzwiami
+Płonie wojna, między nami
+Tam kiedyś był mój dom
+Tam żyłem, tam ten ton
+Był każdym dniem i nocą
+Do dzisiaj budzę się nocą
+Kim byłeś, kim jesteś
+jak żyłeś, czy jeszcze
+Jest coś co pamiętasz z tamtych dni
+Z tamtych słodko-gorzkich chwil
+Z tamtych słów, które to dziś
+Są dla mnie wszystkim
+
+[Chorus]
+
+I keep on looking, at myself in the mirror again
+(Znów obserwuje się w lustrze)
+I keep on asking myself, How I ended up here
+(Pytam się, jak skończyłem tutaj)
+What went wrong down the way
+(Co poszło nie tak po drodze)
+I say, You used me
+(Mówię, użyłeś mnie)
+I said You used me brother again
+(Mówię że użyłeś mnie bracie)
+It's alright
+(W porządku)
+I keep on asking myself now
+(Ciągle pytam się)
+Should I pick up the gun again?
+(Powinienem wziąć znów broń?)
+
+[Chorus]</td>
+<td style="text-align:center;">Condemns for darkness, pain
 And soul breaks in half
 when heat of yearning is near
 country like this, everything
@@ -52,41 +108,8 @@ immortalize yourself
 someone said
 today you are
 
-|=.Condanna alla oscurità, dolore
-E quando l'anima si spezza a metà
-Quando calore della mancanza è vicino
-Paese cosi, tutto quello
-Dove sono i sogni dimenticati?
-Dove giovane, amare lacrime?
-Dove la dignità striscia
-li in fondo
-li, dove ti trovi.
-E cosi non amava nessuno,
-Come te non credeva nessuno,
-Proteggi da tutti
-del segreto la fine vicina.
-è un momento, un lampo
-Alzerai da terra i sogni
-Ti immortalerai
-Qualcuno ha detto
-Oggi sei tu. 
-
-|
-|\3. p=.[Chorus:] |
-|=.Jak ja nie kochał nikt,
-Jak ja nie wierzył nikt
-Dostałem wszystko
-Jeden dzień
-twoje serce blisko
-Jeden świat
-jeden głos
-jeden człowiek
-jeden los
-Jedna chwila
-Teraz wiesz
-Kiedy ból przemija
-
-|=.Like me loved none
+[Chorus:]
+Like me loved none
 Like me believed none
 I've got everything
 One day
@@ -99,64 +122,15 @@ One moment
 Now You know
 When pain fades
 
-|=.Come me non amava nessuno
-Come me non credeva nessuno
-Ho avuto tutto
-Un giorno
-Tuo cuore vicino
-Un mondo
-Una voce
-Un uomo
-Un destino
-Un momento
-Ora sai
-Quando dolore passa
-
-|
-|=.Kiedy ból przemija
-I kiedy dzień się rodzi
-Kiedy ta jedna chwila
-jest dla mnie
-wszystkim
-
-|=.When pain fades
+When pain fades
 And when day borns
 When this one moment
 is for me
 Everything
 
-|=.Quando dolore passa
-E quando il giorno nasce
-Quando questo unico momento
-è per me
-tutto
+For them it's all the same
 
-|
-|=.Im przecież wszystko jedno
-
-|=.For them it's all the same
-
-|=.Per loro è tutto stesso
-
-|
-|=.Dopóki schylasz głowę, zginasz kark
-Uciekasz wzrokiem poza kadr
-Słowa płyną, słowa giną
-Słowa dzisiaj krótko żyją
-Za plecami, tuż za drzwiami
-Płonie wojna, między nami
-Tam kiedyś był mój dom
-Tam żyłem, tam ten ton
-Był każdym dniem i nocą
-Do dzisiaj budzę się nocą
-Kim byłeś, kim jesteś
-jak żyłeś, czy jeszcze
-Jest coś co pamiętasz z tamtych dni
-Z tamtych słodko-gorzkich chwil
-Z tamtych słów, które to dziś
-Są dla mnie wszystkim
-
-|=.As long as you keep your head down, bend your neck
+As long as you keep your head down, bend your neck
 Escape with your sight beyond the frame
 Words are flowing, words are dying
 Words today live short
@@ -173,7 +147,67 @@ from those bitter-sweet moments
 of those words, which today
 are for me everything
 
-|=.Finché abbassi la testa, pieghi il collo
+[Chorus]
+
+I keep on looking, at myself in the mirror again
+
+I keep on asking myself, How I ended up here
+
+What went wrong down the way
+
+I say, You used me
+
+I said You used me brother again
+
+It's alright
+
+I keep on asking myself now
+
+Should I pick up the gun again?
+
+[Chorus]</td>
+<td style="text-align:center;">Condanna alla oscurità, dolore
+E quando l'anima si spezza a metà
+Quando calore della mancanza è vicino
+Paese cosi, tutto quello
+Dove sono i sogni dimenticati?
+Dove giovane, amare lacrime?
+Dove la dignità striscia
+li in fondo
+li, dove ti trovi.
+E cosi non amava nessuno,
+Come te non credeva nessuno,
+Proteggi da tutti
+del segreto la fine vicina.
+è un momento, un lampo
+Alzerai da terra i sogni
+Ti immortalerai
+Qualcuno ha detto
+Oggi sei tu.
+
+[Chorus:]
+Come me non amava nessuno
+Come me non credeva nessuno
+Ho avuto tutto
+Un giorno
+Tuo cuore vicino
+Un mondo
+Una voce
+Un uomo
+Un destino
+Un momento
+Ora sai
+Quando dolore passa
+
+Quando dolore passa
+E quando il giorno nasce
+Quando questo unico momento
+è per me
+tutto
+
+Per loro è tutto stesso
+
+Finché abbassi la testa, pieghi il collo
 Scappi con sguardo fuori dal quadro
 Le parole scorrono, le parole muoiono
 Oggi le parole vivono poco
@@ -190,43 +224,9 @@ di quei dolci-amari momenti
 di quelle parole, che oggi
 sono per me tutto
 
-|
-|\3. p=. [Chorus] |
+[Chorus]
 
-|=.I keep on looking, at myself in the mirror again
-(Znów obserwuje się w lustrze)
-I keep on asking myself, How I ended up here
-(Pytam się, jak skończyłem tutaj)
-What went wrong down the way
-(Co poszło nie tak po drodze)
-I say, You used me
-( Mówię, użyłeś mnie)
-I said You used me brother again
-(Mówię że użyłeś mnie bracie)
-It's alright
-(W porządku)
-I keep on asking myself now
-(Ciągle pytam się)
-Should I pick up the gun again?
-(Powinienem wziąć znów broń?)
-
-|=.I keep on looking, at myself in the mirror again
-
-I keep on asking myself, How I ended up here
-
-What went wrong down the way
-
-I say, You used me
-
-I said You used me brother again
-
-It's alright
-
-I keep on asking myself now
-
-Should I pick up the gun again?
-
-|=.Continuo a guardarmi, di nuovo, nello specchio
+Continuo a guardarmi, di nuovo, nello specchio
 
 Continuo a chiedermi, come sono finito qui
 
@@ -242,6 +242,6 @@ continuo a chiedermi
 
 devo riprendere l'arma?
 
-|
-|\3. p=.[Chorus]|
-<!-- more stop -->
+[Chorus]</td>
+</tr>
+</table>
