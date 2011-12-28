@@ -7,11 +7,14 @@ title: l0ner.github.com - blog
 {% for post in site.categories.photoblog limit: post_limit %}
 			<div class="post">
 				<div class="post_header">
-					<div class="post_title"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></div>
-					<div class="post_meta">Commited on: {{ post.date | date_to_string }} in: {{ post.categories }} <a href="{{ post.url }}#disqus_thread">Comments</a></div>
+					<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+					<div class="post_meta pixel">Commited on: {{ post.date | date_to_string }} in: {{ post.categories }} <a href="{{ post.url }}#disqus_thread">Comments</a></div>
 				</div>
-				<div class="post_content">{{ post.content }}
-					<a href="{{ post.url }}" class="readmore">The story behind...</a>
+				<div class="post_content">
+				{{ post.content | replace:'more start -->','' | replace:'<!-- more end','' }}
+				{% if post.content contains "<!-- more start -->" %}
+					<a href="{{ post.url }}" class="readmore pixel">Read more...</a>
+				{% endif %}
 				</div>
 				<div class="separator paginator clear">
 					{% if post.next %}
@@ -21,6 +24,6 @@ title: l0ner.github.com - blog
 						<div class="floatright"><a href="{{ post.previous.url }}" class="pixel">Previous Photo&gt;&gt;</a></div>
 					{% endif %}
 				</div>
-				<div class="separator"></div>
 			</div>
+			<div class="separator"></div>
 {% endfor %}
