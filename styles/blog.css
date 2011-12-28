@@ -39,6 +39,11 @@ div.post_meta {
 	background: url('/img/meta_bg.png');
 }
 
+.post_title h3 {
+	border-bottom: 4px;
+	border-image-source: url('/img/headings.png');
+	}
+
 .pixel {
 	font-family: Pixel;
 	font-weight: normal;
