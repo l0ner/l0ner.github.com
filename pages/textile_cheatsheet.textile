@@ -7,7 +7,7 @@ Newline.
 
 New paragraph.
 
-* Quotes: "Some wuoted text"
+* Quotes: "Some quoted text"
 * Em-dash: Observe -- very nice
 * En-dash: Observe - tiny and brief
 * Triplets: Observe...
@@ -15,16 +15,18 @@ New paragraph.
 * Copyright symbols: (TM), (R), (C)
 
 Headers:
-* h1. Header h1
-* h2. Header h2
-* h3. Header h3
-* h4. Header h4
-* h5. Heaser h5
-* h6. Header h6
+h1. Header h1
+h2. Header h2
+h3. Header h3
+h4. Header h4
+h5. Heaser h5
+h6. Header h6
 
 Blocquote:
 Normal text
+
 bq. Some quote
+
 Normal text
 
 Footnotes:
@@ -41,18 +43,21 @@ Structural emphasis:
 * Code phrases: @some html code: <html>@
 * Deleted passage: -some deleted text-
 * Underline: You are a +plesant child+
-* Superscript: a^2^ + b^2^ = c^2^
-* Subscript: log~2~ x
+* Superscript: a ^2^ + b ^2^ = c ^2^
+* Subscript: log ~2~ x
 
 Span:
 Spans are indicated by @%@ sign: Some %span% here
 Span @style@ arguments should be specified between curly braces @{@ @}@: I'm %{color: red}unaware% of most soft drinks.
 
 Block attributes:
-* paragprah with class: p(example1). An example.
-* paragraph with id: p(#big-red). Red here.
+* paragprah with class: 
+p(example1). An example.
+* paragraph with id: 
+p(#big-red). Red here.
 * styles can be specified in the same manner as for span.
-* paragraph with @lang@ arg: p[fr]. rouge
+* paragraph with @lang@ arg: 
+p[fr]. rouge
 * *All block attributes can be applied to phrases as well by placing them just inside the opening modifier.*
 
 Aligns:
@@ -81,10 +86,12 @@ Bullet lists:
 Links:
 "Google":http://google.com.
 Try "googling":google more on "google":google
+
 [google]http://google.com
 
 Images:
-!http://redcloth.org/hobix.com/textile/sample.jpg!:Some alt text
+!http://redcloth.org/hobix.com/textile/sample.jpg!:"Some alt text"
+
 
 Acronyms:
 We use CSS(Cascading Style Sheets).
