@@ -40,6 +40,7 @@ bq. Some quote
 Normal text
 
 h3. Footnotes:
+
 This has note somewhere else[1].
 
 fn1. This is some explanation.
@@ -57,6 +58,7 @@ h3. Structural emphasis:
 * Subscript: log ~2~ x
 
 h3. Span:
+
 Spans are indicated by @%@ sign: Some %span% here
 Span @style@ arguments should be specified between curly braces @{@ @}@: I'm %{color: red}unaware% of most soft drinks.
 
@@ -101,6 +103,7 @@ h3. Bullet lists:
 * 3
 
 h3. Links:
+
 "Google":http://google.com.
 Try "googling":google more on "google":google
 
@@ -111,6 +114,7 @@ h3. Images:
 
 
 h3. Acronyms:
+
 We use CSS(Cascading Style Sheets).
 
 h3. Code
@@ -118,9 +122,9 @@ h3. Code
 *Note:* This is example of pygments jekyll extension, not textile feature
 
 Usage:
-@{% higlight codename %}
-  foo
-{% endhiglight %}@
+@{% higlight codename %}@
+@(foo@
+@{% endhiglight %}@
 
 h5). ruby
 
