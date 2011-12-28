@@ -6,10 +6,9 @@
   color: #fff;
   font-family: Pixel;
 	font-size: 8px;
-  overflow: auto;
 }
 
-#about {
+#clock{
   padding: 0;
 	margin: 0 50px;
 }
@@ -25,21 +24,6 @@
   margin-bottom: 5px;
 }
 
-#sidebar a {
-	color: #f00;
-	text-decoration: none;
-}
-
-#sidebar a:hover {
-	color: #000;
-	background: #f00;
-}
-
-#sidebar ul {
-	list-style: square url('/img/li_bullet.png');
-	margin-left: 5px;
-}
-
 #sidebar li {
 	margin-bottom: 5px;
 	}
@@ -47,6 +31,5 @@
 #credit {
   margin-top: 10px;
   color: #6a6a6a;
-  font-size: 8px;
 	text-align: center;
 }

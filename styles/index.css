@@ -1,16 +1,9 @@
-
-.center { text-align: center; }
-.red { color: #f00; }
-
 div.icon { 
 	float: left;
 	width: 150px;
 	height: 150px;
 	margin: 10px;
 	}
-
-/*firefox hack*/
-a img { border: 0px; }
 
 div#iconcontainer {
 	margin: auto;
@@ -19,5 +12,5 @@ div#iconcontainer {
 	max-width: 870px;
 	}
 	
-div.clear { clear: both; }
+
 
