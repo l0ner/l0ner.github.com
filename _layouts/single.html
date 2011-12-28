@@ -1,0 +1,25 @@
+{% include header.html %}
+		<link rel="stylesheet" href="/styles/blog.css" />
+		<link rel="stylesheet" href="/styles/sidebar.css" />
+	</head>
+	 <body onload="binaryize();">
+      <div id="main">
+         <!--Sidebar-->
+         {% include sidebar.html %}
+         <!--End Sidebar-->
+         <div id="content">
+				<div id="content_wrapper">
+					<div class="post">
+						<div class="post_header">
+							<div class="post_title"><h3>{{ page.title }}</h3></div>
+							<div class="post_meta pixel">Commited on: {{ page.date | date_to_string }} in: {{ page.categories }}</div>
+						</div>
+						<div class="post_content">
+							{{ content }}
+						</div>
+					</div>
+				</div>
+         </div>
+      </div>
+   </body>
+</html>
