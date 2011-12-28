@@ -56,6 +56,9 @@ div.separator {
 	height: 150px;
 	overflow: hidden;
 	margin: 9px;
-	padding: 4px;
+}
+
+img.photoblog {
 	background: url('/img/photoarchive_bg.png') repeat;
-	}
+	padding: 4px;
+}
