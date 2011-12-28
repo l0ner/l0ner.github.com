@@ -1,0 +1,22 @@
+div.post {
+	margin: 10px;
+	margin-bottom: 15px;
+	font-family: sans;
+	font-size: 14px;
+	color: #fff;
+}
+	
+.post_header h4 {
+  margin-bottom: 5px;
+	padding-left: 10px;
+}
+
+div.post_content {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div.separator {
+	padding-top: 7px;
+	background: url('/img/meta_bg.png') repeat-x;
+}
