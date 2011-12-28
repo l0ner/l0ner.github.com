@@ -54,7 +54,7 @@ div.separator {
 
 .photoarchive {
 	width: 228px;
-	height: 158px;
+	height: 228px;
 	overflow: hidden;
 	margin: 9px;
 }
@@ -67,8 +67,4 @@ img.photoblog {
 img.photoblog:hover {
 	background: url('/img/photoblog_anim.gif') repeat;
 	padding: 4px;
-	}
-	
-img a:hover {
-	background: none;
 	}
