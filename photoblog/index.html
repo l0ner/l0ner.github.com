@@ -13,7 +13,7 @@ title: l0ner.github.com - blog
 				</div>
 				<div class="post_content">
 					<p class="center_text">
-						<a href="{{ post.photolink }}"><img src="{{ post.photourl }}" width="550" alt="Photo: {{ post.title }}" /></a>
+						<a href="{{ post.url }}"><img src="{{ post.photourl }}" width="550" alt="Photo: {{ post.title }}" /></a>
 					</p>
 					<a href="{{ post.url }}" class="readmore pixel">Read the story behind...</a>
 				</div>
@@ -22,6 +22,6 @@ title: l0ner.github.com - blog
 <h4 class="postlist">Older photos:</h4>
 	<div class="postlist">
 		{% for post in site.categories.photoblog offset: post_limit %}
-			<div class="floatleft photoarchive"><a href="{{ post.url }}"><img src="{{ post.photourl }}" width="200" alt="Photo: {{ post.title }}" /></a></div>
+			<div class="floatleft photoarchive"><a href="{{ post.url }}"><img src="{{ post.photourl }}" width="227" alt="Photo: {{ post.title }}" /></a></div>
 		{% endfor %}
 	</div>
