@@ -12,7 +12,9 @@ div.post {
 
 div.post_content {
 	padding: 10px;
-	border: 0px 1px 0 1px red dashed;
+	border: 0px red dashed;
+	border-left: 1px;
+	border-right: 1px;
 }
 
 div.separator {
