@@ -9,8 +9,7 @@ h6.postlist {
 }
 
 div.post {
-	margin: 10px;
-	margin-bottom: 15px;
+	margin: 0px 10px 15px 10px;
 	font-family: sans;
 	font-size: 14px;
 	color: #fff;
