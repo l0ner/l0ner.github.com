@@ -22,11 +22,25 @@
 							{{ content }}
 						</div>
 						<div class="separator paginator clear">
-							{% if page.categories.photoblog.next %}
-								<div class="floatleft"><a href="{{ page.categories.photoblog.next.url }}" class="pixel">&lt;&lt;Next Post</a></div>
+							{% for post in site.categories.photoblog %}
+								{% if post.url == page.url %}
+									{% assign post_index0 = forloop.index0 %}
+									{% assign post_index1 = forloop.index %}
+								{% endif %}
+							{% endfor %}
+							{% for post in site.categories.photoblog %}
+								{% if post_index0 == forloop.index %}
+									{% assign next_post = post.url %}
+								{% endif %}
+								{% if post_index1 == forloop.index0 %}
+									{% assign prev_post = post.url %}
+								{% endif %}
+							{% endfor %}
+							{% if next_post %}
+								<div class="floatleft"><a href="{{ next_post }}" class="pixel">&lt;&lt;Next Post</a></div>
 							{% endif %}
-							{% if page.previous %}
-								<div class="floatright"><a href="{{ page.previous.url }}" class="pixel">Previous Post&gt;&gt;</a></div>
+							{% if prev_post %}
+								<div class="floatright"><a href="{{ prev_post }}" class="pixel">Previous Post&gt;&gt;</a></div>
 							{% endif %}
 						</div>
 						{% include comments.html %}
