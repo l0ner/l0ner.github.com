@@ -72,7 +72,7 @@ Qualcuno ha detto
 Oggi sei tu. 
 
 |
-|\3. =.[Chorus:] |
+|\3. p=.[Chorus:] |
 |=.Jak ja nie kochał nikt,
 Jak ja nie wierzył nikt
 Dostałem wszystko
@@ -191,7 +191,7 @@ di quelle parole, che oggi
 sono per me tutto
 
 |
-|\3.=. [Chorus] |
+|\3. p=. [Chorus] |
 
 |=.I keep on looking, at myself in the mirror again
 (Znów obserwuje się w lustrze)
@@ -243,5 +243,5 @@ continuo a chiedermi
 devo riprendere l'arma?
 
 |
-|\3.=.[Chorus]|
+|\3. p=.[Chorus]|
 <!-- more stop -->
