@@ -122,7 +122,7 @@ h3. Code
 *Note:* This is example of pygments jekyll extension, not textile feature
 
 Usage:
-@{% highlight codename %}@
+@{% highlight codename linenos %}@
 @   foo@
 @{% endhiglight %}@
 
@@ -130,7 +130,7 @@ h5(. ruby
 
 Codename: @ruby@
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 def foo
   puts 'foo'
 end
