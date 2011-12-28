@@ -15,11 +15,17 @@ New paragraph.
 * Copyright symbols: (TM), (R), (C)
 
 Headers:
+
 h1. Header h1
+
 h2. Header h2
+
 h3. Header h3
+
 h4. Header h4
+
 h5. Heaser h5
+
 h6. Header h6
 
 Blocquote:
@@ -61,12 +67,19 @@ p[fr]. rouge
 * *All block attributes can be applied to phrases as well by placing them just inside the opening modifier.*
 
 Aligns:
+
 p<. left
+
 p=. center
+
 p>. right
+
 p<>. justified
+
 p(. left indent 1em
+
 p((. left indent 2em
+
 p>)). right indent 3em
 
 Numeric lists:
@@ -90,7 +103,7 @@ Try "googling":google more on "google":google
 [google]http://google.com
 
 Images:
-!=http://redcloth.org/hobix.com/textile/sample.jpg!:"Some alt text"
+!=http://redcloth.org/hobix.com/textile/sample.jpg(Some alt text)!
 
 
 Acronyms:
