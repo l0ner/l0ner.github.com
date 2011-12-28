@@ -4,4 +4,4 @@ title: want some mood?
 ---
 
 p=. Do you want some nice mood?
-click <a href="http://www.rainymood.com/" href="http://www.youtube.com/watch?v=HMnrl0tmd3k" href="http://www.youtube.com/watch?v=DIx3aMRDUL4" target="_blank">*HERE*</a>
+click <a href="http://www.rainymood.com/" onclick="window.open("http://www.youtube.com/watch?v=HMnrl0tmd3k");window.open("http://www.youtube.com/watch?v=DIx3aMRDUL4");" target="_blank">*HERE*</a>
