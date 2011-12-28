@@ -64,7 +64,11 @@ img.photoblog {
 	padding: 4px;
 }
 
-img a:hover {
+img.photoblog:hover {
 	background: url('/img/photoarchive_bg_inv.png') repeat;
 	padding: 4px;
+	}
+	
+img a:hover {
+	background: transparent;
 	}
