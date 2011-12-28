@@ -6,7 +6,6 @@ I've nearly finished my new "github.com":http://github.com website. The whole id
 
 Up until now I was achieving this by relying on many smaller and free web services scattered around the internet. I used "about.me":http://about.me/l0ner/ as a hub. I used two separate "wordpress.com":http://wordpress.com/ blogs, one for my personal posts, second for my photoblog.
 And this wasn't satisfying really my needs.
-
 <!-- more start -->
 Every one of those services couldn't provide me what I really wanted. And what I wanted was full control of what it looked and acted like. I could customize things a little, but not to the extent I wanted. I know I could pay for ability to customize my blog on "wordpress.com":http://wordpress.com/, but I didn't want to pay for my websites at all. 
 Actually, some time ago I used to rent server space to host my own "wordpress":http://wordpress.org installation, whith which I could do anything I wanted. But on some day I couldn't permit myself anymore to pay for my webspace. Besides, I don't think paying cash for personal website is a good idea at all. I wanted my personal website to be free.
@@ -27,11 +26,11 @@ I can design my frontpage any way I want and put there anything I want.
 And above everything I like writing html code. And textile simplifies writing posts a lot.
 
 The whole site isn't really finished yet. I need to create template files for the photoblog section, I need to do some fine-tuning on how the comtent looks like. I need to understand how to get the code highlight working with textile files. The correct syntax should be:
-@{% highlight ruby linenos %}@
-@def foo@
-@  puts 'foo'@
-@end@
-@{% endhighlight %}@
+{% highlight ruby linenos %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
 And yet it doesn't work. The second @%@ in the first line gets interpreted as textile escape character and converted into @<span>@ html tag. I looked and "Tom Preston-Werner site":http://tom.preston-werner.com/ source "code":https://github.com/mojombo/mojombo.github.com amnd for him it works like it should.
 
 And in the end, I don't think this site will ever be finished, now that I have full control over it.

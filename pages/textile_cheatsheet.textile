@@ -129,7 +129,6 @@ Usage:
 h5(. ruby
 
 Codename: @ruby@
-
 {% highlight ruby linenos %}
 def foo
   puts 'foo'
