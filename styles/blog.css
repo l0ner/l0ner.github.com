@@ -36,12 +36,12 @@ div.post_meta {
 	color: #fff;
 	font-size: 8px;
 	padding: 0px 0 7px 20px;
-	background: url('/img/headings.png');
+	background: url('/img/headings.png') repeat-x;
 	background-position: top 10px;
 }
 
 .post_title h3 {
-	background: url('/img/headings.png');
+	background: url('/img/headings.png') repeat-x;
 	background-position: top 20px;
 	}
 
