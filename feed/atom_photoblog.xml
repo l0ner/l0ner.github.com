@@ -18,7 +18,7 @@
    <link href="http://l0ner.github.com/{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://l0ner.github.com/{{ post.id }}</id>
-   <content type="html"><img src="{{ post.photourl }}" alt="{{ post.title | xml_escape }}" />
+   <content type="html"><img src="{{ post.photourl }}" alt="{{ post.title | xml_escape }}" style="max-height: 220px;" />
 	 <br /><a href="http://l0ner.github.com/{{ post.url }}">Read whole story</a>
 	 </content>
  </entry>
