@@ -130,10 +130,10 @@ h5(. ruby
 
 Codename: @ruby@
 
-< notextile >
+<notextile>
 {% highlight ruby linenos %}
 def foo
   puts 'foo'
 end
 {% endhighlight %}
-< / notextile >
+</notextile>
