@@ -1,5 +1,5 @@
 --- 
-layout: photoblog
+layout: photopost
 title: "#26"
 photourl: http://mindglitch.files.wordpress.com/2011/01/26.jpg
 photolink: http://mindglitch.files.wordpress.com/2011/01/26.jpg
