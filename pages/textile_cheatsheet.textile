@@ -130,7 +130,7 @@ h5(. ruby
 
 Codename: @ruby@
 
-{% highlight ruby linenos % }
+{% highlight ruby linenos%}
 def foo
   puts 'foo'
 end
