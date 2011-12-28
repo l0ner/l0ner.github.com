@@ -41,7 +41,7 @@ div.post_meta {
 
 .post_title h3 {
 	border-bottom: 4px;
-	border-image-source: url('/img/headings.png');
+	border-image: url('/img/headings.png');
 	}
 
 .pixel {
