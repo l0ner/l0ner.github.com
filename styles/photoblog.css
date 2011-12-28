@@ -62,3 +62,12 @@ img.photoblog {
 	background: url('/img/photoarchive_bg.png') repeat;
 	padding: 4px;
 }
+
+img.photoblog:hover {
+	background: url('/img/photoarchive_bg_inv.png') repeat;
+	padding: 4px;
+	}
+	
+img a:hover {
+	background: transparent;
+	}
