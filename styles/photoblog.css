@@ -2,6 +2,7 @@
 	padding-left: 15px;
   padding-bottom: 11px;
 	margin: auto;
+	margin-bottom: 10px;
   background: url('/img/nav_h3_bg.png') repeat-x;
 }
 
@@ -63,11 +64,7 @@ img.photoblog {
 	padding: 4px;
 }
 
-img.photoblog:hover {
+img a:hover {
 	background: url('/img/photoarchive_bg_inv.png') repeat;
 	padding: 4px;
-	}
-	
-img a:hover {
-	background: transparent;
 	}
