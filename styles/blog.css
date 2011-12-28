@@ -35,13 +35,14 @@ div.post {
 div.post_meta {
 	color: #fff;
 	font-size: 8px;
-	padding: 7px 0 7px 20px;
-	background: url('/img/meta_bg.png');
+	padding: 0px 0 7px 20px;
+	background: url('/img/headings.png');
+	background-position: top 10px;
 }
 
 .post_title h3 {
-	border-bottom: 4px;
-	border-image: url('/img/headings.png');
+	background: url('/img/headings.png');
+	background-position: top 20px;
 	}
 
 .pixel {
