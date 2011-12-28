@@ -90,8 +90,9 @@ img {
 	max-width: 750px;
 }
 
-.dsq-clearfix {
+#dsq-content ul, #dsq-content li{
 	list-style: none;
+	list-image: none;
 	font-family: Pixel;
 	font-size: 8px;
 }
