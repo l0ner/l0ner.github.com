@@ -14,8 +14,6 @@ meta-robots: "noodp, noydir"
 					<div class="post_meta pixel">Commited on: {{ post.date | date_to_string }} | <a class="disqus-count-text" href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Comments</a></div>
 				</div>
 				<div class="post_content">
-				{{ page.excerpt }}
-				<br /><br />
 				{{ post.content | replace:'more start -->','' | replace:'<!-- more end','' }}
 				{% if post.content contains "<!-- more start -->" %}
 					<a href="{{ post.url }}" class="readmore pixel">Read more...</a>
