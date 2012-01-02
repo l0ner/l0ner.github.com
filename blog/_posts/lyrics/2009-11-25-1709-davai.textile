@@ -1,0 +1,91 @@
+--- 
+layout: post
+title: "KMFDM - Давай [Davai]"
+---
+KMFDM - Davai
+<table style="text-align:center;">
+<tr>
+<td>Original</td>
+<td>Romanized</td>
+<td>English translation</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Давай Брат Давай
+Объединимся
+И Завтра Не Будет
+Чёрно-Белым
+
+</td><td>Davai Brat Davai
+Obyedinimsya
+I Zavtra Ne Budyet
+Chorno-Byelim
+
+</td><td>Come on Brother, Come on
+Unite
+And tomorrow won't be
+Black and White
+
+</td></tr>
+<tr><td>Вперёд Брат Давай
+Давай Убедимся
+Что Завтра Не Будет
+О Богатом И Бедном
+
+</td><td>Vpyerod Brat Davai
+Davai Ubedimsya
+Chto Zavtra Nye Budyet
+O Bogatom I Byednom
+
+</td><td>Forward Brother, Come On
+Come on, Let's make sure
+That tomorrow will be no
+On rich and poor
+
+</td></tr>
+<tr colspan="3"><td>
+[Chorus] Missing
+</td></tr>
+<tr><td>Давай Брат Давай
+Возможно Мы Последние
+Вперёд Смотри
+И В Прошлом Не Живи
+
+</td><td>Davai Brat Davai
+Vozmojno Mi Posledinye
+Vpyerod Smotri
+I V Proshlom Ne Chivi
+
+</td><td>Come on Brother, Come on
+We may last
+Look ahead
+Don't live in the past
+
+</td></tr>
+<tr><td>Вперёд Брат
+Учение Проложит Путь
+B Воинственный Покой
+Который Завоюет Мир
+
+</td><td>Vpyerod Brat
+Uchyenie Proloshit Put
+V Voinstvenniy Pokoy
+Kotoriy Zavoyuyet Mir
+
+</td><td>Forward Brother
+The teaching will pave the way
+In Militant Rest
+Which will win the World
+
+</td></tr>
+<tr colspan="3"><td>
+[Chorus] Missing
+</td></tr>
+<tr clospan="3"><td>The Fog Has Lifted
+The Blood Has Dried
+Youth Of The World
+Your Time Is Now
+Don't Fight
+Unite</td>
+</tr>
+</table>
