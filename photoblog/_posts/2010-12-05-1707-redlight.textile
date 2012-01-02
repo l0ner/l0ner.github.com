@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: photopost
 title: RedLight
 photourl: https://lh3.googleusercontent.com/-5xgEjRqF_Ls/TvzKDGZapxI/AAAAAAAAAJk/XH2ikAbeJAk/I/20101205-RedLight-photoblog.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691646183695099666

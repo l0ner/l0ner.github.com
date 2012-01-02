@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: photopost
 title: Na rybach
 photourl: https://lh5.googleusercontent.com/-MTXp8JUfuLw/Tvy4Opcyh_I/AAAAAAAAAGo/fFOncgu7N_c/I/20090615-Get%252520some%252520fish...-photoblog.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691626590873749490

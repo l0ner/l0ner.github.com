@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: photopost
 title: "#16 - Lonely Chair"
 photourl: https://lh3.googleusercontent.com/-LODg29doPAE/TvzJGk4sNhI/AAAAAAAAAIU/5cmkknCzag4/I/20091213-%25252316%252520Lonely%252520Chair-photoblog.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691645143907317266

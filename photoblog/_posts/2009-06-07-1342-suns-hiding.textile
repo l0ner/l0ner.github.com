@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: photopost
 title: Sun's hiding...
 photourl: https://lh4.googleusercontent.com/-rQU8-iJitRg/Tvy391z8miI/AAAAAAAAAGc/N0qtCcObbtM/I/20090607-Sun%252527s%252520Hiding%252520v1.0-photoblog.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691626302134327842

@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: photopost
 title: Rock On!
 photourl: https://lh5.googleusercontent.com/-FQw7QfMgrmM/TvzKIcgvPlI/AAAAAAAAAJs/OWVvtqBkGb0/I/20100912-Rock%252520On%252521-photoblog.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691646275530735186

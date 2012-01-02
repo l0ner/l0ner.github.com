@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: photopost
 title: "#03"
 photourl: https://lh6.googleusercontent.com/-K4_RFCxSPtA/Tvy228ni_uI/AAAAAAAAAFU/6mH1k0CQKAU/I/20090513-%25252303-photoblog.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691625084190654178

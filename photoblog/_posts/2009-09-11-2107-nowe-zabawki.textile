@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: photopost
 title: "Nowe zabawki."
 photourl: https://lh5.googleusercontent.com/-d9rKzUgtXJ0/Tvy4voCKwXI/AAAAAAAAAHE/D7yqTn_aJmE/I/20090911-Haking%252520HG1_1-photoblog.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691627157429338482

@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: photopost
 title: "\xE8\x8A\xB1"
 photourl: https://lh4.googleusercontent.com/-pLBiXuNQqc0/Tvy1yKUbP6I/AAAAAAAAAD0/Gf0RyLio98w/I/20090126-Calendula-photoblog.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691623902457577378

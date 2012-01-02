@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: photopost
 title: "#13 - Ratusz J.Góra"
 photourl: https://lh5.googleusercontent.com/-wlkC6s6TvF8/TvzIljte8qI/AAAAAAAAAHk/hqt74r60WcA/I/20090804-%25252313%252520Ratusz%252520J.G%2525C3%2525B3ra-photoblog.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691644576656192162

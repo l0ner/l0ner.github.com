@@ -1,5 +1,5 @@
 --- 
-layout: photopost
+layout: photophotopost
 title: Lights In The Sky
 photourl: https://lh4.googleusercontent.com/-9LZKOQLPslU/TvzoExYwESI/AAAAAAAAAKY/L-A83PivaWQ/I/LightsInTheSky.jpeg-01.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/LightsInTheSky#5691679197763735842

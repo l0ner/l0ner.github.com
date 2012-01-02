@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: photopost
 title: "#20 - The Grass is Greener..."
 photourl: https://lh3.googleusercontent.com/-gqA99ZjoHcQ/TvzJdgD4ceI/AAAAAAAAAI0/C4L8-NhC6s0/I/20100606-%25252320%252520The%252520Grass%252520Is%252520Greener...-photoblog.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691645537749070306

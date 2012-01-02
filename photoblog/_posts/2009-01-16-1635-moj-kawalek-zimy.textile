@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: photopost
 title: "Mój kawałek zimy"
 photourl: https://lh3.googleusercontent.com/-DiEXVdvj73A/Tvy1Wr6oM7I/AAAAAAAAADU/hf_P-7cl_O4/I/20090116-My%252520small%252520piece%252520of%252520winter-photoblog.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691623430439842738

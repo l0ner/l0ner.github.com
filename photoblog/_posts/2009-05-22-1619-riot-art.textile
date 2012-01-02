@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: photopost
 title: Riot Art!
 photourl: https://lh6.googleusercontent.com/-wM6AZigQ3Po/Tvy3b66eXhI/AAAAAAAAAFw/fWVm5TOb070/I/20090522-Time.-photoblog.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691625719388331538

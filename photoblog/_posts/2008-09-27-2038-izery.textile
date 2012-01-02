@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: photopost
 title: Izery
 photourl: https://lh5.googleusercontent.com/-uwnpfrwmpC0/Tvy1k2cVpYI/AAAAAAAAADk/arcLnSuljZw/I/20080927-Izery-photoblog.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691623673783756162

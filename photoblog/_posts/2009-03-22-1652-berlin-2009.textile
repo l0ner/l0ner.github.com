@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: photopost
 title: Berlin 2009
 photourl: https://lh4.googleusercontent.com/-cp_OmiP7bXA/Tvy2E__4HCI/AAAAAAAAAEU/BNBzeepKUQo/I/20090322-Berlin%25252C%252520Berlin...-photoblog.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691624226104548386

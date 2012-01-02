@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: photopost
 title: "Hard Worker"
 photourl: https://lh6.googleusercontent.com/-uLP2pH5rXM0/Tvy2qSZ09XI/AAAAAAAAAE8/fxmoAdpChIo/I/20090511-Hard%252520Worker-photoblog.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691624866700391794

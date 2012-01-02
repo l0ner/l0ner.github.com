@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: photopost
 title: Retusz...
 photourl: https://lh3.googleusercontent.com/-1JYBfXJdjL4/Tvy36O4ewNI/AAAAAAAAAGM/v1VZdj3-6Jw/I/20090603-Retusz-photoblog.jpg
 photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691626240144752850
