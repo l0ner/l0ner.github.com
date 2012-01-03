@@ -3,7 +3,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  <title>l0ner.github.com</title>
- <link href="http://l0ner.github.com/atom.xml" rel="self"/>
+ <link href="http://l0ner.github.com/feed/atom.xml" rel="self"/>
  <link href="http://l0ner.github.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://l0ner.github.com/</id>
