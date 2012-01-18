@@ -1,0 +1,5 @@
+--- 
+layout: post
+title: "quote #0009"
+---
+bq. Small light shines better within the darkness.
