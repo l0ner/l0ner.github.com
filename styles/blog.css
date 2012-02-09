@@ -1,7 +1,7 @@
 .postlist {
 	padding-left: 15px;
-  padding-bottom: 11px;
-  background: url('/img/nav_h3_bg.png') repeat-x;
+  padding-bottom: 2px;
+  /*background: url('/img/nav_h3_bg.png') repeat-x;*/
 }
 
 h6.postlist {
