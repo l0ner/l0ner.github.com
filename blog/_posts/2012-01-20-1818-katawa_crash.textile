@@ -7,4 +7,4 @@ Normally I don't write about games unless they have really bugged or impressed m
 
 For everyone else: Enjoy.
 
-h4."Katawa Crash":http://images.4channel.org/f/src/katawa_crash_beta_8-36.swf
+h4=. "Katawa Crash":http://images.4channel.org/f/src/katawa_crash_beta_8-36.swf
