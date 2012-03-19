@@ -21,5 +21,7 @@ disabling coasting and discovered that everything was working like it should!
 Ok, but this was only a one-shot solution. How could I make it permament? Let's put a scpit that does this in /etc/init.d and enable it by running @update-rc.d FOO defaults@ where FOO is the script name. Now everything works as it should!
 
 fn1. Don't buy it. Don't buy any Samsung laptop if you want to run linux on it. They give too many problems.
+
 fn2. Overheating on Arch, compilation problems and overheating on Gentoo. Pretty much I couldn't do anything that required heavy CPU load.
+
 fn3. The whole dashboard thing and dock fixed to the left side of screen without option to move it. Those are not wise decisions IMHO.
