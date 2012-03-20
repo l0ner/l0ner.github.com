@@ -8,9 +8,9 @@ For some time I've been struggling to get my laptop (Samsung r540)[1] to work pr
 
 I was able to fix this in Archlinux by enabling SHMConfig option in my xorg.conf, but it seems that Ubuntu don't accept manual X11 configuration. When I configured X11, like I did under my Arch installation (which meant copying the .conf file), the hell broke and I lost correct screen configuration and my laptop keyboard wasn't detected.
 
-I've begun googling around and discovered that I still can configure my touchpad through the xinput tool. Yeah! I quickly applied what I was doing in Arch through X11 config file, only to discover that it didn't fixed my issue.
+I've begun googling around and "discovered that I still can configure my touchpad through the xinput tool":http://askubuntu.com/questions/18576/vostro-3400-touchpad-multiple-gesture-and-two-finger-scrolling-not-working. Yeah! I quickly applied what I was doing in Arch through X11 config file, only to discover that it didn't fixed my issue.
 
-Damn! I started googling again and found this document. I've read it and I discovered interesting thing:
+Damn! I started googling again and "found this document":http://www.x.org/archive/X11R7.5/doc/man/man4/synaptics.4.html. I've read it and I discovered interesting thing:
 
 bq. When conventional coasting is enabled, horizontal/vertical scrolling can continue after the finger is released from the lower/right edge of the touchpad.
 
