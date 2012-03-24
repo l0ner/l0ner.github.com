@@ -1,0 +1,40 @@
+--- 
+layout: page
+title: Gallery
+tags: []
+
+status: publish
+type: page
+published: true
+meta: 
+  _edit_last: "3474632"
+  _wp_page_template: full-width-page.php
+---
+<table border="2">
+<tbody>
+<tr>
+<td style="text-align:center;padding:0;"><a href="http://picasaweb.google.com/psoltys.loner/Sachsenhausen?feat=embedwebsite"><img src="http://lh3.ggpht.com/_4ccEkhvSqrA/S7ifgiCBKRE/AAAAAAAAAm4/zZuc7YiiMUE/s160-c/Sachsenhausen.jpg" alt="" width="160" height="160" />
+sachsenhausen
+</a></td>
+<td style="text-align:center;padding:0;"><a href="http://picasaweb.google.com/psoltys.loner/Berlin2009?feat=embedwebsite"><img src="http://lh6.ggpht.com/_4ccEkhvSqrA/S7iiYcsVY3E/AAAAAAAAAm8/SRrKZHH2k6I/s160-c/Berlin2009.jpg" alt="" width="160" height="160" />
+Berlin 2009</a></td>
+<td style="text-align:center;padding:0;"><a href="http://picasaweb.google.com/psoltys.loner/People?feat=embedwebsite"><img src="http://lh4.ggpht.com/_4ccEkhvSqrA/S7ihsvfmcjE/AAAAAAAAAnA/LLsvETaUpHw/s160-c/People.jpg" alt="" width="160" height="160" />
+People</a></td>
+<td style="text-align:center;padding:0;"><a href="http://picasaweb.google.com/psoltys.loner/WineFactory?feat=embedwebsite"><img src="http://lh6.ggpht.com/_4ccEkhvSqrA/S7ijRL7OohE/AAAAAAAAAnE/xm7bPovIDvo/s160-c/WineFactory.jpg" alt="" width="160" height="160" />
+Wine Factory</a></td>
+<td style="text-align:center;padding:0;"><a href="http://picasaweb.google.com/psoltys.loner/Izery?feat=embedwebsite"><img src="http://lh5.ggpht.com/_4ccEkhvSqrA/S7ijvcJE_vE/AAAAAAAAAhU/ZISCkQ-DQuE/s160-c/Izery.jpg" alt="" width="160" height="160" />
+Izery</a></td>
+</tr>
+<tr>
+<td style="text-align:center;padding:0;"><a href="http://picasaweb.google.com/psoltys.loner/Lights?feat=embedwebsite"><img src="http://lh5.ggpht.com/_4ccEkhvSqrA/S7ik5akEKZE/AAAAAAAAAm0/ct4j60Ynb4o/s160-c/Lights.jpg" alt="" width="160" height="160" />
+Lights</a></td>
+<td style="text-align:center;padding:0;"><a href="http://picasaweb.google.com/psoltys.loner/Flowers?feat=embedwebsite"><img src="http://lh5.ggpht.com/_4ccEkhvSqrA/S7ilThbvt6E/AAAAAAAAAmw/fYAybxNbwdQ/s160-c/Flowers.jpg" alt="" width="160" height="160" />
+Flowers</a></td>
+<td style="text-align:center;padding:0;"><a href="http://picasaweb.google.com/psoltys.loner/RiotArt?feat=embedwebsite"><img src="http://lh5.ggpht.com/_4ccEkhvSqrA/S7iZ-HQpy0E/AAAAAAAAAms/kWHaafbeFyw/s160-c/RiotArt.jpg" alt="" width="160" height="160" />
+Riot Art!</a></td>
+<td style="text-align:center;padding:0;"><a href="http://picasaweb.google.com/psoltys.loner/LightsInTheSky?feat=embedwebsite"><img src="http://lh6.ggpht.com/_4ccEkhvSqrA/TTMoHtc9eaE/AAAAAAAAAyI/_z49wISnKH0/s160-c/LightsInTheSky.jpg" alt="" width="160" height="160" />
+Lights In The Sky</a></td>
+<td style="text-align:center;padding:0;"></td>
+</tr>
+</tbody>
+</table>
