@@ -225,7 +225,7 @@ table#clock {
 	color: #fff;
 }
 
-a img { border: 0px; }
+a img { border: 0px; background: none; }
 
 img {
 	max-width: 750px;
@@ -241,6 +241,9 @@ img {
 #dsq-content h3 {
 	font-size: 12px;
 }
+
+
+/* INDEX ICONS */
 div.icon { 
 	float: left;
 	width: 150px;
@@ -255,6 +258,10 @@ div#iconcontainer {
 	max-width: 870px;
 	}
 	
+a.icon {
+   background: none;
+   }
+
 
 .postlist {
 	padding-left: 15px;
