@@ -1,8 +1,8 @@
 //Add the images
 var on=new Image();
-on.src="/img/clock/off.png";
+on.src="img/clock/off.png";
 var off=new Image();
-off.src="/img/clock/on.png";
+off.src="img/clock/on.png";
 
 //Make the binaryclock
 function binaryclock(img,number) {

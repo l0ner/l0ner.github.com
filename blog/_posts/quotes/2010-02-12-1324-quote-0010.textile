@@ -1,7 +1,0 @@
---- 
-layout: post
-title: "quote #0010"
----
-bq. Dlaczego to zakrzywiona linia i nie sposób jej wyprostować… nigdy nie zastanawiaj sie dlaczego, po porostu wstawaj ofremo. Dzień jest jeszcze młody!
-
-p>. S. King - Mroczna Wieża

@@ -1,20 +1,67 @@
----
-layout: index
-title: l0ner.github.com - TH3 HUB!
-meta-description: "Pawel 'l0ner' Soltys private site. Blog, photoblog, project list and hub for all his apperances over the net"
-meta-robots: "noodp, noydir"
----
-
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="img/favicon/qr_red.png" />
+		<link rel="apple-touch-icon-precomposed" href="img/favicon/qr_red.png" />
+		<link rel="alternate" type="application/atom+xml" href="http://l0ner.github.com/feed/atom.xml">
+		<link rel="alternate" type="application/atom+xml" href="http://l0ner.github.com/feed/atom_blog.xml">
+		<link rel="alternate" type="application/atom+xml" href="http://l0ner.github.com/feed/atom_photoblog.xml">
+		<meta name="robots" content="{{ page.meta-robots }}" />
+		<meta name="description" content="{{ page.meta-description }}" />
+		<meta name="description" content="l0ner.github.com - Personal site of Pawel 'l0ner' Soltys - TH3 HUB!" />
+		<script src="js/binaryclock2.js"></script>
+		<title>l0ner.github.com - TH3 HUB!</title>
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+	</head>
+	<body onload="binaryize();">
+		<div id="iconcontainer">
 			<div class="icon">
-			{% include clock.html %}
+			<table id="clock">
+				<tr>
+					<td><img src="img/clock/on.png" class="clock" id="hr14" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="hr24" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="min14" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="min24" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="sec14" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="sec24" alt="" /></td>
+				</tr>
+				<tr>
+					<td><img src="img/clock/on.png" class="clock" id="hr13" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="hr23" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="min13" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="min23" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="sec13" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="sec23" alt="" /></td>
+				</tr>
+				<tr>
+					<td><img src="img/clock/on.png" class="clock" id="hr12" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="hr22" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="min12" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="min22" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="sec12" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="sec22" alt="" /></td>
+				</tr>
+				<tr>
+					<td><img src="img/clock/on.png" class="clock" id="hr11" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="hr21" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="min11" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="min21" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="sec11" alt="" /></td>
+					<td><img src="img/clock/on.png" class="clock" id="sec21" alt="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6" id="logo">l0ner</td>
+				</tr>
+			</table>
 			</div>
-			<div class="icon"><a href="blog">
+			<div class="icon"><a href="blog.html">
 					<img src="img/tiles/blog.png" onmouseover="this.src='img/tiles/blog_i.png';" onmouseout="this.src='img/tiles/blog.png';" alt="blog"/>
 			</a></div>
-			<div class="icon"><a href="photoblog">
+			<div class="icon"><a href="photoblog.html">
 				<img src="img/tiles/photoblog.png" onmouseover="this.src='img/tiles/photoblog_i.png';" onmouseout="this.src='img/tiles/photoblog.png';" alt="photoblog"/>
 			</a></div>
-			<div class="icon"><a href="pages/projects.html">
+			<div class="icon"><a href="projects.html">
 				<img src="img/tiles/projects.png" onmouseover="this.src='img/tiles/projects_i.png';" onmouseout="this.src='img/tiles/projects.png';" alt="projects"/>
 			</a></div>
 			<div class="icon"><a href="mailto:sh4dou@gmail.com">
@@ -50,4 +97,7 @@ meta-robots: "noodp, noydir"
 			<div class="icon"><a href="http://picasaweb.google.com/psoltys.loner" target="_blank">
 				<img src="img/tiles/picasa.png" onmouseover="this.src='img/tiles/picasa_i.png';" onmouseout="this.src='img/tiles/picasa.png';" alt="Picasa webalbums" />
 			</a></div>
-
+		</div>
+		<div class="clear"></div>
+	</body>
+</html>
