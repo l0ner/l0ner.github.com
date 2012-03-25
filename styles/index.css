@@ -35,11 +35,15 @@ div#desc {
    color: #999;
    }
 
+/* override default size for h1 and margin/padding */
 #logocontainer h1 {
-   font-family: Pixel;
    font-size: 48px;
    margin: 0px;
    padding: 0px;
    }
 
+/* override default color reversal for links */
+.icon a {
+   background: none;
+   }
 
