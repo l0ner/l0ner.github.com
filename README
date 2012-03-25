@@ -4,7 +4,7 @@ My personal site.
 Hub for all my apperances on the tubes, my personal blog and photoblog.
 Hub for my projects.
 
-Uses jekyll to transform everything into static pages everytime i push into git.
+HTML-only version of actual layout
 
 Licensing: site code licensed under GNU/GPLv3
 media and contents of _posts and _img dirs licensed under Creative Commons: BY-NC-SA
