@@ -7,10 +7,39 @@ div.icon {
 
 div#iconcontainer {
 	margin: auto;
+	clear: both;
 	margin-top: 51px;
 	min-width: 340px;
 	max-width: 870px;
 	}
 	
+div#logocontainer {
+	margin: auto;
+	clear: both;
+	margin-top: 51px;
+	min-width: 340px;
+	max-width: 870px;
+	}
+
+div#logo {
+   width: 50%;
+   float: left;
+   text-align: right;
+   color: #f00;
+   }
+   
+div#desc {
+	width: 50%;
+   float: left;
+   text-align: left;
+   color: #999;
+   }
+
+#logocontainer h1 {
+   font-family: Pixel;
+   font-size: 48px;
+   margin: 0px;
+   padding: 0px;
+   }
 
 

@@ -10,49 +10,134 @@
       <meta name="robots" content="{{ page.meta-robots }}" />
       <meta name="description" content="{{ page.meta-description }}" />
       <meta name="description" content="l0ner.github.com - Personal site of Pawel 'l0ner' Soltys - {{ page.title }}" />
-      <script src="js/binaryclock2.js"></script>
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
       <title>l0ner.github.com - th3 hub</title>
-      <script type="text/javascript" src="js/binaryajax.js"></script>
-      <script type="text/javascript" src="js/exif.js"></script>
-      <script type="text/javascript" src="js/lytebox.js"></script>
-      <link rel="stylesheet" href="styles/lytebox.css" type="text/css" media="screen" />
       <link rel="stylesheet" type="text/css" href="styles/global.css" />
-      <link rel="stylesheet" type="text/css" href="styles/syntax.css" />
       <link rel="stylesheet" type="text/css" href="styles/index.css" />
    </head>
    <body onload="binaryize();">
+      <div id="logocontainer">
+         <div id="logo"><h1>l0ner.</h1></div>
+         <div id="desc"><h1>hub</h1></div>
+      </div>
       <div id="iconcontainer">
 			<div class="icon"><a href="blog">
-<img src="img/tiles/blog.png" onmouseover="this.src='img/tiles/blog_i.png';" onmouseout="this.src='img/tiles/blog.png';" alt="blog"/>
-</a></div>
+            <img id="blog" src="img/tiles/blog.png" alt="blog"/>
+         </a></div>
 			<div class="icon"><a href="photoblog">
-<img src="img/tiles/photoblog.png" onmouseover="this.src='img/tiles/photoblog_i.png';" onmouseout="this.src='img/tiles/photoblog.png';" alt="photoblog"/>
-</a></div>
+            <img id="photo" src="img/tiles/photoblog.png" alt="photos"/>
+         </a></div>
 			<div class="icon"><a href="docs">
-<img src="img/tiles/docs.png" onmouseover="this.src='img/tiles/docs_i.png';" onmouseout="this.src='img/tiles/docs.png';" alt="photoblog"/>
-</a></div>
+            <img id="docs" src="img/tiles/docs.png" alt="docs"/>
+         </a></div>
 			<div class="icon"><a href="pages/projects.html">
-<img src="img/tiles/projects.png" onmouseover="this.src='img/tiles/projects_i.png';" onmouseout="this.src='img/tiles/projects.png';" alt="projects"/>
-</a></div>
+            <img id="projects" src="img/tiles/projects.png" alt="projects"/>
+         </a></div>
 			<div class="icon"><a href="mailto:sh4dou@gmail.com">
-            <img src="img/tiles/mail.png" onmouseover="this.src='img/tiles/mail_i.png';" onmouseout="this.src='img/tiles/mail.png';" alt="mailme" />
+            <img id="mail" src="img/tiles/mail.png" alt="mailme" />
          </a></div>
          <div class="icon"><a href="http://facebook.com/s0ltys" target="_blank">
-<img src="img/tiles/facebook.png" onmouseover="this.src='img/tiles/facebook_i.png';" onmouseout="this.src='img/tiles/facebook.png';" alt="facebook profile"/>
-</a></div>
+            <img id="fb" src="img/tiles/facebook.png" alt="facebook"/>
+         </a></div>
 			<div class="icon"><a href="http://twitter.com/l0nr" target="_blank">
-<img src="img/tiles/twitter.png" onmouseover="this.src='img/tiles/twitter_i.png';" onmouseout="this.src='img/tiles/twitter.png';" alt="twitter microblog"/>
-</a></div>
+            <img id="twitter" src="img/tiles/twitter.png" alt="twitter"/>
+         </a></div>
 			<div class="icon"><a href="http://picasaweb.google.com/psoltys.loner" target="_blank">
-<img src="img/tiles/picasa.png" onmouseover="this.src='img/tiles/picasa_i.png';" onmouseout="this.src='img/tiles/picasa.png';" alt="Picasa webalbums" />
-</a></div>
+            <img id="gallery" src="img/tiles/picasa.png" alt="gallery" />
+         </a></div>
 			<div class="icon"><a href="http://www.flickr.com/photos/psoltys/" target="_blank">
-<img src="img/tiles/flickr.png" onmouseover="this.src='img/tiles/flickr_i.png';" onmouseout="this.src='img/tiles/flickr.png';" alt="Flick photostream" />
-</a></div>
+            <img id="flickr" src="img/tiles/flickr.png" alt="flickr" />
+         </a></div>
 			<div class="icon"><a href="http://delicious.com/s0ltys" target="_blank">
-<img src="img/tiles/delicious.png" onmouseover="this.src='img/tiles/delicious_i.png';" onmouseout="this.src='img/tiles/delicious.png';" alt="delicious bookmarks"/>
-</a></div>
+            <img id="links" src="img/tiles/delicious.png" alt="links"/>
+         </a></div>
       </div>
       <div class="clear"></div>
+      
+      <!-- jQuery script to change desc text
+      and icon image on mouse over -->
+      <script>
+         $("img#blog").mouseover(function() {
+            $("div#desc").find("h1").text(this.alt);
+            $(this).attr("src", "img/tiles/blog_i.png");
+         }).mouseout(function(){
+            $("div#desc").find("h1").text("hub");
+            $(this).attr("src", "img/tiles/blog.png");
+         });
+         
+         $("img#photo").mouseover(function() {
+            $("div#desc").find("h1").text(this.alt);
+            $(this).attr("src", "img/tiles/photoblog_i.png");
+         }).mouseout(function(){
+            $("div#desc").find("h1").text("hub");
+            $(this).attr("src", "img/tiles/photoblog.png");
+         });
+         
+         $("img#docs").mouseover(function() {
+            $("div#desc").find("h1").text(this.alt);
+            $(this).attr("src", "img/tiles/docs_i.png");
+         }).mouseout(function(){
+            $("div#desc").find("h1").text("hub");
+            $(this).attr("src", "img/tiles/docs.png");
+         });
+         
+         $("img#projects").mouseover(function() {
+            $("div#desc").find("h1").text(this.alt);
+            $(this).attr("src", "img/tiles/projects_i.png");
+         }).mouseout(function(){
+            $("div#desc").find("h1").text("hub");
+            $(this).attr("src", "img/tiles/projects.png");
+         });
+         
+         $("img#mail").mouseover(function() {
+            $("div#desc").find("h1").text(this.alt);
+            $(this).attr("src", "img/tiles/mail_i.png");
+         }).mouseout(function(){
+            $("div#desc").find("h1").text("hub");
+            $(this).attr("src", "img/tiles/mail.png");
+         });
+         
+         $("img#fb").mouseover(function() {
+            $("div#desc").find("h1").text(this.alt);
+            $(this).attr("src", "img/tiles/facebook_i.png");
+         }).mouseout(function(){
+            $("div#desc").find("h1").text("hub");
+            $(this).attr("src", "img/tiles/facebook.png");
+         });
+         
+         $("img#twitter").mouseover(function() {
+            $("div#desc").find("h1").text(this.alt);
+            $(this).attr("src", "img/tiles/twitter_i.png");
+         }).mouseout(function(){
+            $("div#desc").find("h1").text("hub");
+            $(this).attr("src", "img/tiles/twitter.png");
+         });
+         
+         $("img#gallery").mouseover(function() {
+            $("div#desc").find("h1").text(this.alt);
+            $(this).attr("src", "img/tiles/picasa_i.png");
+         }).mouseout(function(){
+            $("div#desc").find("h1").text("hub");
+            $(this).attr("src", "img/tiles/picasa.png");
+         });
+         
+         $("img#flickr").mouseover(function() {
+            $("div#desc").find("h1").text(this.alt);
+            $(this).attr("src", "img/tiles/flickr_i.png");
+         }).mouseout(function(){
+            $("div#desc").find("h1").text("hub");
+            $(this).attr("src", "img/tiles/flickr.png");
+         });
+         
+         $("img#links").mouseover(function() {
+            $("div#desc").find("h1").text(this.alt);
+            $(this).attr("src", "img/tiles/delicious_i.png");
+         }).mouseout(function(){
+            $("div#desc").find("h1").text("hub");
+            $(this).attr("src", "img/tiles/delicious.png");
+         });
+         
+         
+      </script>
    </body>
 </html>
