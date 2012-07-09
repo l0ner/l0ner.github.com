@@ -1,0 +1,155 @@
+---
+layout: post
+title: Library sorting in Media Players
+date: 2012-07-09 21:24
+---
+
+h4. Introduction
+
+This will be rather long post.
+
+For some time I've been searching for a media player that would suit me perfectly. What I needed was a clean GUI, Library, possibility of automatic Library cleanups (like automatic copying and renaming of files upon add), id3 tag editor and light and fast feel[1]. For past 3 years I've been using iTunes, since I own iPod and it's the only app that can be used to manage music on it[2]. I've grown pretty accustomed to it, but it was kinda slow, and there were things that I didn't like[3]. So I've begun testing of some media players for windows[4] and in the end I've manually rearranged my library and suck to Mpxplay[5].
+
+While I was testing I noticed that some players list library by "*Artist*" tag, some others by "*Artist Album*" tag. This led to unimaginable clutter of library with 1-track artist entries. I've become curious and decided to test how different players are listing/grouping elements of their libraries. Using wikipedia and aptitude on ubuntu I've picked a list of media players, both for windows and linux, choose 2 albums that are compilations (one remix album and one soundtrack), removed other albums form iTunes library and began my tests.
+
+h4. Test environment:
+
+The albums I've choosen are: Appleseed soundtrack, and Celldwellers "Take it & break it vol 1" remix album. In both cases pretty much every track on ablum was done by different artist (stored in "*Artist*" tag) and tagged as "Appleseed" in case of soundtrack and "Celldweller" for remix album in "*Album Artist*" tag. This is logical, since as the tag names suggest "*Artist*" should contain the track artist, and "*Album Artist*" sould contain whole album artist (in my case "Celldweller" for remix album, since it contained remixes of songs that originally were Celldwellers and "Appleseed" in case of soundtrack, because the songs were used in that film).
+
+The media players I'v choose for tests were (in alphabetical order): abraca, AIMP3, Amarok 2.5, Amarok 1.5 (from Trinity DE), Aqualung, Ario, aTunes, Audacious, auditty, Bangarang, Banshee, Beep, Bluemindo, Clementine, Cmus, Decibel Media Player, draai, Esperanza, Exaile, gimmix, Gmerlin player, gmusicbrowser, Gnome Music Player Client, Goggles Music Manager, Guayadeque Music Player, gxmms2, iTunes, Jajuk, jampal, JuK, juke, Kaffeine, Listen Music Player, MediaMonkey, Minirok, Miro, mocp, mp3blaster, mpc, mpd, mpg123, Musique, ncmpc, Ncmpcpp, Nightingale, promoe, pygmy, pytone, qmmp, QMPDClient, Quod Libet, Rhythmbox, Saw, sonata, Songbird, xfmpc, xmms2.
+Particular entries in this list are MPD and XMMS2, since they are player servers and they do not determine how theri front-ends list libraries, so they weren't tested directly.
+Then I've divided my list into 4 categories: Library-less players, which I've removed from the list, since it would be pointless to thest them, Stand-alone players, MPD clients and XMMS2 clients.
+After removing of library-less players I was left with this lists:
+*Stand-alone*: AIMP3, Amarok, aTunes, Banshee, Beep, Bluemindo, Clementine, Cmus, Decibel Media Player, Exaile, gmusicbrowser, Goggles Music Manager, Guayadeque Music Player, iTunes, Jajuk, JuK, Kaffeine, Listen Music Player, MediaMonkey, Minirok, Miro, Musique, Nightingale, pytone, Quod Libet, Rhythmbox, Saw, Songbird;
+*MPD*:Ario, gimmix, Gnome Music Player Client, mpc, ncmpc, Ncmpcpp, pygmy, QMPDClient, sonata, xfmpc;
+*XMMS2*: abraca, Esperanza, gxmms2;
+I've tested most of them, excluded: Beep, Bluemindo (does not start), JuK, Kaffeine, Minirok, Musque and pytone (does not start).
+
+So, tl;dr(too long; didn't read): Players should group library by "Album Artist" and not by "Artist". Let's see which one pass this test. Screenshots as proofs.
+
+h4. Tests:
+
+h6. players for Windows:
+
+# AIMP3 ("screenshot":aimp) groups library by Album Artist. It's how it should be. Can't say much more about this player, since I've never used it before. *Passed*.
+# aTunes ("screenshot":atunes). Player written in Java. Strongly reminds my of Amarok 1.5. Groups library by Album Artist as you can see on the screenshot. *Passed*.
+# iTunes ("screnshot":itunes). Groups by Album Artist. Not much to test. *Passed*.
+# Saw Player. First fail. Groups by Artist ("screenshot0":saw_artist) or by Album ("screenshot1":saw_album). After playing for 5 minutes got labeled as "crapware". Not even worth trying.
+# MediaMonkey ("screenshot0":mediamonkey). By default groups by Artist but does contain option for configuring this ("screenshot1":mediamonkey_config) so in the end one can set it up to group by Album Artist ("screenshot2":mediamonkey_configured). *Passed*.
+# Songbird ("screenshot0":songbird). Again defaults to grouping by Artist and again give us option to configure it ("screenshot1":songbird_config) to group by Album Artist ("screenshot2":songbird_configured). *Passed*.
+# Nightingale ("screenshot0":nighitngale). Songbird fork. Same as songbird. ("screenshot1":nighitngale_config, ("screenshot2":nighitngale_configured). *Passed*.
+
+h6. Players availble for both Linux and Windows:
+
+# Amarok 2.5 ("screenshot0":amarok). Defaults to grouping by Artist but allows configuration ("screenshot1":amarok_config, ("screenshot2":amarok_configured). *Passed*.
+# Clementine ("screenshot0":clementine). Amarok 1.5 ported to qt4 and stripped off KDE integration. Works same as Amarok, defaulting to grouping by Artist, but allows configuration ("screenshot1":clementine_config1, "screenshot2":clementine_config2, "screenshot3":clementine_configured). *Passed*.
+
+h6. Players for Linux:
+
+# Banshee ("screenshot0":banshee). Defaults to grouping by Artist but allows configuration ("screenshot1":banshee_config, "screenshot2":banshee_configured). *Passed*.
+# Beep *??*
+# Bluemindo. ++Not starting++ for me on ubuntu VM, so *??*
+# cmus ("screenshot":cmus). Nice player for CLI. Groups bu Album Artist. *Passed*.
+# Decibel Media Player ("screenshot":decibel). Groups by Album Artist. Passed.
+# Exaile ("screenshot":exaile) groups by Artist and does not allow any kind of configuration. Can show compilations as "Various Artist" field, but still *FAIL*.
+# gmusicbrowser ("screenshot0":gmusicbrowser) defaults to grouping by Artist but allows configuration ("screenshot1":gmusicbrowser_config, ("screenshot2":gmusicbrowser_configured). *Passed*.
+# Googles Music Manager ("screenshot":gogglesmm). Groups by Album Artist. *Passed*.
+# Guaydeque Music Player ("screenshot0":guayadeque) defaults to grouping by Artist but allows configuration ("screenshot1":guayadeque_config, ("screenshot2":guayadeque_configured). *Passed*.
+# Jajuk ("screenshot":jajuk) groups by Artist and does not allow any kind of configuration. *Fail*.
+# JuK
+# Kaffeine
+# Listen Music Player ("screenshot":listen) groups by Artist and does not allow any kind of configuration. *Fail*.
+# Minirok
+# Miro ("screenshot":miro). This one is particular. It does not group media in it's library at all. Displays them as single files allowing only different sorting options. *Hard Fail*.
+# Musique
+# pytone
+# Quod Libet ("screenshot":quodlibet) groups by Artist and does not allow any kind of configuration. *Fail*.
+# Rhythmbox ("screenshot":rhythmbox) groups by Artist and does not allow any kind of configuration. *Fail*.
+
+h6. XMMS2 Clients:
+# Abraca. Hard fail. It seems that is has some sort of library, but don't use it. *Fail*.
+# Esperanza ("screenshot":experanza) groups by Artist and does not allow any kind of configuration. *Fail*.
+# gxmms2. Same as Abraca. *Fail*.
+
+Little note here: XMMS2 clients suck hard. They don't work as they should.
+
+h6. MPD clients:
+
+# Ario ("screenshot0":ario). Defaults to grouping by Artist but allows configuration ("screenshot1":ario_config, ("screenshot2":ario_configured). *Passed*.
+# gimmix ("screenshot":gimmix) groups library tracks by Album. Does not allow grouping by Artist. I can't imagine finding anything in bigger library like this. *Fail*.
+# Gnome Music Player Client ("screenshot":gmpc) groups by Artist. Theoretically it hase option for configuring this in it's Preferences, but it does not work. Button that should allow you to chhose what field you want to add to grouping options by default adds "artist" and refuses to add anything else. Broken. *Fail*.
+# mpc ("screenshot":mpc) groups library tracks by Album. *Fail*.
+# ncmpc ("screenshot":ncmpc) groups by Artist and does not allow any kind of configuration. *Fail*.
+# ncmpcpp ("screenshot0":ncmpcpp). Defaults to grouping by Artist but allows configuration ("screenshot1":ncmpcpp_config, ("screenshot2":ncmpcpp_configured). Passed. Honestly I think it's the best MPD client. *Passed*.
+# pygmy ("screenshot":pygmy) groups library tracks by Album. *Fail*.
+# QMPDClient ("screenshot":qympclient) groups by Artist and does not allow any kind of configuration. *Fail*.
+# sonata ("screenshot":sonata) groups library tracks by Album. *Fail*.
+# xfmpc ("screenshot":xfmpc) groups library tracks by Album. *Fail*.
+
+Players left to test: Beep, Bluemindo, JuK, Kaffeine, Minirok, Musique, pytone.
+
+h4. Conclusion: Not much to say here, the tests results are clear. I hope that developers of the players that have failed correct them.
+Personally I've decded to manually keep my Library sorted in @Album Artist/Year - Album/Disk Number Track - Title.extension@ scheme. For my anime music collection I'll use @'Anime'/Anime Title/Year - Album/Disk Number Track - Title.extension@ and for soundtracks @'Soundtrack'/Year - Album/Disk Number Track - Title.extension@ scheme. It should keep my library clean and fast for browsing. And I won't need to worry about the id3 tags correctness anymore[6]. As player I'll use Mpxplay on windows (built in directory browsing rox!) and mocp or MPD+ncmpcpp[7] on linux.
+
+PostScriptum: I wrote this post in Notepad++. I kept hitting sequence @<ESC><:><w><A>@ while writing this. Old vim habits _never_ die...
+
+fn1. So nothing like hour-long waits because player is parsing library or no major hangups. Yes I'm looking at you Songbird.
+fn2. I know that there may be others. I think i've even tried some, but everything except iTunes suck in this.
+fn3. Don't ask, I don't remember ATM.
+fn4. I know, windows is 3vil, but I can't use linux on my laptop because of overheating problems.
+fn5. Nice player for dos with ncurses-like interface. Really fast and simple. Naturally it doesn't have library, but I decided to manage this myself.
+fn6. But probably I'll still spend hours completing and correcting them
+fn7. Id3 tag correctness will be required.
+
+[aimp]http://
+[amarok]http://
+[amarok_config]http://
+[amarok_configured]http://
+[ario]http://
+[ario_config]http://
+[ario_configured]http://
+[atunes]http://
+[banshee]http://
+[banshee_config]http://
+[banshee_configured]http://
+[clementne]http://
+[clementine_config1]http://
+[clementine_config2]http://
+[clementine_configured]http://
+[cmus]http://
+[decibel]http://
+[esperanza]http://
+[exaile]http://
+[gimmix]http://
+[gmusicbrowser]http://
+[gmusicbrowser_config]http://
+[gmusicbrowser_configured]http://
+[gmpc]http://
+[gogglesmm]http://
+[guayadeque]http://
+[guayadeque_configured]http://
+[itunes]http://
+[jajuk]http://
+[listen]http://
+[mediamonkey]http://
+[mediamonkey_config]http://
+[mediamonkey_configured]http://
+[miro]http://
+[ncmpc]http://
+[ncmpcpp]http://
+[ncmpcpp_config]http://
+[ncmpcpp_configured]http://
+[nightingale]http://
+[nightingale_config]http://
+[nightingale_configured]http://
+[pygmy]http://
+[qmpdclient]http://
+[quodlibet]http://
+[rhythmbox]http://
+[saw_album]http://
+[saw_artist]http://
+[sonata]http://
+[songbird]http://
+[songbird_config]http://
+[songbird_configured]http://
+[xfmpc]http://
