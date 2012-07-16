@@ -16,7 +16,7 @@ meta-robots: "noodp, noydir"
 				<div class="post_content">
 				{{ post.content | replace:'more start -->','' | replace:'<!-- more end','' }}
 				{% if post.content contains "<!-- more start -->" %}
-					<a href="{{ post.url }}" class="readmore pixel">Read more...</a>
+					<h4><a href="{{ post.url }}" class="readmore pixel">Read more...</a></h4>
 				{% endif %}
 				</div>
 			</div>
