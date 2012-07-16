@@ -8,7 +8,7 @@ h4. Introduction
 
 This will be rather long post.
 
-For some time I've been searching for a media player that would suit me perfectly. What I needed was a clean GUI, Library, possibility of automatic Library cleanups (like automatic copying and renaming of files upon add), id3 tag editor and light and fast feel[1]. For past 3 years I've been using iTunes, since I own iPod and it's the only app that can be used to manage music on it[2]. I've grown pretty accustomed to it, but it was kinda slow, and there were things that I didn't like[3]. So I've begun testing of some media players for windows[4] and in the end I've manually rearranged my library and suck to Mpxplay[5].
+For some time I've been searching for a media player that would suit me perfectly. What I needed was a clean GUI, Library, possibility of automatic Library cleanups (like automatic copying and renaming of files upon add), id3 tag editor and light and fast feel[1]. For past 3 years I've been using iTunes, since I own iPod and it's the only app that can be used to manage music on it[2]. I've grown pretty accustomed to it, but it was kinda slow, and there were things that I didn't like[3]. So I've begun testing of some media players for windows[4] and in the end I've manually rearranged my library and stuck to Mpxplay[5].
 
 While I was testing I noticed that some players list library by "*Artist*" tag, some others by "*Artist Album*" tag. This led to unimaginable clutter of library with 1-track artist entries. I've become curious and decided to test how different players are listing/grouping elements of their libraries. Using wikipedia and aptitude on ubuntu I've picked a list of media players, both for windows and linux, choose 2 albums that are compilations (one remix album and one soundtrack), removed other albums form iTunes library and began my tests.
 
@@ -25,7 +25,7 @@ After removing of library-less players I was left with this list:
 *XMMS2*: abraca, Esperanza, gxmms2;
 I've tested most of them except Bluemindo which does not start on my "Ubuntu":ubuntu VM
 
-So, tl;dr(too long; didn't read): Players should group library by "Album Artist" and not by "Artist". Let's see which one pass this test. Screenshots as proofs.
+So, tl;dr(too long did not read) : Players should group library by "Album Artist" and not by "Artist". Let's see which one pass this test. Screenshots as proofs.
 
 h4. Tests:
 
@@ -47,7 +47,7 @@ h5. Players availble for both Linux and Windows:
 h5. Players for Linux:
 
 # Banshee ("screenshot0":banshee). Defaults to grouping by Artist but allows configuration ("screenshot1":banshee_config, "screenshot2":banshee_configured). *Passed*.
-# Bluemindo. ++Not starting++ for me on ubuntu VM, so *??*
+# Bluemindo. +Not starting+ for me on ubuntu VM, so *??*
 # cmus ("screenshot":cmus). Nice player for CLI. Groups bu Album Artist. *Passed*.
 # Decibel Media Player ("screenshot":decibel). Groups by Album Artist. Passed.
 # Exaile ("screenshot":exaile) groups by Artist and does not allow any kind of configuration. Can show compilations as "Various Artist" field, but still *FAIL*.
@@ -59,7 +59,7 @@ h5. Players for Linux:
 # Listen Music Player ("screenshot":listen) groups by Artist and does not allow any kind of configuration. *Fail*.
 # Miro ("screenshot":miro). This one is particular. It does not group media in it's library at all. Displays them as single files allowing only different sorting options. *Hard Fail*.
 # Musique ("screenshot":musique) I don't know... Seems it groups by Artist tag and shows only the artists that it can find on last.fm. I'm at loss what to think about this one, but certainly it's *Fail*.
-# pytone ("no screenshot":#) -Does not start- Started (once) but is unresponsive. I couldn't test it, but from what I've seen it defaults to grouping by Artist tag. *Fail*
+# pytone ("no screenshot":) -Does not start- Started (once) but is unresponsive. I couldn't test it, but from what I've seen it defaults to grouping by Artist tag. *Fail*
 # Quod Libet ("screenshot":quodlibet) groups by Artist and does not allow any kind of configuration. *Fail*.
 # Rhythmbox ("screenshot":rhythmbox) groups by Artist and does not allow any kind of configuration. *Fail*.
 
@@ -93,11 +93,18 @@ Personally I've decded to manually keep my Library sorted in @Album Artist/Year 
 PostScriptum: I wrote this post in Notepad++. I kept hitting sequence @<ESC><:><w><A>@ while writing this. Old vim habits _never_ die...
 
 fn1. So nothing like hour-long waits because player is parsing library or no major hangups. Yes I'm looking at you Songbird.
+
 fn2. I know that there may be others. I think i've even tried some, but everything except iTunes suck in this.
+
 fn3. Don't ask, I don't remember ATM.
+
 fn4. I know, windows is 3vil, but I can't use linux on my laptop because of overheating problems.
-fn5. Nice player for dos with ncurses-like interface. Really fast and simple. Naturally it doesn't have library, but I decided to manage this myself.
+
+fn5. Nice player for dos with ncurses-like interface. Really fast and simple. Naturally it doesn't have library, but I decided to manage 
+this myself.
+
 fn6. But probably I'll still spend hours completing and correcting them
+
 fn7. Id3 tag correctness will be required.
 
 [ubuntu]http://www.ubuntu.com
