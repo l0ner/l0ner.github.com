@@ -107,6 +107,8 @@ fn6. But probably I'll still spend hours completing and correcting them
 
 fn7. Id3 tag correctness will be required.
 
+<!-- more end -->
+
 [aimp_w]http://aimp.ru/index.php
 [atunes_w]http://www.atunes.org/
 [itunes_w]http://www.apple.com/itunes/
