@@ -29,7 +29,7 @@ So, tl;dr(too long; didn't read): Players should group library by "Album Artist"
 
 h4. Tests:
 
-h6. players for Windows:
+h5. players for Windows:
 
 # AIMP3 ("screenshot":aimp) groups library by Album Artist. It's how it should be. Can't say much more about this player, since I've never used it before. *Passed*.
 # aTunes ("screenshot":atunes). Player written in Java. Strongly reminds my of Amarok 1.5. Groups library by Album Artist as you can see on the screenshot. *Passed*.
@@ -39,12 +39,12 @@ h6. players for Windows:
 # Songbird ("screenshot0":songbird). Again defaults to grouping by Artist and again give us option to configure it ("screenshot1":songbird_config) to group by Album Artist ("screenshot2":songbird_configured). *Passed*.
 # Nightingale ("screenshot0":nighitngale). Songbird fork. Same as songbird. ("screenshot1":nighitngale_config, ("screenshot2":nighitngale_configured). *Passed*.
 
-h6. Players availble for both Linux and Windows:
+h5. Players availble for both Linux and Windows:
 
 # Amarok 2.5 ("screenshot0":amarok). Defaults to grouping by Artist but allows configuration ("screenshot1":amarok_config, ("screenshot2":amarok_configured). *Passed*.
 # Clementine ("screenshot0":clementine). Amarok 1.5 ported to qt4 and stripped off KDE integration. Works same as Amarok, defaulting to grouping by Artist, but allows configuration ("screenshot1":clementine_config1, "screenshot2":clementine_config2, "screenshot3":clementine_configured). *Passed*.
 
-h6. Players for Linux:
+h5. Players for Linux:
 
 # Banshee ("screenshot0":banshee). Defaults to grouping by Artist but allows configuration ("screenshot1":banshee_config, "screenshot2":banshee_configured). *Passed*.
 # Bluemindo. ++Not starting++ for me on ubuntu VM, so *??*
@@ -63,14 +63,14 @@ h6. Players for Linux:
 # Quod Libet ("screenshot":quodlibet) groups by Artist and does not allow any kind of configuration. *Fail*.
 # Rhythmbox ("screenshot":rhythmbox) groups by Artist and does not allow any kind of configuration. *Fail*.
 
-h6. XMMS2 Clients:
+h5. XMMS2 Clients:
 # Abraca. Hard fail. It seems that is has some sort of library, but don't use it. *Fail*.
 # Esperanza ("screenshot":experanza) groups by Artist and does not allow any kind of configuration. *Fail*.
 # gxmms2. Same as Abraca. *Fail*.
 
 Little note here: XMMS2 clients suck hard. They don't work as they should.
 
-h6. MPD clients:
+h5. MPD clients:
 
 # Ario ("screenshot0":ario). Defaults to grouping by Artist but allows configuration ("screenshot1":ario_config, ("screenshot2":ario_configured). *Passed*.
 # gimmix ("screenshot":gimmix) groups library tracks by Album. Does not allow grouping by Artist. I can't imagine finding anything in bigger library like this. *Fail*.
@@ -85,7 +85,9 @@ h6. MPD clients:
 
 Players left to test: Beep, Bluemindo, JuK, Kaffeine, Minirok, Musique, pytone.
 
-h4. Conclusion: Not much to say here, the tests results are clear. I hope that developers of the players that have failed correct them.
+h4. Conclusion: 
+
+Not much to say here, the tests results are clear. I hope that developers of the players that have failed correct them.
 Personally I've decded to manually keep my Library sorted in @Album Artist/Year - Album/Disk Number Track - Title.extension@ scheme. For my anime music collection I'll use @'Anime'/Anime Title/Year - Album/Disk Number Track - Title.extension@ and for soundtracks @'Soundtrack'/Year - Album/Disk Number Track - Title.extension@ scheme. It should keep my library clean and fast for browsing. And I won't need to worry about the id3 tags correctness anymore[6]. As player I'll use Mpxplay on windows (built in directory browsing rox!) and mocp or MPD+ncmpcpp[7] on linux.
 
 PostScriptum: I wrote this post in Notepad++. I kept hitting sequence @<ESC><:><w><A>@ while writing this. Old vim habits _never_ die...
