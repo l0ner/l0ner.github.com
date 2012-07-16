@@ -27,7 +27,7 @@ After removing of library-less players I was left with this list:
 *XMMS2*: abraca, Esperanza, gxmms2;
 I've tested most of them except Bluemindo which does not start on my "Ubuntu":ubuntu VM
 
-So, tl;dr(too long did not read) : Players should group library by "Album Artist" and not by "Artist". Let's see which one pass this test. Screenshots as proofs.
+So, tl;dr: Players should group library by "Album Artist" and not by "Artist". Let's see which one pass this test. Screenshots as proofs.
 
 h4. Tests:
 
