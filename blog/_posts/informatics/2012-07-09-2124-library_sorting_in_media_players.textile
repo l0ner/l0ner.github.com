@@ -12,6 +12,8 @@ For some time I've been searching for a media player that would suit me perfectl
 
 While I was testing I noticed that some players list library by "*Artist*" tag, some others by "*Artist Album*" tag. This led to unimaginable clutter of library with 1-track artist entries. I've become curious and decided to test how different players are listing/grouping elements of their libraries. Using wikipedia and aptitude on ubuntu I've picked a list of media players, both for windows and linux, choose 2 albums that are compilations (one remix album and one soundtrack), removed other albums form iTunes library and began my tests.
 
+<!-- more start -->
+
 h4. Test environment:
 
 The albums I've choosen are: Appleseed soundtrack, and Celldwellers "Take it & break it vol 1" remix album. In both cases pretty much every track on ablum was done by different artist (stored in "*Artist*" tag) and tagged as "Appleseed" in case of soundtrack and "Celldweller" for remix album in "*Album Artist*" tag. This is logical, since as the tag names suggest "*Artist*" should contain the track artist, and "*Album Artist*" sould contain whole album artist (in my case "Celldweller" for remix album, since it contained remixes of songs that originally were Celldwellers and "Appleseed" in case of soundtrack, because the songs were used in that film).
@@ -59,7 +61,7 @@ h5. Players for Linux:
 # "Listen Music Player":listen_2 ("screenshot":listen) groups by Artist and does not allow any kind of configuration. *Fail*.
 # "Miro":miro_2 ("screenshot":miro). This one is particular. It does not group media in it's library at all. Displays them as single files allowing only different sorting options. *Hard Fail*.
 # "Musique":musique_w ("screenshot":musique) I don't know... Seems it groups by Artist tag and shows only the artists that it can find on last.fm. I'm at loss what to think about this one, but certainly it's *Fail*.
-# "pytone":pytone_w ("no screenshot":) -Does not start- Started (once) but is unresponsive. I couldn't test it, but from what I've seen it defaults to grouping by Artist tag. *Fail*
+# "pytone":pytone_w -Does not start- Started (once) but is unresponsive. I couldn't test it, but from what I've seen it defaults to grouping by Artist tag. *Fail*
 # "Quod Libet":quod_w ("screenshot":quodlibet) groups by Artist and does not allow any kind of configuration. *Fail*.
 # "Rhythmbox":rhythm_w ("screenshot":rhythmbox) groups by Artist and does not allow any kind of configuration. *Fail*.
 
@@ -68,7 +70,7 @@ h5. XMMS2 Clients:
 # "Esperanza":esperanza_w ("screenshot":experanza) groups by Artist and does not allow any kind of configuration. *Fail*.
 # "gxmms2":gxmms2_w. Same as Abraca. *Fail*.
 
-Little note here: XMMS2 clients suck hard. They don't work as they should.
+Little note here: XMMS2 clients suck hard. They don't work as they should IMHO.
 
 h5. MPD clients:
 
