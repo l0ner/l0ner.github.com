@@ -1,0 +1,10 @@
+---
+layout: post
+title: "example"
+date: 2012-07-18 02:42
+comments: true
+categories: 
+---
+
+
+some example post
