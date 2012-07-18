@@ -1,0 +1,16 @@
+div.icon { 
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	}
+
+div#iconcontainer {
+	margin: auto;
+	margin-top: 51px;
+	min-width: 340px;
+	max-width: 870px;
+	}
+	
+
+

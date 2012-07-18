@@ -1,0 +1,53 @@
+{% include header.html %}
+		<link rel="stylesheet" href="/styles/photoblog.css" />
+		<link rel="stylesheet" href="/styles/content.css" />
+		<link rel="stylesheet" href="/styles/sidebar.css" />
+	</head>
+	 <body onload="binaryize();">
+      <div id="main">
+         <!--Sidebar-->
+         {% include sidebar.html %}
+         <!--End Sidebar-->
+         <div id="content">
+				<div id="content_wrapper">
+					<div class="post">
+						<div class="post_header">
+							<h4>{{ page.title }}</h4>
+							<div class="post_meta pixel">Commited on: {{ page.date | date_to_string }} <a class="disqus-count-text" href="#disqus_thread" data-disqus-identifier="{{ page.id }}">Comments</a></div>
+						</div>
+						<div class="post_content">
+							<p class="center_text">
+								<a href="{{ page.photolink }}" rel="lytebox[gallery]"><img class="photoblog medium" src="{{ page.photourl }}" alt="Photo: {{ page.title }}" exif="true" /></a>
+							</p>
+							{{ content }}
+						</div>
+						<div class="separator paginator clear">
+							{% for post in site.categories.photoblog %}
+								{% if post.url == page.url %}
+									{% assign post_index0 = forloop.index0 %}
+									{% assign post_index1 = forloop.index %}
+								{% endif %}
+							{% endfor %}
+							{% for post in site.categories.photoblog %}
+								{% if post_index0 == forloop.index %}
+									{% assign next_post = post.url %}
+								{% endif %}
+								{% if post_index1 == forloop.index0 %}
+									{% assign prev_post = post.url %}
+								{% endif %}
+							{% endfor %}
+							{% if next_post %}
+								<div class="floatleft"><a href="{{ next_post }}" class="pixel">&lt;&lt;Next Post</a></div>
+							{% endif %}
+							{% if prev_post %}
+								<div class="floatright"><a href="{{ prev_post }}" class="pixel">Previous Post&gt;&gt;</a></div>
+							{% endif %}
+						</div>
+						{% include comments.html %}
+						<div class="separator"></div>
+					</div>
+				</div>
+         </div>
+      </div>
+   </body>
+</html>

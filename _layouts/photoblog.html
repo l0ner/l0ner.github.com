@@ -1,0 +1,18 @@
+{% include header.html %}
+		<link rel="stylesheet" href="/styles/photoblog.css" />
+		<link rel="stylesheet" href="/styles/content.css" />
+		<link rel="stylesheet" href="/styles/sidebar.css" />
+	</head>
+	 <body onload="binaryize();">
+      <div id="main">
+         <!--Sidebar-->
+         {% include sidebar.html %}
+         <!--End Sidebar-->
+         <div id="content">
+					<div id="content_wrapper">
+						{{ content }}
+					</div>
+         </div>
+      </div>
+   </body>
+</html>
