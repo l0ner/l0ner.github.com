@@ -4,7 +4,7 @@
   <title><![CDATA[l0ner]]></title>
   <link href="http://l0ner.github.com/atom.xml" rel="self"/>
   <link href="http://l0ner.github.com/"/>
-  <updated>2012-07-18T04:00:55+02:00</updated>
+  <updated>2012-07-18T04:13:35+02:00</updated>
   <id>http://l0ner.github.com/</id>
   <author>
     <name><![CDATA[Pawel 'l0ner' Soltys]]></name>
@@ -12,6 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[title2]]></title>
+    <link href="http://l0ner.github.com/blog/20120718-title2"/>
+    <updated>2012-07-18T04:13:00+02:00</updated>
+    <id>http://l0ner.github.com/blog/title2</id>
+    <content type="html"><![CDATA[<p>post content 2</p>]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[title]]></title>
