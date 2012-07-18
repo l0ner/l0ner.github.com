@@ -2,14 +2,18 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://l0ner.github.com/blog/20120718-example</loc>
-        <lastmod>2012-07-18T02:42:25+02:00</lastmod>
+        <lastmod>2012-07-18T04:00:05+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://l0ner.github.com/blog/20120718-title</loc>
+        <lastmod>2012-07-18T04:00:43+02:00</lastmod>
     </url>
     <url>
         <loc>http://l0ner.github.com/blog/archives/</loc>
-        <lastmod>2012-07-18T02:42:25+02:00</lastmod>
+        <lastmod>2012-07-18T04:00:43+02:00</lastmod>
     </url>
     <url>
         <loc>http://l0ner.github.com/</loc>
-        <lastmod>2012-07-18T02:42:25+02:00</lastmod>
+        <lastmod>2012-07-18T04:00:43+02:00</lastmod>
     </url>
 </urlset>
