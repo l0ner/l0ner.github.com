@@ -1,0 +1,9 @@
+---
+layout: post
+title: "title2"
+date: 2012-07-18 04:13
+comments: true
+categories: 
+---
+
+post content 2
