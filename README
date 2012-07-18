@@ -8,3 +8,5 @@ Uses jekyll to transform everything into static pages everytime i push into git.
 
 Licensing: site code licensed under GNU/GPLv3
 media and contents of _posts and _img dirs licensed under Creative Commons: BY-NC-SA
+
+
