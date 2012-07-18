@@ -1,0 +1,12 @@
+--- 
+layout: photopost
+title: Na rybach
+photourl: https://lh5.googleusercontent.com/-MTXp8JUfuLw/Tvy4Opcyh_I/AAAAAAAAAGo/fFOncgu7N_c/I/20090615-Get%252520some%252520fish...-photoblog.jpg
+photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691626590873749490
+---
+
+<!-- more start -->
+Już od dawna chciałem zrobić zdjęcie jakiejś ważce. Wczoraj na rybach wreszcie mi się udało.
+Zdjęcie konwertowane do czerni i bieli za pomocą c2g -do którego napisałem coś w rodzaju instrukcji-. Szczerze mówiąc nie jest to najlepszy konwerter, ale niekiedy efekty jakie można nim uzyskać zadziwiają.
+Prywatnie to zaczęłem wakacje i jak wszystko dobrze pójdzie to powywołuje zdjęcia które czekają już dość długo. Ja nic tylko robie zdjęcia a potem je kopiuje na dysk nic z nimi nie robiąc bo nie mam czasu. A tak na marginesie to zastanawiam się czy nie zrezygnować z RAW i powrócić do .jpg. W końcu to co robie z rawami równie dobrze mogę zrobić w gimpie z jpg, a bardzo rzadko zdarza się że poprawiam coś co mogę poprawić tylko i wyłącznie mając zdjęcie w RAWie. Musze to dobie przemyśleć, bo zmniejszyło by to ilość pracy wkładanej w zdjęcia, a szczerze mówiąc, post-processing niezbyt mnie bawi, szczególnie gdy jest długi i męczący.
+<!-- more end -->

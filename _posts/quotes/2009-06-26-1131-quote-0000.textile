@@ -1,0 +1,7 @@
+--- 
+layout: post
+title: "Quote #0000"
+---
+bq. Nie wiedziałem, że na świecie jest tylu kretynów, dopóki nie zacząłem korzystać z internetu
+
+p>. Stanislaw Lem

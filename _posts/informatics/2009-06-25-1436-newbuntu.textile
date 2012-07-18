@@ -1,0 +1,31 @@
+--- 
+layout: post
+title: New 'buntu
+---
+Nothing to do. I need to wait till Ubuntu 9.04 DVD dowload is finished.
+One thing about ubuntu 9.04 that i didn't like when I was using it, was blockade of ctrl+alt+backspace, which normally allow you to restart your -desktop- X server without rebooting whole PC. To enable it you can two things:
+
+<notextile>
+{% highlight bash %}
+$sudo apt-get install dontzap
+$sudo dontzap --disable
+$sudo apt-get remove dontzap
+{% endhighlight %}
+</notextile>
+
+<!-- more start -->
+Or
+
+<notextile>
+{% highlight bash %}
+$sudo nano /etc/X11/xorg.conf
+add:
+Section “ServerFlags”
+Option “DontZap” “false”
+EndSection
+{% endhighlight %}
+</notextile>
+
+I got those solutions form "http://404.g-net.pl":http://404.g-net.pl/?p=1020
+
+<!-- more end -->
