@@ -1,0 +1,7 @@
+--- 
+layout: photopost
+title: "#14"
+photourl: https://lh5.googleusercontent.com/-2Pb3I6OvHv0/TvzI1K0UyGI/AAAAAAAAAH8/J7Nfq6oWk4Y/I/20091002-%25252314-photoblog.jpg
+photolink: https://picasaweb.google.com/112332452774282896153/Photoblog#5691644844851906658
+---
+

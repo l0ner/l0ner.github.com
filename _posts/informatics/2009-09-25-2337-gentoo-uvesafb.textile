@@ -1,0 +1,31 @@
+--- 
+layout: post
+title: UvesaFb + widescreen howto
+---
+howto: uvesafb widescreen
+
+from: "http://dev.gentoo.org/~spock/projects/uvesafb/":http://dev.gentoo.org/~spock/projects/uvesafb/
+
+<notextile>
+{% highlight bash %}
+cd /usr/src/linux
+{% endhighlight %}
+</notextile>
+
+# configure the kernel; in the "Device Drivers" section select:
+@Connector - unified userspace kernelspace linker and
+Graphics support --->; Support for frame buffer devices --->; Userspace VESA VGA graphics support
+(that's CONFIG_CONNECTOR=y and CONFIG_FB_UVESA=y)@
+# build the kernel: make
+# reemerge klibc: emerge klibc
+_note: This step is necessary because klibc has to be compiled against a kernel tree that includes uvesafb. You only need to do this once, i.e. you won't have to remerge klibc every time you install a new kernel or a new kernel module._
+# install v86d: emerge v86d
+# reconfigure your kernel; in the "General Setup" section select:
+@Initial RAM filesystem and RAM disk (initramfs/initrd) support
+and use /usr/share/v86d/initramfs in Initramfs source file(s).
+(that's CONFIG_INITRAMFS_SOURCE="/usr/share/v86d/initramfs")@
+# rebuild the kernel: make, and install it
+# add @video=uvesafb:1024x768-32,mtrr:3,ywrap@ (or similar) to your kernel command line
+# reboot and enjoy uvesafb :)
+
+check @/sys/bus/platform/drivers/uvesafb/uvesafb.0/vbe_modes@ for available video modes.
