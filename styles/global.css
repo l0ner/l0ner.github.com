@@ -32,7 +32,7 @@ body {
    color: #fff;
    margin: 0;
    padding: 0;
-	min-width: 520px;
+   min-width: 520px;
 }
 
 a img { border: 0px; }
@@ -73,7 +73,7 @@ h6{
 	font-size: 8px;
 }
 
-.'Press Start 2P' {
+.Pixel {
 	font-family: 'Press Start 2P';
 	font-weight: normal;
 }
@@ -130,3 +130,71 @@ div.hr8 {
    height: 12px;
    background: url('../img/headings.png');
    }
+
+
+
+
+/* old styles */
+
+code {
+   font-family: Monospace;
+   }
+   
+blockquote {
+   border-left: 5px solid #FF0000;
+   }
+
+
+
+#logo {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0;
+	background: #f00;
+	height: 50px;
+	font-family: 'Press Start 2P';
+	font-size: 30px;
+	text-align: center;
+	color: #000;
+	}
+	
+#main {
+   width: 90%;
+	 min-width: 520px;
+	 max-width: 1040px;
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+}	 
+
+/* Main wrapper */
+
+#content {
+	margin-left: 270px;
+	margin-top: 25px;
+  height: 100%;
+}
+
+#content_wrapper {
+	width: 100%;
+	float: left;
+	color: #fff;
+}
+
+a img { border: 0px; }
+
+img {
+	max-width: 750px;
+}
+
+#dsq-content ul, #dsq-content li{
+	list-style: none;
+	list-image: none;
+	font-family: 'Press Start 2P';
+	font-size: 8px;
+}
+
+#dsq-content h3 {
+	font-size: 12px;
+}
+

@@ -13,6 +13,41 @@
 	margin: 0 50px;
 }
 
+table#clock { 
+	padding: 0px;  
+	margin: 0; 
+	border-collapse: collapse; 
+	border-spacing: 0; 
+	border: none; 
+}
+
+#clock td{ 
+	padding: 0px; 
+	margin: 0px;
+}
+
+#clock tr{ 
+	padding: 0px; 
+	margin: 0px;
+}
+
+#clock img {
+	display: block;
+}
+
+#logo {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0;
+	background: #f00;
+	height: 50px;
+	font-family: 'Press Start 2P';
+	font-size: 30px;
+	text-align: center;
+	color: #000;
+	}
+
+
 #side_pages{
   margin-top: 10px;
 }
