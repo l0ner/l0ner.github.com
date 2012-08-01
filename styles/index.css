@@ -7,10 +7,43 @@ div.icon {
 
 div#iconcontainer {
 	margin: auto;
+	clear: both;
 	margin-top: 51px;
 	min-width: 340px;
 	max-width: 870px;
 	}
 	
+div#logocontainer {
+	margin: auto;
+	clear: both;
+	margin-top: 51px;
+	min-width: 340px;
+	max-width: 870px;
+	}
 
+div#logo {
+   width: 50%;
+   float: left;
+   text-align: right;
+   color: #f00;
+   }
+   
+div#desc {
+	width: 50%;
+   float: left;
+   text-align: left;
+   color: #999;
+   }
+
+/* override default size for h1 and margin/padding */
+#logocontainer h1 {
+   font-size: 48px;
+   margin: 0px;
+   padding: 0px;
+   }
+
+/* override default color reversal for links */
+.icon a {
+   background: none;
+   }
 
