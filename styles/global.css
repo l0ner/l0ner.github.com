@@ -9,10 +9,11 @@
    Remember to always include this style BEFORE any else.
 */
 
-@font-face {  
-  font-family: Pixel;  
-  src: url('../fonts/PressStart2P.ttf');  
-}  
+
+/* Fonts from http://www.google.com/webfonts/ */
+
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+
 
 /* simple reset */
 * {
@@ -37,43 +38,43 @@ body {
 a img { border: 0px; }
 
 h1 {
-	font-family: Pixel;
+	font-family: 'Press Start 2P';
 	font-weight: normal;
 	font-size: 28px;
 }
 
 h2 {
-	font-family: Pixel;
+	font-family: 'Press Start 2P';
 	font-weight: normal;
 	font-size: 24px;
 }
 
 h3 {
-	font-family: Pixel;
+	font-family: 'Press Start 2P';
 	font-weight: normal;
 	font-size: 20px;
 }
 
 h4 {
-	font-family: Pixel;
+	font-family: 'Press Start 2P';
 	font-weight: normal;
 	font-size: 16px;
 }
 
 h5 {
-	font-family: Pixel;
+	font-family: 'Press Start 2P';
 	font-weight: normal;
 	font-size: 12px;
 }
 
 h6{
-	font-family: Pixel;
+	font-family: 'Press Start 2P';
 	font-weight: normal;
 	font-size: 8px;
 }
 
-.pixel {
-	font-family: Pixel;
+.'Press Start 2P' {
+	font-family: 'Press Start 2P';
 	font-weight: normal;
 }
 
