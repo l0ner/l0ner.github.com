@@ -1,5 +1,0 @@
---- 
-layout: post
-title: "quote #0004"
----
-bq. Parkour is the french martial art of running away.

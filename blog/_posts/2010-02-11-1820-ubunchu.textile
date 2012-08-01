@@ -1,8 +1,0 @@
---- 
-layout: post
-title: Ubunchu
----
-!https://lh4.googleusercontent.com/-otM9LvJPGXo/TwGjtLjyzcI/AAAAAAAAAqM/Z6tfYu0YPCY/I/ubunchu.png!:http://www.divajutta.com/doctormo/ubunchu/
-
-Ubunchu, ubuntu-based manga ^_^. Yes, in my world everything is Linux based. Manga itself is really hilarious and worth reading.
-You can grab the "english version here":http://www.divajutta.com/doctormo/ubunchu/ or the "original japanese version here":http://seotch.wordpress.com/ubunchu/
