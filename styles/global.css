@@ -3,8 +3,8 @@
    or h-styles. Remember that styles here should apply to index
    and other pages. If the style does not apply, it should go to
    page-specific style.
-   This means that pretty much here should go general stylizations
-   and structural styles and overrides should go into page-specific
+   This means that pretty much here should go general stylizations.
+   structural styles and overrides should go into page-specific
    styles.
    Remember to always include this style BEFORE any else.
 */
@@ -82,7 +82,7 @@
 
 .electrolize {
    font-family: 'Electrolize';
-
+}
 
 .orbitron {
    font-family: 'Orbitron';
@@ -112,7 +112,7 @@
    font-family: 'Audiowide';
 }
 
-.header{
+.font-header{
    font-size: 24px;
    font-weight: bold;
 }
