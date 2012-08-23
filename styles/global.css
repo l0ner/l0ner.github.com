@@ -13,6 +13,7 @@
 /* Fonts from http://www.google.com/webfonts/ */
 
 @import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+@import url(http://fonts.googleapis.com/css?family=Imprima&subset=latin,latin-ext);
 
 
 /* simple reset */
@@ -27,7 +28,7 @@ div {
 
 body {
    background: #000 url('../img/bg_lines.png') fixed;
-   font-family: sans-serif;
+   font-family: 'Imprima', sans-serif;
    font-size: 8px;
    color: #fff;
    margin: 0;
@@ -38,7 +39,7 @@ body {
 a img { border: 0px; }
 
 h1 {
-	font-family: 'Press Start 2P';
+	font-family: 'Press Start 2P', sans-serif;
 	font-weight: normal;
 	font-size: 28px;
 }
