@@ -82,7 +82,7 @@
 
 .electrolize {
    font-family: 'Electrolize';
-}
+
 
 .orbitron {
    font-family: 'Orbitron';
@@ -113,7 +113,8 @@
 }
 
 .header{
-   font-size: 20px;
+   font-size: 24px;
+   font-weight: bold;
 }
 
 /* simple reset */
