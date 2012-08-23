@@ -140,43 +140,43 @@ body {
 a img { border: 0px; }
 
 h1 {
-	font-family: 'Press Start 2P', sans-serif;
+	font-family: 'Orbitron', sans-serif;
 	font-weight: normal;
 	font-size: 28px;
 }
 
 h2 {
-	font-family: 'Press Start 2P';
+	font-family: 'Orbitron';
 	font-weight: normal;
 	font-size: 24px;
 }
 
 h3 {
-	font-family: 'Press Start 2P';
+	font-family: 'Orbitron';
 	font-weight: normal;
 	font-size: 20px;
 }
 
 h4 {
-	font-family: 'Press Start 2P';
+	font-family: 'Orbitron';
 	font-weight: normal;
 	font-size: 16px;
 }
 
 h5 {
-	font-family: 'Press Start 2P';
+	font-family: 'Orbitron';
 	font-weight: normal;
 	font-size: 12px;
 }
 
 h6{
-	font-family: 'Press Start 2P';
+	font-family: 'Orbitron';
 	font-weight: normal;
 	font-size: 8px;
 }
 
 .Pixel {
-	font-family: 'Press Start 2P';
+	font-family: 'Orbitron';
 	font-weight: normal;
 }
 
@@ -282,7 +282,7 @@ img {
 #dsq-content ul, #dsq-content li{
 	list-style: none;
 	list-image: none;
-	font-family: 'Press Start 2P';
+	font-family: 'Orbitron';
 	font-size: 8px;
 }
 
