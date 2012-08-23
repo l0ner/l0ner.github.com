@@ -39,12 +39,10 @@ table#clock {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding: 0;
-	background: #f00;
-	height: 50px;
 	font-family: 'Press Start 2P';
-	font-size: 30px;
+	font-size: 48px;
 	text-align: center;
-	color: #000;
+	color: #f00;
 	}
 
 
@@ -63,8 +61,15 @@ table#clock {
 	margin-bottom: 5px;
 	}
 
+#sidebar li a {
+   font-size: 12px;
+   font-family: 'Press Start 2P';
+}
+
 #credit {
   margin-top: 10px;
   color: #6a6a6a;
 	text-align: center;
+  font-family: 'Press Start 2P'
+  font-size: 8px;
 }
