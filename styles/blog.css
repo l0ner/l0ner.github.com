@@ -28,8 +28,7 @@ div.post {
 
 div.post_meta {
 	color: #fff;
-	font-size: 8px;
-	padding: 7px 0 7px 20px;
+	padding: 3px 0 7px 20px;
 	background: url('/img/meta_bg.png');
 }
 
