@@ -14,7 +14,107 @@
 
 @import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
 @import url(http://fonts.googleapis.com/css?family=Imprima&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Lektopn|Viga|Poiret+One|Armata|Syncopate|Guidea|Exo|Asap|Capriola|Quantico|Imprima|BAsic|NUmans|Nova+Square|Jura|Share|Electrolize|Orbitron|Uncial+Antiqua|Geo|Aldrich|Maven+Pro|Iceland|Audiowide);
 
+.lekton {
+   font-family: 'Lekton';
+}
+
+.viga {
+   font-family: 'Viga';
+}
+
+.poiretOne {
+   font-family: 'Poiret One';
+}
+
+.armata {
+   font-family: 'Armata';
+}
+
+.syncopate {
+   font-family: 'Syncopate';
+}
+
+.gudea {
+   font-family: 'Gudea';
+}
+
+.exo {
+   font-family: 'Exo';
+}
+
+.asap {
+   font-family: 'Asap';
+}
+
+.capriola {
+   font-family: 'Capriola';
+}
+
+.quantico{
+   font-family: 'Quantico';
+}
+
+.imprima {
+   font-family: 'Imprima';
+}
+
+.basic {
+   font-family: 'Basic';
+}
+
+.numans {
+   font-family: 'Numans';
+}
+
+.novaSquare {
+   font-family: 'Nova Square';
+}
+
+.jura {
+   font-family: 'Jura';
+}
+
+.share {
+   font-family: 'Share';
+}
+
+.electrolize {
+   font-family: 'Electrolize';
+}
+
+.orbitron {
+   font-family: 'Orbitron';
+}
+
+.uncialAntiqua{
+   font-family: 'Uncial Antiqua';
+}
+
+.geo {
+   font-family: 'Geo';
+}
+
+.aldrich {
+   font-family: 'Aldrich';
+}
+
+.mavenPro {
+   font-family: 'Maven Pro';
+}
+
+.iceland {
+   font-family: 'Iceland';
+}
+
+.audiowide {
+   font-family: 'Audiowide';
+}
+
+.header{
+   font-size: 20px;
+}
 
 /* simple reset */
 * {
