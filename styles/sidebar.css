@@ -59,6 +59,7 @@ table#clock {
 
 #sidebar li {
 	margin-bottom: 5px;
+   font-size: 12px;
 	}
 
 #sidebar li a {
@@ -70,6 +71,6 @@ table#clock {
   margin-top: 10px;
   color: #6a6a6a;
 	text-align: center;
-  font-family: 'Press Start 2P'
+  font-family: 'Press Start 2P';
   font-size: 8px;
 }
