@@ -117,22 +117,3 @@ h3. Acronyms:
 
 We use CSS(Cascading Style Sheets).
 
-h3. Code
-
-*Note:* This is example of pygments jekyll extension, not textile feature
-
-Usage:
-@{% highlight codename linenos %}@
-@   foo@
-@{% endhiglight %}@
-
-h5(. ruby
-
-Codename: @ruby@
-<notextile>
-{% highlight ruby linenos %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-</notextile>
