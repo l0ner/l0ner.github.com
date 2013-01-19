@@ -1,36 +1,18 @@
 {% include header.html %}
-		<link rel="stylesheet" href="/styles/blog.css" />
-		<link rel="stylesheet" href="/styles/content.css" />
-		<link rel="stylesheet" href="/styles/sidebar.css" />
-	</head>
-	 <body onload="binaryize();">
-      <div id="main">
-         <!--Sidebar-->
-         {% include sidebar.html %}
-         <!--End Sidebar-->
-         <div id="content">
-				<div id="content_wrapper">
-					<div class="post">
-						<div class="post_header">
-							<h4>{{ page.title }}</h4>
-							<div class="post_meta pixel">Commited on: {{ page.date | date_to_string }} <a class="disqus-count-text" href="#disqus_thread" data-disqus-identifier="{{ page.id }}">Comments</a></div>
-						</div>
-						<div class="post_content">
-							{{ content }}
-						</div>
-						<div class="separator paginator clear">
-							{% if page.next %}
-								<div class="floatleft"><a href="{{ page.next.url }}" class="pixel">&lt;&lt;Next Post</a></div>
-							{% endif %}
-							{% if page.previous %}
-								<div class="floatright"><a href="{{ page.previous.url }}" class="pixel">Previous Post&gt;&gt;</a></div>
-							{% endif %}
-						</div>
-						{% include comments.html %}
-						<div class="separator"></div>
-					</div>
-				</div>
-         </div>
-      </div>
-   </body>
-</html>
+{% include sidebar.html %}
+<div id="rCol" class="floatR">
+	<div class="post">
+		<h3 class="meta">{{ page.date | date_to_string }} 09 Feb 2012 {{ page.title }}</h3>
+			{{ content }}
+	</div>
+	<div class="meta">
+	{% if page.next %}
+		<div class="floatleft"><a href="{{ page.next.url }}" class="pixel">&lt;&lt;Next Post</a></div>
+	{% endif %}
+	{% if page.previous %}
+		<div class="floatright"><a href="{{ page.previous.url }}" class="pixel">Previous Post&gt;&gt;</a></div>
+	{% endif %}
+	</div>
+	{% include comments.html %}
+</div>
+{% include footer.html %}
