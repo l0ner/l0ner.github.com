@@ -5,8 +5,8 @@ meta-description: "Pawel 'l0ner' Soltys private site. Blog section"
 meta-robots: "noodp, noydir"
 ---
 
-{% assign post_limit = 4 %}
-{% for post in site.categories.blog limit: post_limit %}
+{% assign post_limit = 6 %}
+{% for post in site.posts limit: post_limit %}
 <div class="post">
    <h3 class="meta">{{ post.date | date_to_string }} <a href="{{ post.url}}">{{ post.title }}</a><div class="postCom"><a href="{{ post.url }}#disqus_thread" class="disqus-count-text" data-disqus-identifier="{{ post.id }}">Comments&gt;&gt;</a></div></h3>
    <div class="postContent">
@@ -17,7 +17,7 @@ meta-robots: "noodp, noydir"
 <div class="postList">
    <h3 class="meta">Older Posts:</h3>
    <ul>
-      {% for post in site.categories.blog offset: post_limit %}
+      {% for post in site.posts offset: post_limit %}
          <li>{{ post.date | date_to_string }}: <a href="{{ post.url }}">{{ post.title | truncate: 60 }}</a></li>
          {% endfor %}
    </ul>
