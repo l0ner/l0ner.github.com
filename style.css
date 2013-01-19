@@ -1,0 +1,157 @@
+/* FONTS */
+
+@font-face {
+	font-family: Prime;
+	font-weight: bold;
+	src: url('Prime Regular.otf');
+}
+
+@font-face {
+	font-family: Prime;
+	src: url('Prime Light.otf');
+}
+
+/* Global structure */
+	
+div#hWrapper{
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 0px;
+	display: flex;
+	overflow: hidden;
+	}
+	
+.floatL {
+	float: left;
+	}
+
+.floatR {
+	float: right;
+	}
+	
+div#lCol {
+	width: 180px;
+	}
+	
+div#rCol {
+	margin-left: 10px;
+	width: 800px;
+	padding-top: 15px;
+	}
+	
+h1#logo {
+	margin: 0;
+	margin-left: 40px;
+	margin-top: 10px;
+	padding: 0;
+	}
+	
+/* Global styling */
+
+body {
+	background: #000 url('img/bgScanLines.png');
+	color: #fff;
+	font-family: Prime;
+	}
+	
+a {
+	color: #F00;
+	text-decoration: none;
+	}
+a:hover {
+	text-decoration: underline;
+	}
+
+/* Logo styling */
+	
+span#sectName {
+	color: #aaa;
+	}
+span#randomCh {
+	color: #1a1a1a;
+	}
+	
+h1#logo {
+	font-size: 50px;
+	}
+
+/* Menu styling */
+
+ul.navigation {
+	list-style-type: none;
+	padding: 0px;
+	margin-left: 5px;
+	padding-bottom: 5px;
+	border-bottom: 2px #333 solid;
+	}
+	
+ul.navigation a {
+	font-weight: bold;
+	}
+
+ul.navigation li:not(.navHeader) {
+	padding-left: 10px;
+	}
+
+ul.navigation li:hover:not(.navHeader) {
+	border-left: #F00 4px solid;
+	padding-left: 6px;
+	}
+	
+ul.navigation li.navHeader {
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: #F00 4px solid;
+	border-left: #F00 4px solid;
+	padding-left: 4px;
+	}
+	
+div#credit {
+	text-align: center;
+	font-size: 14px;
+	color: #888;
+	}
+/* Single post styling */
+	
+.post {
+	text-align: justify;
+	margin-bottom: 15px;
+	}
+	
+.meta {
+	border-top: #F00 4px solid;
+	border-bottom: #F00 4px solid;
+	margin: 0;
+	}
+
+.postContent {
+	overflow: hidden;
+	}
+	
+div.postCom {
+	text-align: right;
+	float: right;
+	clear: both;
+	font-size: 14px;
+	padding-top: 3px;
+	}
+	
+p.readMore {
+	color: #f00;
+	font-weight: bold;
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+	}
+p.readMore:hover {
+	text-decoration: underline;
+	}
+	
+.postList ul {
+	list-style-type: none;
+	}
+	
+.postList li {
+	font-weight: bold;
+	}
+	
