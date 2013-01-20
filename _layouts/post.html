@@ -7,10 +7,10 @@
 	</div>
 	<div class="meta">
 	{% if page.next %}
-		<div class="floatleft"><a href="{{ page.next.url }}" class="pixel">&lt;&lt;Next Post</a></div>
+		<div class="floatL"><a href="{{ page.next.url }}">&lt;&lt;Next Post</a></div>
 	{% endif %}
 	{% if page.previous %}
-		<div class="floatright"><a href="{{ page.previous.url }}" class="pixel">Previous Post&gt;&gt;</a></div>
+		<div class="floatR"><a href="{{ page.previous.url }}">Previous Post&gt;&gt;</a></div>
 	{% endif %}
 	</div>
 	{% include comments.html %}

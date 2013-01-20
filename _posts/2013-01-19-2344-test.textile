@@ -4,3 +4,15 @@ title: test
 ---
 
 Test post
+
+h3. Syntax highlight
+
+{% highlight ruby %}
+def foo
+   puts 'foo'
+end
+{% endhighlight %}
+
+h3. Picasa link replacement
+
+<a href="https://picasaweb.google.com/112332452774282896153/MediaPlayers#5765802505077382050" class="picasaPhoto">A picasa photo</a>
