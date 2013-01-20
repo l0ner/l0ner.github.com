@@ -14,24 +14,27 @@ function randString(length) {
 }
 
 $('document').ready(function(){
+	// random string generator in header
 	section = $('#sectName').html()
 	setInterval(function(){
 			$('#randomCh').html(randString(29-section.length));
     }, 50);
 	
-	$('.picasaPhoto').brscPicasa({
-		photos_thumbsize: '64c',
-		photo_displaysize: '600',
-		classes: {
-			link_with_image: 'loaded-link'
-		},
-		callback: function() {
-			$('a.loaded-link img', this).parent().click(function() {
-				alert('some lightbox clone could be opening now');
-				return false;
-			});
-		}
-	});
-	
+	// picasa link replacer
+	// disbled for compatibility reasons
+	//$('.picasaPhoto').brscPicasa({
+	//	photos_thumbsize: '64c',
+	//	photo_displaysize: '600',
+	//	classes: {
+	//		link_with_image: 'loaded-link'
+	//	},
+	//	callback: function() {
+	//		$('a.loaded-link img', this).parent().click(function() {
+	//			alert('some lightbox clone could be opening now');
+	//			return false;
+	//		});
+	//	}
+	//});
+
 });
 

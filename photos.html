@@ -1,0 +1,46 @@
+---
+layout: single
+title: Photos
+meta-description: "Pawel 'l0ner' Soltys private site. Photo Gallery"
+meta-robots: "noodp, noydir"
+---
+
+<!-- These files are the PWI files -->
+		<link   href="/styles/pwi.css" rel="stylesheet" type="text/css"/>
+		<script src="/js/jquery.pwi-min.js" type="text/javascript"></script>
+		
+		<!-- get photos -->
+		<script type="text/javascript">
+			$(document).ready(function () {
+				var settings = {
+					username: '112332452774282896153',
+					maxresults: 100,
+					albumThumbSize: 144,
+					albumCrop: true,
+					removeAlbums: ['MediaPlayers','Photoblog'],
+					removeAlbumTypes: ['Blogger','ScrapBook','ProfilePhotos','Buzz','CamerSync'],
+					mode: 'albums',
+					thumbSize: 144,
+					thumbCrop: true,
+					showPhotoDownloadPopup: true,
+					showAlbumdate: false,
+					showAlbumLocation: false,
+					showAlbumPhotoCount: false,
+					showPhotoCaptionDate: true,
+
+					showPhotoLocation: false,
+					sortAlbums: 'ASC_NAME',
+					slimbox_config: {
+						overlayFadeDuration: 100,
+						resizeDuration: 100,
+						imageFadeDuration: 100,
+						captionAnimationDuration: 100
+					}
+				};
+				$("#photos").pwi(settings);
+			});
+
+		</script>
+   <div class="postContent" id='photos'>
+      
+   </div>

@@ -49,7 +49,7 @@ h1#logo {
 /* Global styling */
 
 body {
-	background: #000 url('img/bgScanLines.png');
+	background: #000 url('/img/bgScanLines.png');
 	color: #fff;
 	font-family: Prime;
 	}
