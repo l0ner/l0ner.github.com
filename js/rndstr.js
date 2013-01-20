@@ -22,19 +22,18 @@ $('document').ready(function(){
 	
 	// picasa link replacer
 	// disbled for compatibility reasons
-	//$('.picasaPhoto').brscPicasa({
-	//	photos_thumbsize: '64c',
-	//	photo_displaysize: '600',
-	//	classes: {
-	//		link_with_image: 'loaded-link'
-	//	},
-	//	callback: function() {
-	//		$('a.loaded-link img', this).parent().click(function() {
-	//			alert('some lightbox clone could be opening now');
-	//			return false;
-	//		});
-	//	}
-	//});
+	$('.picasaPhoto').brscPicasa({
+		photos_thumbsize: '64c',
+		photo_displaysize: '600',
+		classes: {
+			link_with_image: 'loaded-link'
+		},
+		callback: function() {
+			$('a.loaded-link img', this).parent().click(function() {
+				$(this).slimbox();
+			});
+		}
+	});
 
 });
 
