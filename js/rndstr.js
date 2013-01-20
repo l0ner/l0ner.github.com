@@ -19,5 +19,6 @@ $('document').ready(function(){
 	setInterval(function(){
 			$('#randomCh').html(randString(29-section.length));
     }, 50);
+
 });
 
