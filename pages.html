@@ -1,0 +1,18 @@
+---
+layout: single
+title: Pages
+meta-description: "Pawel 'l0ner' Soltys private site. Photo Gallery"
+meta-robots: "noodp, noydir"
+---
+
+<div class="postContent" id='photos'>
+   <ul>
+      {% for page in site.pages %}
+         {% if page.url contains '/pages/' %}
+            {% unless page.list == no or page.list == false %}
+            <li><h3><a href="{{ page.url }}">{{ page.title }}</a></h3></li>
+            {% endunless %}
+         {% endif %}
+      {% endfor %}
+   </ul>
+</div>

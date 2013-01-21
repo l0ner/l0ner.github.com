@@ -1,6 +1,7 @@
 ---
 layout: single
 title: textile demonstaration and test page
+list: false
 ---
 h3. Paragraphs and new lines
 
@@ -116,4 +117,12 @@ h3. Images:
 h3. Acronyms:
 
 We use CSS(Cascading Style Sheets).
+
+h3. Code highlight
+
+{% highlight ruby linenos %}
+def foo
+   puts 'foo'
+end
+{% endhighlight %}
 

@@ -9,7 +9,7 @@
  <id>http://l0ner.github.com/</id>
  <author>
    <name>Pawel "l0ner" Soltys</name>
-   <email>sh4dou@gmail.com</email>
+   <email>pwslts@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
@@ -19,12 +19,7 @@
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://l0ner.github.com/{{ post.id }}</id>
    <content type="html">
-	 {% if post.categories contains photoblog %}
-			<img src="{{ post.photourl }}" alt="{{ post.title | xml_escape }}" style="max-height: 220px;"/>
-		{% else %}
-			{{ post.content | xml_escape | truncatewords: 100 }}
-		{% endif %}
-		<br /><a href="http://l0ner.github.com/{{ post.url }}">Read whole story</a>
+			{{ post.content | xml_escape }}
 	 </content>
  </entry>
  {% endfor %}

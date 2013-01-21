@@ -12,7 +12,7 @@ For some time I've been searching for a media player that would suit me perfectl
 
 While I was testing I noticed that some players list library by "*Artist*" tag, some others by "*Artist Album*" tag. This led to unimaginable clutter of library with 1-track artist entries. I've become curious and decided to test how different players are listing/grouping elements of their libraries. Using wikipedia and aptitude on ubuntu I've picked a list of media players, both for windows and linux, choose 2 albums that are compilations (one remix album and one soundtrack), removed other albums form iTunes library and began my tests.
 
-<!-- more start -->
+<-- more -->
 
 h4. Test environment:
 
@@ -106,8 +106,6 @@ this myself.
 fn6. But probably I'll still spend hours completing and correcting them
 
 fn7. Id3 tag correctness will be required.
-
-<!-- more end -->
 
 [aimp_w]http://aimp.ru/index.php
 [atunes_w]http://www.atunes.org/

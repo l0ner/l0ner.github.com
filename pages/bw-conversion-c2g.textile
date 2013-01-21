@@ -1,14 +1,7 @@
 --- 
-layout: page
-title: "[PL]Konwersja zdj\xC4\x99\xC4\x87 do czerni i bieli u\xC5\xBCywaj\xC4\x85\xC4\x87\xC2\xA0c2g"
-tags: []
-
-status: publish
-type: page
-published: true
-meta: 
-  _edit_last: "3474632"
-  _wp_page_template: default
+layout: single
+title: "[PL]Konwersja zdjęcia do czerni i bieli używając c2g"
+list: yes
 ---
 W nowej wersji GIMPa (2.6) częściowo zaimplementowano bibliotekę graficzną GEGL, a wraz z nią parę ciekawych narzędzi. Nie chcę się tutaj rozpisywać ani o tym czym jest GEGL ani o tym jakie narzędzia wprowadzono. Wolę za to opisać najciekawsze chyba narzędzie jakim jest c2g.
 

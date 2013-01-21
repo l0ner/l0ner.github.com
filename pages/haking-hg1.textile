@@ -1,6 +1,7 @@
 --- 
-layout: page
+layout: single
 title: Haking HG1
+list: true
 ---
 <p style="text-align:center;"><a href="http://mindglitch.files.wordpress.com/2009/09/web_dsc6776.jpg"><img class="aligncenter size-medium wp-image-896" title="web_DSC6776" src="http://mindglitch.files.wordpress.com/2009/09/web_dsc6776.jpg?w=510" alt="web_DSC6776" width="510" height="341" />Powiększ</a></p>
 

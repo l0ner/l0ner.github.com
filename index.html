@@ -4,21 +4,27 @@ title: l0ner.github.com - blog
 meta-description: "Pawel 'l0ner' Soltys private site. Blog section"
 meta-robots: "noodp, noydir"
 ---
+<script type="text/javascript">
+   $(function() {
+      $('.postContent').truncate({max_length: 2000});
+   });
+</script>
+
 
 {% assign post_limit = 6 %}
 {% for post in site.posts limit: post_limit %}
 <div class="post">
    <h3 class="meta">{{ post.date | date_to_string }} <a href="{{ post.url}}">{{ post.title }}</a><div class="postCom"><a href="{{ post.url }}#disqus_thread" class="disqus-count-text" data-disqus-identifier="{{ post.id }}">Comments&gt;&gt;</a></div></h3>
    <div class="postContent">
-      {{ post.content | replace:'<!-- more start -->','' | replace:'<!-- more end -->','' }}
+         {{ post.content }}
    </div>
 </div>
 {% endfor %}
 <div class="postList">
    <h3 class="meta">Older Posts:</h3>
-   <ul>
+   <table>
       {% for post in site.posts offset: post_limit %}
-         <li>{{ post.date | date_to_string }}: <a href="{{ post.url }}">{{ post.title | truncate: 60 }}</a></li>
-         {% endfor %}
-   </ul>
+         <tr><td>{{ post.date | date_to_string }}:</td><td><a href="{{ post.url }}">{{ post.title | truncate: 60 }}</a></td></tr>
+      {% endfor %}
+   </table>
 </div>

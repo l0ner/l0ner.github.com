@@ -1,6 +1,7 @@
 --- 
 layout: single
 title: Font Test
+list: no
 ---
 
 p(font-header poiretOne). Poiret One
