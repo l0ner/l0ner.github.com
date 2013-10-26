@@ -4,15 +4,9 @@ title: Library sorting in Media Players
 date: 2012-07-09 21:24
 ---
 
-h4. Introduction
-
-This will be rather long post.
-
 For some time I've been searching for a media player that would suit me perfectly. What I needed was a clean GUI, Library, possibility of automatic Library cleanups (like automatic copying and renaming of files upon add), id3 tag editor and light and fast feel[1]. For past 3 years I've been using iTunes, since I own iPod and it's the only app that can be used to manage music on it[2]. I've grown pretty accustomed to it, but it was kinda slow, and there were things that I didn't like[3]. So I've begun testing of some media players for windows[4] and in the end I've manually rearranged my library and stuck to Mpxplay[5].
 
 While I was testing I noticed that some players list library by "*Artist*" tag, some others by "*Artist Album*" tag. This led to unimaginable clutter of library with 1-track artist entries. I've become curious and decided to test how different players are listing/grouping elements of their libraries. Using wikipedia and aptitude on ubuntu I've picked a list of media players, both for windows and linux, choose 2 albums that are compilations (one remix album and one soundtrack), removed other albums form iTunes library and began my tests.
-
-<-- more -->
 
 h4. Test environment:
 
