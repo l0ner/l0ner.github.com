@@ -3,14 +3,9 @@ layout: post
 title: "KMFDM - Давай [Davai]"
 ---
 KMFDM - Davai
-<table style="text-align:center;">
-<tr>
-<td>Original</td>
-<td>Romanized</td>
-<td>English translation</td>
-</tr>
-<tr>
-<td style="text-align:center;">
+
+h6. Original
+
 Давай Брат Давай
 Объединимся
 И Завтра Не Будет
@@ -86,6 +81,4 @@ The Blood Has Dried
 Youth Of The World
 Your Time Is Now
 Don't Fight
-Unite</td>
-</tr>
-</table>
+Unite

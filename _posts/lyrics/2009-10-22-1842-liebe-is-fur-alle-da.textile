@@ -3,11 +3,6 @@ layout: post
 title: "Rammstein - Liebe ist für alle da"
 ---
 Rammstein - Liebe ist für alle da
-<table>
-<tr>
-<td>Origial</td>
-<td>English translation</td>
-</tr>
 
 <tr><td>Warmes Wasser
 Schöne Leiber
@@ -119,6 +114,3 @@ Liebe ist für alle da - auch für mich
 </td><td>There is love for everyone
 There is love for everyone
 There is love for everyone – and for me
-
-</td></tr>
-</table>
