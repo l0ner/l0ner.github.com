@@ -1,18 +1,15 @@
 {% include header.html %}
-{% include sidebar.html %}
-<div id="rCol" class="floatR">
-	<div class="post">
-		<h3 class="meta">{{ page.date | date_to_string }} {{ page.title }}</h3>
-			{{ content }}
-	</div>
-	<div class="meta">
-	{% if page.next %}
-		<div class="floatL"><a href="{{ page.next.url }}">&lt;&lt;Next Post</a></div>
-	{% endif %}
-	{% if page.previous %}
-		<div class="floatR"><a href="{{ page.previous.url }}">Previous Post&gt;&gt;</a></div>
-	{% endif %}
-	</div>
-	{% include comments.html %}
-</div>
+<main>
+<article class="post">
+   <div class='postContent'>
+      <div class="date">
+         <span id="day">{{ page.date | date: "%b, %d" }}</span></br>
+         <span id="year">{{ page.date | date: "%Y" }}</span>
+      </div>
+   <h1>{{ page.title }}</h1>
+      {{ content }}
+   </div>
+      {% include comments.html %}
+   </article>
+</main>
 {% include footer.html %}

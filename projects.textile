@@ -1,0 +1,8 @@
+---
+layout: single
+title: projects
+meta-robots: "noodp, noydir"
+---
+
+I'll be placing here projects I'm working/worked on. At the moment this place is empty since I need to organize things a little.
+

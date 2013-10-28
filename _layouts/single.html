@@ -1,9 +1,14 @@
 {% include header.html %}
-{% include sidebar.html %}
-<div id="rCol" class="floatR">
-	<div class="post">
-		<h3 class="meta">{{ page.title }}</h3>
-			{{ content }}
-	</div>
-</div>
+<main>
+<article class="post">
+   <div class='postContent'>
+      <div class="date">
+         <span id="day">{{ page.date | date: "%b, %d" }}</span></br>
+         <span id="year">{{ page.date | date: "%Y" }}</span>
+      </div>
+   <h1>{{ page.title }}</h1>
+      {{ content }}
+   </div>
+   </article>
+</main>
 {% include footer.html %}

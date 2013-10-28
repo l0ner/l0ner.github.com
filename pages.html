@@ -4,8 +4,6 @@ title: Pages
 meta-description: "Pawel 'l0ner' Soltys private site. Photo Gallery"
 meta-robots: "noodp, noydir"
 ---
-
-<div class="postContent" id='photos'>
    <ul>
       {% for page in site.pages %}
          {% if page.url contains '/pages/' %}
@@ -15,4 +13,3 @@ meta-robots: "noodp, noydir"
          {% endif %}
       {% endfor %}
    </ul>
-</div>
