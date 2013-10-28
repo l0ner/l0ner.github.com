@@ -208,3 +208,8 @@ footer .email {
 footer .twitter {
    color: #0092be;
 }
+
+article.post div#disqus_thread {
+   border-top: 1px solid #d5cbcb;
+   padding: 10px 5px 5px 0;
+}

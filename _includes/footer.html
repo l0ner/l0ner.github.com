@@ -1,11 +1,26 @@
 <footer>
 <nav class='paginator'>
-   <a href="/page{{ paginator.previous_page}}">prev</a>
+   <!--<a href="/page{{ paginator.previous_page}}">prev</a>
    /
    <a href="/page{{ next.previous_page}}">next</a>
 
-   <span class="page-count">Page 1 of 2</span>
-   </nav>
+   f page.next %}
+   -->
+
+{% if page.next %}
+<a href="{{ page.next.url }}">prev</a>
+{% else %}
+prev
+{% endif %}
+ / 
+{% if page.previous %}
+<a href="{{ page.previous.url }}">next</a>
+{% else %}
+next
+{% endif %}
+<span class="page-count">Post 1 of 2</span>
+
+</nav>
 <div class="footer-left">
    <h3>l0ner</h3>
    <p>CC: BY-NC-SA</p>

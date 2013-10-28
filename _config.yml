@@ -1,5 +1,5 @@
 lsi: false
 pygments: true
-paginate: 3
+paginate: 5
 permalink: /:categories/:year-:month-:day_:title/
 
