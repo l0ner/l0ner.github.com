@@ -45,7 +45,7 @@ header.page {
    position: fixed;
    top: 0;
    width: 100%;
-   min-width: 920px;;
+   min-width: 920px;
    height: 80px;
    background-color: #09f;
    z-index: 100;
