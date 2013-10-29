@@ -1,4 +1,4 @@
-permalink: /posts/:categories/:year-:month-:day_:title/
+permalink: /:categories/:year-:month-:day_:title/
 lsi: false
 pygments: true
 markdown: rdiscount
