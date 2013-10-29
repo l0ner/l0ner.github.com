@@ -5,7 +5,7 @@
 }
 
 .pwi_container{
-	padding: 5px;
+	padding: 0px;
 }
 
 .pwi_container a{
@@ -35,10 +35,16 @@
 }
 
 .pwi_album{
+   position: relative;
 	float: left;
-	margin: 1em;
+	margin: 2px;
 	text-align: center;
 	cursor: pointer;
+}
+
+.pwi_album_title{
+   position: relative;
+   bottom: 0;
 }
 
 .pwi_album_backlink{
