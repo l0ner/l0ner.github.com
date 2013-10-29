@@ -30,11 +30,10 @@ meta-robots: "noodp, noydir"
 
 					showPhotoLocation: false,
 					sortAlbums: 'ASC_NAME',
-					slimbox_config: {
-						overlayFadeDuration: 100,
-						resizeDuration: 100,
-						imageFadeDuration: 100,
-						captionAnimationDuration: 100
+               fancybox_config: {
+                  config_photos: {
+                     loop: true
+                  }
 					}
 				};
 				$("#photos").pwi(settings);
