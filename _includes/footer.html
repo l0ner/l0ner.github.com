@@ -1,26 +1,38 @@
 <footer>
-<nav class='paginator'>
-   <!--<a href="/page{{ paginator.previous_page}}">prev</a>
-   /
-   <a href="/page{{ next.previous_page}}">next</a>
-
-   f page.next %}
-   -->
-
-{% if page.next %}
-<a href="{{ page.next.url }}">prev</a>
-{% else %}
-prev
+{% if page.layout == "index" or page.layout == "default" %}
+   <nav class='paginator'>
+   {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+         <a href="/">prev</a>
+      {% else %}
+      <a href="/page{{ paginator.previous_page}}">prev</a>
+      {% endif %}
+      {% else %}
+      prev
+      {% endif %}
+      /
+      {% if paginator.next_page %}
+      <a href="/page{{ paginator.next_page}}">next</a>
+      {% else %}
+      next
+      {% endif %}
+      <span class="page-count">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+   </nav>
+{% elsif page.layout == "post" %}
+   <nav class='paginator'>
+      {% if page.next %}
+      <a href="{{ page.next.url }}">prev</a>
+      {% else %}
+      prev
+      {% endif %}
+       / 
+      {% if page.previous %}
+      <a href="{{ page.previous.url }}">next</a>
+      {% else %}
+      next
+      {% endif %}
+   </nav>
 {% endif %}
- / 
-{% if page.previous %}
-<a href="{{ page.previous.url }}">next</a>
-{% else %}
-next
-{% endif %}
-<span class="page-count">Post 1 of 2</span>
-
-</nav>
 <div class="footer-left">
    <h3>l0ner</h3>
    <p>CC: BY-NC-SA</p>

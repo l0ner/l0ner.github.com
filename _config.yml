@@ -1,5 +1,8 @@
+permalink: /posts/:categories/:year-:month-:day_:title/
 lsi: false
 pygments: true
+markdown: rdiscount
+
 paginate: 5
-permalink: /:categories/:year-:month-:day_:title/
+
 
