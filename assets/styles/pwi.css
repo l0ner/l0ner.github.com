@@ -43,8 +43,17 @@
 }
 
 .pwi_album_title{
-   position: relative;
+   position: absolute;
    bottom: 0;
+   font-size: 28pt;
+   color: #09f;
+   text-align: left;
+   word-wrap: break-word;
+   width: 216px;
+   line-height: 0.9em;
+   padding-bottom: 10px;
+   padding-left: 5px;
+   background: rgba(0,0,0,0.45);
 }
 
 .pwi_album_backlink{
@@ -59,7 +68,7 @@
 .pwi_photo{
     position:relative;
 	float: left;
-	margin: 1em;
+	margin: 2px;;
 	text-align: center;
 	border: 0px dotted white;
 }

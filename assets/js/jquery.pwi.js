@@ -430,10 +430,10 @@
                     var $thumbnail0 = n.media$group.media$thumbnail[0];
                     //$scAlbum.append("<img src='" + $thumbnail0.url + "' height='" + $thumbnail0.height +
                     //        "' width='" + $thumbnail0.width + "'/>");
-                    $scAlbum.css("background-image", "url($thumbnail0.url)");
+                    $scAlbum.css("background-image", "url(" + $thumbnail0.url + ")");
                     $scAlbum.css("background-repeat", "no-repeat");
-                    $scAlbum.css("background-attachment", "fixed");
                     $scAlbum.css("background-position", "center");
+                    $scAlbum.css("height", $thumbnail0.height);
                 }
                 if (settings.showAlbumTitles) {
                     var $scAlbumTitle = $("<div class='pwi_album_title'/>");
@@ -853,7 +853,7 @@
         thumbCrop: false, //-- force crop on photo thumbnails (see thumbSize for supported sized)
         thumbAlign: false, //-- Allign thumbs vertically between rows
         thumbCss: {
-            'margin': '5px'
+            'margin': '2px'
         },
         onclickThumb: "",       //-- overload the function when clicked on a photo thumbnail
         onclickAlbumThumb: "",  //-- overload the function when clicked on a album thumbnail
