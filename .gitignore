@@ -5,6 +5,7 @@ _site/*
 .sass-cache
 .gist-cache
 *.swp
+*.lock
 .pygments-cache
 public
 sass.old
@@ -13,3 +14,4 @@ source/_stash
 source/stylesheets/screen.css
 vendor
 node_modules
+Gemfile
