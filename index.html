@@ -17,6 +17,7 @@ meta-robots: "noodp, noydir"
       {% else %}
          {{ post.content | split:'</p>' | first | append:'</p>' }}
       {% endif %}
+      
    </div>
 </article>
 {% endfor %}
