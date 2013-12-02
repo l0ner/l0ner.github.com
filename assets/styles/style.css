@@ -193,35 +193,40 @@ span.page-count {
    margin-left: 50px;
 }
 
+footer div.footer-left {
+   float: left;
+   padding-left: 40px;
+   margin-bottom: 60px;
+   min-width: 330px;
+   width: 50%;
+}
+
 footer div.footer-right {
    float: right;
    text-align: right;
    padding-right: 40px;
    margin-bottom: 60px;
+   min-width: 290px;
 }
 
-footer div.footer-left {
-   float: left;
-   padding-left: 40px;
-   margin-bottom: 60px;
-}
-
-footer div.contact-box {
-   text-align: left;
+footer table.contactBox {
    line-height: 2em;
 }
 
-footer div.contact-box div.left {
-   padding-right: 20px;
-   text-align: right;
+footer table.contactBox td:nth-child(2) {
+   text-align: left;
+   padding-left: 20px;
 }
-footer div.contact-box div.right a {
+
+
+footer table.contactBox td:nth-child(2) a {
    color: #d5cbcb;
 }
 
-footer div.contact-box div.right a:hover {
+footer table.contactBox td:nth-child(2) a:hover {
    color: #fff;
 }
+
 footer .email {
    color: #ff595b;
 }
