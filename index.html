@@ -12,9 +12,6 @@ meta-robots: "noodp, noydir"
          {{ post.date | date: "%d/%m/%Y" }}
       </div>
    <a href="{{ post.url }}"><h1 class='postHeader'>{{ post.title }}</h1></a>
-      {% if post.content contains '#fn' %}
-         {{ post.content | replace: '#fn', '{{post.url}}#fn' }}
-      {% endif %}
       {% if post.content contains '<!--more-->' %}
          {{ post.content | split:'<!--more-->' | first }}
       {% else %}
