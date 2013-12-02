@@ -95,22 +95,32 @@ header a:hover {
 
 main {
    margin: 80px 0 0 0;
+   background: rgba(255,255,255, 0.02);
 }
 
 /* Post list */
 
 article {
    width: 100%;
-   background: rgba(255,255,255, 0.02);
+   position: relative;
 }
 
-article div.date {
-   position: absolute;
-   width: 140px;
-   top: 19px;
-   left: -160px;
+article div.postTimestamp {
    text-align: right;
-   z-index: 50;
+   font-size: 35px;
+   position: absolute;
+   top: 0px;
+   left: -253px;
+   transform: rotate(-90deg);
+   -ms-transform: rotate(-90deg);
+   -webkit-transform: rotate(-90deg);
+   -o-transform: rotate(-90deg);
+   transform-origin:right top;
+   -ms-transform-origin:right top;
+   -webkit-transform-origin:right top;
+   -o-transform-origin:right top;
+   padding: 0 10px;
+   background: rgba(0,153,255, 1);
 }
 
 article div.date #day {
@@ -131,7 +141,12 @@ article div.postContent {
    min-width: 760px;
    max-width: 900px;
    margin: 0 auto;
+   padding: 1em;
    padding: 20px 20px;
+}
+
+article h1.postHeader{
+   margin-left: .5em;
 }
 
 article:nth-child(odd) div.postContent {
