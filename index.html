@@ -17,6 +17,9 @@ meta-robots: "noodp, noydir"
       {% else %}
          {{ post.content | split:'</p>' | first | append:'</p>' }}
       {% endif %}
+      {% if post.content contains '#fn' %}
+         {{ post.content | replace: '#fn', {{post.url}}'#fn' }}
+      {% endif %}
    </div>
 </article>
 {% endfor %}
