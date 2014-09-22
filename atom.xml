@@ -4,9 +4,10 @@ layout: nil
 
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>l0ner.github.io</title>
+	<title>l0ner.github.io</title>
+	<subtitle>Pawel Soltys persolnal blog: linux, programming, photos, music, games and so on</subtitle>
  <link href="http://l0ner.github.io/feed/atom.xml" rel="self"/>
- <link href="http://l0ner.github.io/"/>
+ <link href="http://l0ner.github.io/" rel='alternate' type='text/html'/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://l0ner.github.io/</id>
  <author>
