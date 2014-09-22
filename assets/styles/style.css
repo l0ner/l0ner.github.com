@@ -95,22 +95,32 @@ header a:hover {
 
 main {
    margin: 80px 0 0 0;
+   background: rgba(255,255,255, 0.02);
 }
 
 /* Post list */
 
 article {
    width: 100%;
-   background: rgba(255,255,255, 0.02);
+   position: relative;
 }
 
-article div.date {
-   position: absolute;
-   width: 140px;
-   top: 19px;
-   left: -160px;
+article div.postTimestamp {
    text-align: right;
-   z-index: 50;
+   font-size: 35px;
+   position: absolute;
+   top: 0px;
+   left: -253px;
+   transform: rotate(-90deg);
+   -ms-transform: rotate(-90deg);
+   -webkit-transform: rotate(-90deg);
+   -o-transform: rotate(-90deg);
+   transform-origin:right top;
+   -ms-transform-origin:right top;
+   -webkit-transform-origin:right top;
+   -o-transform-origin:right top;
+   padding: 0 10px;
+   background: rgba(0,153,255, 1);
 }
 
 article div.date #day {
@@ -131,7 +141,12 @@ article div.postContent {
    min-width: 760px;
    max-width: 900px;
    margin: 0 auto;
-   padding: 20px 20px;
+   padding: 1em;
+   min-height: 180px;
+}
+
+article h1.postHeader{
+   margin-left: .5em;
 }
 
 article:nth-child(odd) div.postContent {
@@ -178,35 +193,40 @@ span.page-count {
    margin-left: 50px;
 }
 
+footer div.footer-left {
+   float: left;
+   padding-left: 40px;
+   margin-bottom: 60px;
+   min-width: 330px;
+   width: 50%;
+}
+
 footer div.footer-right {
    float: right;
    text-align: right;
    padding-right: 40px;
    margin-bottom: 60px;
+   min-width: 290px;
 }
 
-footer div.footer-left {
-   float: left;
-   padding-left: 40px;
-   margin-bottom: 60px;
-}
-
-footer div.contact-box {
-   text-align: left;
+footer table.contactBox {
    line-height: 2em;
 }
 
-footer div.contact-box div.left {
-   padding-right: 20px;
-   text-align: right;
+footer table.contactBox td:nth-child(2) {
+   text-align: left;
+   padding-left: 20px;
 }
-footer div.contact-box div.right a {
+
+
+footer table.contactBox td:nth-child(2) a {
    color: #d5cbcb;
 }
 
-footer div.contact-box div.right a:hover {
+footer table.contactBox td:nth-child(2) a:hover {
    color: #fff;
 }
+
 footer .email {
    color: #ff595b;
 }
