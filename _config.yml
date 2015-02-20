@@ -1,5 +1,7 @@
 permalink: /:categories/:year-:month-:day_:title/
+safe: true
 lsi: false
+highlighter: pygments
 pygments: true
 markdown: rdiscount
 
