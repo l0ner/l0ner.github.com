@@ -1,23 +1,51 @@
 ---
-layout: default
-title: l0ner.github.com - blog
-meta-description: "Pawel 'l0ner' Soltys private site. Blog section"
+layout: index
+title: l0ner.github.io
+meta-description: "Pawel 'l0ner' Soltys website."
 meta-robots: "noodp, noydir"
 ---
 
-{% for post in paginator.posts %}
-<article class="post">
-   <div class='postContent'>
-      <div class="postTimestamp">
-         {{ post.date | date: "%d/%m/%Y" }}
-      </div>
-   <a href="{{ post.url }}"><h1 class='postHeader'>{{ post.title }}</h1></a>
-      {% if post.content contains '<!--more-->' %}
-         {{ post.content | split:'<!--more-->' | first }}
-      {% else %}
-         {{ post.content | split:'</p>' | first | append:'</p>' }}
-      {% endif %}
-      
-   </div>
+<article id="about">
+  <h1>About</h1>
+  <p>Pawel 'l0ner' Soltys. Interests include but are not limited
+  to: Linux, C++, Python, programming in general, Open Source Software,
+  Operating Systems, Guitars and music, photography and many other things.
+  Currently self-employed as IT consultant, but searching for better job
+  opportunities.</p>
 </article>
-{% endfor %}
+
+<article if="ramblings">
+<h1>Ramblings:</h1>
+<p>Stuff I wrote. I've been writing more in the past but now I prefer to
+concentrate on developing my programming skills. This is not everything I've
+wrote in the past. I've decided to remove some stuff, which become really
+obsolete or was unimportant.
+</p>
+  <ul>
+    {% for post in site.posts %}
+    {% if post.categories == empty %}
+    <li>{{ post.date | date: "%Y-%m-%d" }}: {{ post.category }}
+      <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</article>
+
+<article id="lyrics-translations">
+<h1>Lyrics & Translations</h1>
+<p>Something I enjoy doing in my free time is transcribing and translating (badly) 
+song lyrics (and somethimes other things). Please note that these are not 
+professional translations but something I do with songs I like in my free time.
+</p>
+<ul>
+  {% for post in site.categories.lyrics %}
+  <li>{{ post.type }}:
+  <a href="{{ post.url }}">{{ post.title }}</a>
+    {% if post.type == "Translation" %}
+    ({{ post.languages }})
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+</article>
+

@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: default
 title: "Battle: Los Angeles ::Updated::"
 ---
 Since I haven't wrote anything in a while (I'm a really -lazy- busy person), I thought it would be nice to write some of my impressions on "Battle: Los Angeles" game. I haven't seen the film yet, so I'm looking at it from purely gamer viewpoint.

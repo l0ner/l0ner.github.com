@@ -1,44 +1,73 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<link rel="shortcut icon" href="/assets/img/favicon/qr_small_white.png" />
-		<link rel="apple-touch-icon-precomposed" href="/assets/img/favicon/qr_red.png" />
-		<link rel="alternate" type="application/atom+xml" href="http://l0ner.github.com/atom.xml">
-		<meta name="robots" content="{{ page.meta-robots }}" />
-		<meta name="description" content="{{ page.meta-description }}" />
-      <meta name="description" content="{{ page.url }} - Personal site of Pawel 'l0ner' Soltys - {{ page.title }}" />
-      <title>l0ner.github.io - {{ page.title }}</title>
-      <!-- main stylesheet -->
-      <link rel="stylesheet" type="text/css" href="/assets/styles/style.css" />
+  <head>
+    <meta charset="UTF-8">
+    <title>l0ner.github.io - {{ page.title }}</title>
 
-      <!-- syntax highlight stylesheet -->
-      <link rel="stylesheet" tyle="text/css" href="/assets/styles/syntax.css" />
+    <!-- stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/assets/styles/main.css" />
+    <link rel="stylesheet" tyle="text/css" href="/assets/styles/syntax.css" />
 
-      <!-- jQuery hosted by Google -->
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <!-- favicons -->
+    <link rel="shortcut icon" href="/assets/img/favicon/qr_small_white.png" />
+    <link rel="apple-touch-icon-precomposed" href="/assets/img/favicon/qr_white.png" />
 
-      <!-- These files are needed for FancyBox -->
-      <link   href="/assets/js/jquery.fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css"/>
-      <script src="/assets/js/jquery.fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-    
-      <!-- These files are needed to display the FancyBox buttons at the top, including slideshow control --> 
-      <link href="/assets/js/jquery.fancybox/helpers/jquery.fancybox-buttons.css?v=2.0.5" rel="stylesheet" type="text/css"/>
-      <script type="text/javascript" src="/assets/js/jquery.fancybox/helpers/jquery.fancybox-buttons.js?v=2.0.5"></script>
-      
-      <!-- Google webfont Exo -->
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text.css' />
-      <link href='http://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text.css' />
-   </head>
-   <body>
-      <header class="page">
-         <h1><a href="/">l0ner</a></h1>
-         <ul>
-            <li><a href="/">blog</a></li>
-            <li><a href="/pages.html">pages</a></li>
-            <li><a href="/photos.html">photogallery</a></li>
-            <li><a href="/projects.html">projects</a></li>
-            <li><a href="/about.html">about me</a></li>
-         </ul>
-      </header>
+    <!-- feeds -->
+    <link rel="alternate" type="application/atom+xml" href="http://l0ner.github.com/atom.xml">
+
+    <!-- metadata -->
+    <meta name="robots" content="{{ page.meta-robots }}" />
+    <meta name="description" content="{{ page.meta-description }}" />
+    <meta name="description" content="l0ner - {{ page.title }}" />
+
+    <!-- jQuery hosted by Google -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+    <!-- Google webfonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text.css' />
+    <link href='http://fonts.googleapis.com/css?family=Exo:400,200' rel='stylesheet' type='text.css' />
+  </head>
+  <body>
+    <header>
+    <h1><a href="/">l0ner</a></h1>
+      <nav>
+      <ul>
+        <li>Pages</li>
+        <li><a href="/">Home & About</a></li>
+        <li><a href="/photos.html">Gallery</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+      </ul>
+      <ul class="icons">
+        <li>Social / Contact</li>
+        <!-- twitter -->
+        <li><a href="http://twitter.com/l0nr/" target="_blank">
+          <img src="/assets/img/twitter.png" width="32px" alt="Twitter" /></a></li>
+        <!-- google+ -->
+        <li><a href="https://plus.google.com/112332452774282896153" target="_blank">
+          <img src="/assets/img/googleplus.png" width="32px" alt="Google+" /></a></li>
+        <!-- github -->
+        <li><a href="https://github.com/l0ner" target="_blank">
+          <img src="/assets/img/github.png" width="32px" alt="Github" /></a></li>
+        <li><a href="https://linkedin.com/profile/view?id=285189228" target="_blank">
+          <img src="/assets/img/in.png" width="32px" alt="LinkedIn" /></a></li>
+        <!-- TODO
+        <li><a href="#" target="_blank">
+          <img src="/assets/img/instagram.png" width="32px" alt="Twitter" /></a></li>
+        <li><a href="#" target="_blank">
+          <img src="/assets/img/tumblr.png" width="32px" alt="Tumblr" /></a></li>
+        <li><a href="#" target="_blank">
+          <img src="/assets/img/soundcloud.png" width="32px" alt="Soundcloud" /></a></li>
+        -->
+        <!-- email -->
+        <li><a href="mailto:pwslts@gmail.com" target="_blank">
+          <img src="/assets/img/email.png" width="32px" alt="Email" /></a></li>
+      </ul>
+      </nav>
+    <footer>
+    <p>
+    l0ner - CC: BY-NC-SA</p>
+    <a href="/atom.xml" target="_blank">
+      <img src="/assets/img/rss.png" width="32px" alt="RSS feed" /></a>
+    </footer>
+    </header>
 
