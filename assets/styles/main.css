@@ -8,6 +8,11 @@ body {
   line-height: 1.6em;
 }
 
+div.bodywrapper {
+  margin: auto;
+  max-width: 960px;
+}
+
 /*
  * Header
  */
