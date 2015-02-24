@@ -1,10 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Exo:400,200);
+
 body {
   margin: 0px;
   padding: 0px;
   font-size: 17px;
-  font-family: "Open Sans", 
-  "Helvetica Neue", 
-  sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.6em;
 }
 
@@ -26,7 +26,7 @@ header {
     margin-bottom: 0px;
     z-index: 1;
     color: #fff;
-    font-family: "Exo", "Helvetica Neue", sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 200;
 }
 
@@ -237,27 +237,28 @@ nav.paginator {
 
 h1 {
   font-size: 2.2em;
-  font-family: "Exo";
+  font-family: "Exo", "Helvetica Neue", sans-serif;
+  font-weight: 400;
 }
 h2 {
   font-size: 1.7em;
-  font-family: "Exo";
+  font-family: "Exo", "Helvetica Neue", sans-serif;
 }
 h3 {
   font-size: 1.5em;
-  font-family: "Exo";
+  font-family: "Exo", "Helvetica Neue", sans-serif;
 }
 h4 {
   font-size: 1.4em;
-  font-family: "Exo";
+  font-family: "Exo", "Helvetica Neue", sans-serif;
 }
 h5 {
   font-size: 1.2em;
-  font-family: "Exo";
+  font-family: "Exo", "Helvetica Neue", sans-serif;
 }
 h6 {
   font-size: 1.2em;
-  font-family: "Exo";
+  font-family: "Exo", "Helvetica Neue", sans-serif;
 }
 
 a {
