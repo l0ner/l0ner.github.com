@@ -30,7 +30,7 @@ div.bodywrapper {
  */
 
 header {
-    background: #06324F;
+    background: rgba(78, 23, 203, 0.47);
     display: inline-block;
     width: 200px;
     height: 100%;
@@ -186,7 +186,7 @@ nav ul li ul li a:visited {
 /* Main */
 
 main {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
   display: inline-block;
   margin-left: 200px;
   padding: 3%;
