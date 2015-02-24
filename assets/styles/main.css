@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Exo:400,200);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Exo:400,200|Orbitron:900);
 
 body {
   margin: 0px;
@@ -6,6 +6,18 @@ body {
   font-size: 17px;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.6em;
+  /*background: #000 url('http://subtlepatterns.com//patterns/dirty_old_shirt.png');*/
+  /*background: #000 url('http://subtlepatterns.com//patterns/asfalt.png')*/;
+  
+  /*background: #000 url('http://www.animalswithinanimals.com/stallio/images/bg2.png');*/
+  
+  background: #000;
+  background-image: url('http://i.imgur.com/epCK0H1.png');
+  /*background: #000 url('https://pixelnoizz.files.wordpress.com/2009/11/picture-50.png');*/
+  
+  /*background: #000 url('');*/
+  /*background: #000 url('');*/
+  background-attachment: fixed;
 }
 
 div.bodywrapper {
@@ -38,7 +50,8 @@ header > * {
 header h1 {
   text-align: center;
   margin-top: 21%;
-  font-weight: 400;
+  font-weight: 900;
+  font-family: "Orbitron";
 }
 
 header a {
@@ -110,6 +123,10 @@ nav ul.icons li:hover {
   background: none;
 }
 
+nav ul.icons img {
+  margin: 0;
+}
+
 /*
  * Sub Menu
  */
@@ -168,6 +185,7 @@ nav ul li ul li a:visited {
 /* Main */
 
 main {
+  background: #fff;
   display: inline-block;
   margin-left: 200px;
   padding: 3%;
@@ -247,18 +265,22 @@ h2 {
 h3 {
   font-size: 1.5em;
   font-family: "Exo", "Helvetica Neue", sans-serif;
+  margin: 1.5em;
 }
 h4 {
   font-size: 1.4em;
   font-family: "Exo", "Helvetica Neue", sans-serif;
+  margin: 1.4em;
 }
 h5 {
   font-size: 1.2em;
   font-family: "Exo", "Helvetica Neue", sans-serif;
+  margin: 1.2em;
 }
 h6 {
   font-size: 1.2em;
   font-family: "Exo", "Helvetica Neue", sans-serif;
+  margin: 1.2em;
 }
 
 a {
@@ -364,6 +386,10 @@ blockquote cite {
 address {
   display: block;
   margin: 0 0 1.625em;
+}
+
+img {
+  margin: 10px;
 }
 
 ins {
