@@ -1,88 +1,114 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>l0ner.github.io - {{ page.title }}</title>
+	<head>
+		<meta charset="UTF-8">
+		<title>l0ner.github.io - {{ page.title }}</title>
 
-    <!-- stylesheets -->
-    <link rel="stylesheet" type="text/css" href="/assets/styles/main.css" />
-    <!--<link rel="stylesheet" type="text/css" href="/assets/styles/glitch.css"
-    />-->
-    <link rel="stylesheet" tyle="text/css" href="/assets/styles/syntax.css" />
+		<!-- stylesheets -->
+		<link rel="stylesheet" type="text/css" href="/assets/styles/main.css" />
+		<!--<link rel="stylesheet" type="text/css" href="/assets/styles/glitch.css"
+		/>-->
+		<link rel="stylesheet" tyle="text/css" href="/assets/styles/syntax.css" />
 
-    <!-- favicons -->
-    <link rel="shortcut icon" href="/assets/img/favicon/qr_small_white.png" />
-    <link rel="apple-touch-icon-precomposed" href="/assets/img/favicon/qr_white.png" />
+		<!-- favicons -->
+		<link rel="shortcut icon" href="/assets/img/favicon/qr_small_white.png" />
+		<link rel="apple-touch-icon-precomposed" href="/assets/img/favicon/qr_white.png" />
 
-    <!-- feeds -->
-    <link rel="alternate" type="application/atom+xml" href="http://l0ner.github.com/atom.xml">
+		<!-- awesome icons -->
+		<link rel="stylesheet"
+				href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 
-    <!-- metadata -->
-    <meta name="robots" content="{{ page.meta-robots }}" />
-    <meta name="description" content="{{ page.meta-description }}" />
-    <meta name="description" content="l0ner - {{ page.title }}" />
 
-    <!-- jQuery hosted by Google -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <!--<script src="/assets/js/glitch.js"></script>-->
+		<!-- feeds -->
+		<link rel="alternate" type="application/atom+xml" href="http://l0ner.github.com/atom.xml">
 
-  </head>
-  <body>
-    <div class="bodywrapper">
-    <header>
-    <h1 id='logo'><a href="/">l0ner</a></h1>
-      <nav>
-      <ul>
-        <li>Pages</li>
-        <li><a href="/">Home & About</a></li>
-        <li><a href="http://l0ner.imgur.com/" target="_blank">Gallery</a></li>
-        <li><a href="/projects.html">Projects</a></li>
-      </ul>
-      <ul class="icons">
-        <li>Social / Contact</li>
-        <!-- twitter -->
-        <li><a href="http://twitter.com/l0nr/" target="_blank">
-          <img src="/assets/img/twitter.png" width="32px" alt="Twitter" /></a></li>
-        <!-- google+ -->
-        <li><a href="https://plus.google.com/112332452774282896153" target="_blank">
-          <img src="/assets/img/googleplus.png" width="32px" alt="Google+" /></a></li>
-        <!-- github -->
-        <li><a href="https://github.com/l0ner" target="_blank">
-          <img src="/assets/img/github.png" width="32px" alt="Github" /></a></li>
-        <li><a href="https://linkedin.com/profile/view?id=285189228" target="_blank">
-          <img src="/assets/img/in.png" width="32px" alt="LinkedIn" /></a></li>
-        <!-- TODO
-        <li><a href="#" target="_blank">
-          <img src="/assets/img/instagram.png" width="32px" alt="Twitter" /></a></li>
-        <li><a href="#" target="_blank">
-          <img src="/assets/img/tumblr.png" width="32px" alt="Tumblr" /></a></li>
-        <li><a href="#" target="_blank">
-          <img src="/assets/img/soundcloud.png" width="32px" alt="Soundcloud" /></a></li>
-        -->
-        <!-- email -->
-        <li><a href="mailto:pwslts@gmail.com" target="_blank">
-          <img src="/assets/img/email.png" width="32px" alt="Email" /></a></li>
-      </ul>
-      </nav>
-    <footer>
-    <p>
-    l0ner - CC: BY-NC-SA</p>
-    <a href="/atom.xml" target="_blank">
-      <img src="/assets/img/rss.png" width="32px" alt="RSS feed" /></a><br />
+		<!-- metadata -->
+		<meta name="robots" content="{{ page.meta-robots }}" />
+		<meta name="description" content="{{ page.meta-description }}" />
+		<meta name="description" content="l0ner - {{ page.title }}" />
 
-    <!-- Begin W3Counter Tracking Code -->
-    <script type="text/javascript"
-      src="https://www.w3counter.com/tracker.js"></script>
-    <script type="text/javascript">
-      w3counter(90583);
-    </script>
-    <noscript>
-      <div><a href="http://www.w3counter.com"><img
-          src="https://www.w3counter.com/tracker.php?id=90583" style="border: 0"
-          alt="W3Counter" /></a></div>
-    </noscript>
-    <!-- End W3Counter Tracking Code -->
+		<!-- jQuery hosted by Google -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<!--<script src="/assets/js/glitch.js"></script>-->
 
-    </footer>
-    </header>
+	</head>
+	<body>
+		<div class="bodywrapper">
+			<header>
+				<h1 id='logo'><a href="/">l0ner</a></h1>
+				<nav>
+					<ul>
+						<li>Pages</li>
+						<li><a href="/">Home & About</a></li>
+						<li><a href="http://l0ner.imgur.com/" target="_blank">Gallery</a></li>
+						<li><a href="/projects.html">Projects</a></li>
+					</ul>
+					<ul class="icons">
+						<li>Social / Contact</li>
+
+						<!-- twitter -->
+						<li><a href="http://twitter.com/l0nr/" target="_blank">
+								<i class="fa fa-twitter-square"></i>
+							</a>
+						</li>
+						<!-- google+ -->
+						<li><a href="https://plus.google.com/112332452774282896153" target="_blank">
+								<i class="fa fa-google-plus-square"></i>
+							</a>
+						</li>
+						<!-- github -->
+						<li><a href="https://github.com/l0ner" target="_blank">
+								<i class="fa fa-github-square"></i>
+							</a>
+						</li>
+
+						<!-- linkedin -->
+						<li><a href="https://linkedin.com/profile/view?id=285189228" target="_blank">
+								<i class="fa fa-linkedin-square"></i>
+							</a>
+						</li>
+						
+						<!-- codepen -->
+						<li><a href="https://codepen.io/l0ner" target="_blank">
+								<i class="fa fa-codepen"></i>
+							</a>
+						</li>
+
+						<!-- free code camp -->
+						<li><a href="http://www.freecodecamp.com/l0ner/" target="_blank">
+								<i class="fa fa-fire"></i>
+							</a>
+						</li>
+
+						<!-- email -->
+						<li><a href="mailto:pwslts@gmail.com" target="_blank">
+								<i class="fa fa-envelope-square"></i>
+							</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<p>
+					l0ner <i class="fa fa-creative-commons"></i> CC: BY-NC-SA</p>
+					<a href="/atom.xml" target="_blank">
+					  <span style="font-size: 34px;">
+						<i class="fa fa-rss-square"></i>
+					  </span>
+					</a><br />
+
+					<!-- Begin W3Counter Tracking Code -->
+					<script type="text/javascript"
+						 src="https://www.w3counter.com/tracker.js"></script>
+					<script type="text/javascript">
+w3counter(90583);
+					</script>
+					<noscript>
+						<div><a href="http://www.w3counter.com">
+							<img src="https://www.w3counter.com/tracker.php?id=90583" style="border: 0"
+								alt="W3Counter" /></a>
+						</div>
+					</noscript>
+					<!-- End W3Counter Tracking Code -->
+
+				</footer>
+			</header>
 

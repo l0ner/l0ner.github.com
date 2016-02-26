@@ -39,7 +39,6 @@ header {
     z-index: 1;
     color: #fff;
     font-family: "Exo", sans-serif;
-    font-weight: 200;
 }
 
 header > * {
@@ -108,6 +107,7 @@ nav ul li:not(:first-child):hover a {
 
 nav ul.icons {
   text-align: center;
+  font-size: 34px;
 }
 
 nav ul.icons li:first-child {
@@ -116,7 +116,7 @@ nav ul.icons li:first-child {
 
 nav ul.icons li:not(:first-child) {
   display: inline-block;
-  margin: 1px;
+  margin: 0px;
   padding: 0;
 }
 
