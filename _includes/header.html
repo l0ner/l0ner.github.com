@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>l0ner.github.io - {{ page.title }}</title>
+		<title>{{ page.title }} - l0ner.github.io</title>
 
 		<!-- stylesheets -->
 		<link rel="stylesheet" type="text/css" href="/assets/styles/main.css" />
@@ -23,9 +23,16 @@
 		<link rel="alternate" type="application/atom+xml" href="http://l0ner.github.com/atom.xml">
 
 		<!-- metadata -->
+		{% if page.meta-robots %}
 		<meta name="robots" content="{{ page.meta-robots }}" />
+		{% endif %}
+		{% if page.meta-description %}
 		<meta name="description" content="{{ page.meta-description }}" />
+		{% endif %}
 		<meta name="description" content="l0ner - {{ page.title }}" />
+		{% if page.keywords %}
+		<meta name="keywords" content="{{ page.keywords }}" />
+		{% endif %}
 
 		<!-- jQuery hosted by Google -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
