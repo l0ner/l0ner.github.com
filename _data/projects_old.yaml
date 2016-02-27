@@ -1,0 +1,26 @@
+---
+- project: neurohelper
+  category: Desktop App
+  link: http://github.com/l0ner/neurohelper
+  cat-icon: fa-desktop
+  publish: yes
+  description: Project for my maturity in 2011 - Game master assistant
+    for a pen&paper RPG game "Neuroshima". Never finished.
+
+- project: sysstat
+  link: http://github.com/l0ner/sysstat
+  category: CLI Utlity
+  icon: fa-bar-chart
+  cat-icon: fa-terminal
+  publish: yes
+  description: Tmux-mem-cpu-load fork with output customization and OOP 
+    internals. Since it was an experiment but I’m not going to maintain or 
+    develop it further.
+
+- project: video4psp
+  category: CLI Utlity
+  icon: fa-file-video-p
+  cat-icon: fa-terminal
+  publish: yes
+  link: http://github.com/l0ner/video4psp 
+  description: Batch Video converter for Sony PSP.

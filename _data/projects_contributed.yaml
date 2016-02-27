@@ -1,0 +1,16 @@
+--- 
+- project:
+  category:
+  link:
+  thumb: 
+  publish: no
+  description:
+
+- project: tmux-mem-cpu-load
+  category: CLI Utility
+  link: http://github.com/thewtex/tmux-mem-cpu-load
+  icon: fa-bar-chart
+  cat-icon: fa-terminal
+  publish: yes
+  description: Simple, lightweight system usage monitor for tmux status line.
+

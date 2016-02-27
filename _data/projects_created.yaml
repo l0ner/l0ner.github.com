@@ -1,0 +1,9 @@
+---
+- project: bcut
+  category: CLI Utility
+  link: http://github.com/l0ner/bcut
+  icon: fa-cogs
+  cat-icon: fa-terminal
+  publish: yes
+  description: A better cut utlity. Same as *nix cut utility but with some 
+    additional features. Written in Phyton.

@@ -1,0 +1,37 @@
+---
+- project: Tribute Page
+  link: http://codepen.io/l0ner/full/ZWEbEX/
+  thumb: tribute-page.png
+  cat-icon: fa-fire
+  publish: yes
+  description: Tribte page to Linus Torvalds. Created for Free Code Camp 
+    assignement. Pure bootsprap.
+
+- project: Bogus HexView
+  link: http://codepen.io/l0ner/full/xVxrQe/
+  thumb: hex-view.png
+  cat-icon: fa-codepen
+  publish: yes
+  description: Bogus Hex Data view. Inspired by jwz blog entrypage. jQuery
+
+- project: Div Tab Navigation
+  link: http://codepen.io/l0ner/full/dMyRQy/
+  thumb: tabbed-divs.png
+  cat-icon: fa-codepen
+  publish: yes
+  description: Tabs using divs. jQuery.
+
+- project: Canvas Noise
+  link: http://codepen.io/l0ner/full/qZBjge/
+  thumb: noise-bg.png
+  cat-icon: fa-codepen
+  publish: yes
+  description: Generate pixel-noise background in canvas. Pure JS
+
+- project: deTheme
+  link: http://codepen.io/l0ner/full/YqzQOP/
+  thumb: deTheme.png
+  cat-icon: fa-codepen
+  publish: yes
+  description: Really old theme for my webpage. HTML and CSS
+
