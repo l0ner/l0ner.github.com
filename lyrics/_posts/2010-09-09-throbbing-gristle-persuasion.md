@@ -59,4 +59,4 @@ Nothing ever changes
 
 Nothing ever changes
 
-Lyrics thanks to Cyncmaster150:http://www.youtube.com/user/cyncmaster150 from YouTube.
+Lyrics thanks to [Cyncmaster150](http://www.youtube.com/user/cyncmaster150) from YouTube.
