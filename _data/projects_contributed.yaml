@@ -1,16 +1,15 @@
 --- 
-- project:
-  category:
-  link:
-  thumb: 
-  publish: no
-  description:
-
 - project: tmux-mem-cpu-load
   category: CLI Utility
   link: http://github.com/thewtex/tmux-mem-cpu-load
   icon: fa-bar-chart
   cat-icon: fa-terminal
   publish: yes
-  description: Simple, lightweight system usage monitor for tmux status line.
+  short-desc: Simple, lightweight system usage monitor for tmux status line.
+  description: <p>A simple, lightweight program provided for system monitoring in 
+    the status line of tmux.</p>
+    <p>I've did code refactoring that led to version 3.0.0, NetBSD, OpenBSD and           
+    FreeBSD ports, some bugfixes and getopt() based argument parsing.</p>
+    <p><a href="https://github.com/thewtex/tmux-mem-cpu-load/commits/master?author=l0ner" target="_blank">
+    Click here to see my commits</a></p>
 

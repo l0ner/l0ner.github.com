@@ -1,0 +1,130 @@
+---
+layout: index
+title: Projects
+meta-robots: "noodp, noydir"
+---
+
+<article id="Code portfolio">                                                      
+	<h1>Code portfolio</h1>                                                          
+	<h3>Created</h3>                                                                 
+	{% for project in site.data.projects_created %}                                
+	{% if project.publish == true %}
+
+	<div class="project-tile-big">
+		<div class="tile-title">
+			{% if project.cat-icon %}                                                
+			<i class="fa {{ project.cat-icon }}"></i>                                
+			{% endif %}                                                              
+			{{ project.project }}
+		</div>
+		{% if project.thumb %}                                                       
+		<div class="tile-img-container">
+			<img src="/assets/img/projects/{{ project.thumb }}" width="220px" />
+		</div>
+		{% endif %}                                                                
+		{% if project.thumb %}                                                       
+		<div class="tile-desc">
+			{% else %}
+			<div class="tile-desc-full">
+				{% endif %}
+				{% if project.link %}
+				<p>Project website: <a href="{{ project.link }}" target="_blank">{{ project.link }}</a></p>
+				{% endif %}
+				{{ project.description }}
+			</div>
+		</div>
+
+		{% endif %}                                                                    
+		{% endfor %}                                                                   
+		<h3>Contributed</h3>                                                                 
+		{% for project in site.data.projects_contributed %} 
+		{% if project.publish == true %}
+
+		<div class="project-tile-big">
+			<div class="tile-title">
+				{% if project.cat-icon %}                                                
+				<i class="fa {{ project.cat-icon }}"></i>                                
+				{% endif %}                                                              
+				{{ project.project }}
+			</div>
+			{% if project.thumb %}                                                       
+			<div class="tile-img-container">
+				<img src="/assets/img/projects/{{ project.thumb }}" width="220px" />
+			</div>
+			{% endif %}                                                                
+			{% if project.thumb %}                                                       
+			<div class="tile-desc">
+				{% else %}
+				<div class="tile-desc-full">
+					{% endif %}
+					{% if project.link %}
+					<p>Project website: <a href="{{ project.link }}" target="_blank">{{ project.link }}</a></p>
+					{% endif %}
+					{{ project.description }}
+				</div>
+			</div>
+
+			{% endif %}                                                                    
+			{% endfor %}                                                                   
+			<h3>Assignments and others</h3>
+			<p>Various assignments I did for online programming courses and simple stuff done for the pleasure of coding and challenge or for exercise</p>
+			<div class="tile-container">
+				{% for project in site.data.projects_assignments %}
+				{% if project.publish == true %}
+				<a href="{{ project.link }}">
+					{% if project.thumb %}
+					<div class="project-tile" style='background-image: url("/assets/img/projects/{{ project.thumb }}")'>
+						{% else %}
+						<div class="project-tile">
+							{% endif %}
+							{% if project.icon %}
+							<i class="fa {{ project.icon }}"></i>
+							{% endif %}
+							<div class="project-desc">
+								{{ project.short-desc }}
+							</div>
+							<div class="project-title">
+								{{ project.project }}
+								{% if project.cat-icon %}
+								<i class="fa {{ project.cat-icon }}"></i>
+								{% endif %}
+							</div>
+						</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+					</div>
+
+
+					<h3>Old and abandoned</h3>
+					<p>Old stuff I did years ago and I'm not ever going back to (probably)</p>
+					{% for project in site.data.projects_old %}                                
+					{% if project.publish == true %}
+
+					<div class="project-tile-big">
+						<div class="tile-title">
+							{% if project.cat-icon %}                                                
+							<i class="fa {{ project.cat-icon }}"></i>                                
+							{% endif %}                                                              
+							{{ project.project }}
+						</div>
+						{% if project.thumb %}                                                       
+						<div class="tile-img-container">
+							<img src="/assets/img/projects/{{ project.thumb }}" width="220px" />
+						</div>
+						{% endif %}                                                                
+						{% if project.thumb %}                                                       
+						<div class="tile-desc">
+							{% else %}
+							<div class="tile-desc-full">
+								{% endif %}
+								{% if project.link %}
+								<p>Project website: <a href="{{ project.link }}" target="_blank">{{ project.link }}</a></p>
+								{% endif %}
+								{{ project.description }}
+							</div>
+						</div>
+
+						{% endif %}                                                                    
+						{% endfor %}                                                                   
+</article>

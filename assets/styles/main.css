@@ -298,7 +298,7 @@ nav.paginator {
 	border-top: 1px solid black;
 	border-collapse: collapse;
 	background-repeat: no-repeat;
-  background-position: center center;
+	background-position: center center;
 	font-size: 16px;
 	font-family: Exo, monospace, sans-serif;
 }
@@ -331,6 +331,47 @@ nav.paginator {
 	-moz-transition: opacity .1s linear;
 	-ms-transition: opacity .1s linear;
 }
+
+.project-tile-big {
+	border: 1px solid #9f9f9f;
+	border-radius: 5px;
+	margin: 10px 5px;
+	width: calc(100% - 10px);;
+	min-height: 170px;
+	overflow: hidden;
+}
+
+.project-tile-big .tile-title {
+	width: 100%;
+	padding-left: 10px;
+	font-weight: bold;
+	background: #f6f6f6;
+	color: #000;
+	border-bottom: 1px solid black;
+}
+
+.project-tile-big .tile-img-container {
+	float: left;
+	height: 100%;
+	width: 220px;
+	border-right: 1px solid #999;
+}
+
+.project-tile-big .tile-img-container img {
+	width: 220px;
+	margin: 0;
+}
+
+.project-tile-big .tile-desc {
+	padding: 0 10px;
+	width: calc(100% - 250px);
+	float: right;
+}
+.project-tile-big .tile-desc-full {
+	padding: 0 10px;
+	width: calc(100% - 20px);
+}
+
 
 /*
  * Global Stylings

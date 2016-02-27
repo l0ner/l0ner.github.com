@@ -5,5 +5,9 @@
   icon: fa-cogs
   cat-icon: fa-terminal
   publish: yes
-  description: A better cut utlity. Same as *nix cut utility but with some 
+  short-desc: A better cut utlity. Same as *nix cut utility but with some 
     additional features. Written in Phyton.
+  description: A better cut utility.                                                            
+    I needed a *nix cut utility with ability to count the fields from the end of       
+    the line. So I wrote it. In Python since I was learning python at the time and  
+    needed some exercise.

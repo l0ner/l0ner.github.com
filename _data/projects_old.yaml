@@ -4,8 +4,15 @@
   link: http://github.com/l0ner/neurohelper
   cat-icon: fa-desktop
   publish: yes
-  description: Project for my maturity in 2011 - Game master assistant
+  short-desc: Project for my maturity in 2011. Game master assistant
     for a pen&paper RPG game "Neuroshima". Never finished.
+  description: A project I did for my maturity in 2011. Game master assistant for a Polish
+    pen&paper role playing game called Neuroshima. Aim was to keep track of
+    Players main characteristics, modifiers, abilities and inventory.
+    Written in C++ and Qt4. Unfinished and abandoned since I don't play Neuroshima
+    that much anymore. Note that I didn't know much about objective programming
+    in C++ at the time I was writing this, so there are bugs and memory leaks
+    everywhere.
 
 - project: sysstat
   link: http://github.com/l0ner/sysstat
@@ -13,8 +20,11 @@
   icon: fa-bar-chart
   cat-icon: fa-terminal
   publish: yes
-  description: Tmux-mem-cpu-load fork with output customization and OOP 
+  short-desc: Tmux-mem-cpu-load fork with output customization and OOP 
     internals. Since it was an experiment but I’m not going to maintain or 
+    develop it further.
+  description: Experiment of sorts. Started as tmux-mem-cpu-load fork. I was curious how the
+    thing would look using objects. Works, but I'm not going to maintain nor
     develop it further.
 
 - project: video4psp
@@ -23,4 +33,10 @@
   cat-icon: fa-terminal
   publish: yes
   link: http://github.com/l0ner/video4psp 
-  description: Batch Video converter for Sony PSP.
+  short-desc: Batch Video converter for Sony PSP.
+  description: Video converter for Sony PSP. Batch conversions and hardsubbing of ASS (both
+    external and ambedded in media file) was my main goals in terms of features.
+    Written in Bash and based on mediainfo, mplayer and ffmpeg with aac and x265
+    support. Abandoned since I don't travel by bus/train anymore and thus don't
+    use my PSP to watch movies.
+
