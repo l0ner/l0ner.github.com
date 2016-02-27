@@ -46,6 +46,10 @@ header > * {
 	margin-right: 25px;
 }
 
+header img {
+	width: auto !important;
+}
+
 header h1 {
 	text-align: center;
 	margin-top: 21%;
@@ -220,6 +224,7 @@ article {
 	display: block;
 	padding-bottom: 4%;
 	overflow: auto; /* expand for floating */
+	max-width: 704px;
 }
 
 article:not(:first-child) {
@@ -520,7 +525,7 @@ address {
 
 img {
 	margin: 10px;
-	width: 100%;
+	max-width: calc(100% - 20px);
 }
 
 ins {
