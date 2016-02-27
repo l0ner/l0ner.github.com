@@ -36,6 +36,7 @@ div#to-top {
 	text-align: center;
 	cursor: pointer;
 	box-shadow: 5px 5px 5px #000;
+	display: none;
 }
 
 /*
