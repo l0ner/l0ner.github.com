@@ -66,7 +66,7 @@ meta-robots: "noodp, noydir"
 				<i class="fa {{ project.icon }}"></i>
 				{% endif %}
 				<div class="project-desc">
-					{{ project.description }}
+					{{ project.short-desc }}
 				</div>
 				<div class="project-title">
 					{{ project.project }}
@@ -94,7 +94,7 @@ meta-robots: "noodp, noydir"
 				<i class="fa {{ project.icon }}"></i>
 				{% endif %}
 				<div class="project-desc">
-					{{ project.description }}
+					{{ project.short-desc }}
 				</div>
 				<div class="project-title">
 					{{ project.project }}
@@ -123,35 +123,7 @@ meta-robots: "noodp, noydir"
 				<i class="fa {{ project.icon }}"></i>
 				{% endif %}
 				<div class="project-desc">
-					{{ project.description }}
-				</div>
-				<div class="project-title">
-					{{ project.project }}
-					{% if project.cat-icon %}
-					<i class="fa {{ project.cat-icon }}"></i>
-					{% endif %}
-				</div>
-			</div>
-		</a>
-		{% endif %}
-	{% endfor %}
-	</div>
-	<h2>Old, abandoned and other</h2>
-	<p>Old stuff I did years ago and I'm not ever going back to (probably)</p>
-	<div class="tile-container">
-	{% for project in site.data.projects_old %}
-		{% if project.publish == true %}
-		<a href="{{ project.link }}">
-			{% if project.thumb %}
-			<div class="project-tile" style='background-image: url("/assets/img/projects/{{ project.thumb }}")'>
-				{% else %}
-				<div class="project-tile">
-				{% endif %}
-				{% if project.icon %}
-				<i class="fa {{ project.icon }}"></i>
-				{% endif %}
-				<div class="project-desc">
-					{{ project.description }}
+					{{ project.short-desc }}
 				</div>
 				<div class="project-title">
 					{{ project.project }}
