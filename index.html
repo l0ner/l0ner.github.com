@@ -6,21 +6,21 @@ meta-robots: "noodp, noydir"
 ---
 
 <article id="about">
-	<img src='http://i.imgur.com/sReyU73m.png' width="200px" style="float:left;"/>
+	<img src='http://i.imgur.com/sReyU73m.png' width="200px" style="float:left;" />
 	<h5>Pawel 'l0ner' Soltys.</h5>
 	<p>Interests include but are not limited
-	to: Linux, C++, Python, programming in general, Open Source Software,
-	Operating Systems, Guitars and music, photography and many other things.
-	Currently self-employed as IT consultant, but searching for better job
-	opportunities.</p>
+		to: Linux, C++, Python, programming in general, Open Source Software,
+		Operating Systems, Guitars and music, photography and many other things.
+		Currently self-employed as IT consultant, but searching for better job
+		opportunities.</p>
 </article>
 
 <article if="ramblings">
 	<h1>Ramblings:</h1>
 	<p>Stuff I wrote. I've been writing more in the past but now I prefer to
-	concentrate on developing my programming skills. This is not everything I've
-	wrote in the past. I've decided to remove some stuff, which become really
-	obsolete or was unimportant.
+		concentrate on developing my programming skills. This is not everything I've
+		wrote in the past. I've decided to remove some stuff, which become really
+		obsolete or was unimportant.
 	</p>
 	<ul>
 		{% for post in site.posts %}
@@ -35,8 +35,8 @@ meta-robots: "noodp, noydir"
 <article id="lyrics-translations">
 	<h1>Lyrics & Translations</h1>
 	<p>Something I enjoy doing in my free time is transcribing and translating (badly)
-	song lyrics (and somethimes other things). Please note that these are not
-	professional translations but something I do with songs I like in my free time.
+		song lyrics (and somethimes other things). Please note that these are not
+		professional translations but something I do with songs I like in my free time.
 	</p>
 	<ul>
 		{% for post in site.categories.lyrics %}
@@ -61,20 +61,20 @@ meta-robots: "noodp, noydir"
 			<div class="project-tile" style='background-image: url("/assets/img/projects/{{ project.thumb }}")'>
 				{% else %}
 				<div class="project-tile">
-				{% endif %}
-				{% if project.icon %}
-				<i class="fa {{ project.icon }}"></i>
-				{% endif %}
-				<div class="project-desc">
-					{{ project.short-desc }}
-				</div>
-				<div class="project-title">
-					{{ project.project }}
-					{% if project.cat-icon %}
-					<i class="fa {{ project.cat-icon }}"></i>
 					{% endif %}
+					{% if project.icon %}
+					<i class="fa {{ project.icon }}"></i>
+					{% endif %}
+					<div class="project-desc">
+						{{ project.short-desc }}
+					</div>
+					<div class="project-title">
+						{{ project.project }}
+						{% if project.cat-icon %}
+						<i class="fa {{ project.cat-icon }}"></i>
+						{% endif %}
+					</div>
 				</div>
-			</div>
 		</a>
 		{% endif %}
 		{% endfor %}
@@ -82,58 +82,57 @@ meta-robots: "noodp, noydir"
 	<h2>Contributions</h2>
 	<p>Projects I contributed to</p>
 	<div class="tile-container">
-	{% for project in site.data.projects_contributed %}
+		{% for project in site.data.projects_contributed %}
 		{% if project.publish == true %}
 		<a href="{{ project.link }}">
 			{% if project.thumb %}
 			<div class="project-tile" style='background-image: url("/assets/img/projects/{{ project.thumb }}")'>
 				{% else %}
 				<div class="project-tile">
-				{% endif %}
-				{% if project.icon %}
-				<i class="fa {{ project.icon }}"></i>
-				{% endif %}
-				<div class="project-desc">
-					{{ project.short-desc }}
-				</div>
-				<div class="project-title">
-					{{ project.project }}
-					{% if project.cat-icon %}
-					<i class="fa {{ project.cat-icon }}"></i>
 					{% endif %}
+					{% if project.icon %}
+					<i class="fa {{ project.icon }}"></i>
+					{% endif %}
+					<div class="project-desc">
+						{{ project.short-desc }}
+					</div>
+					<div class="project-title">
+						{{ project.project }}
+						{% if project.cat-icon %}
+						<i class="fa {{ project.cat-icon }}"></i>
+						{% endif %}
+					</div>
 				</div>
-			</div>
 		</a>
 		{% endif %}
-	{% endfor %}
+		{% endfor %}
 	</div>
-	<h2>Assignments and other minor stuff</h2>
-	<p>Various assignments I did for online programming courses and simple stuff
-	done for the pleasure of coding and challenge or for exercise</p>
+	<h2>Gimmicks</h2>
+	<p>Stuff I did for fun.</p>
 	<div class="tile-container">
-	{% for project in site.data.projects_assignments %}
+		{% for project in site.data.projects_assignments %}
 		{% if project.publish == true %}
 		<a href="{{ project.link }}">
 			{% if project.thumb %}
 			<div class="project-tile" style='background-image: url("/assets/img/projects/{{ project.thumb }}")'>
 				{% else %}
 				<div class="project-tile">
-				{% endif %}
-				{% if project.icon %}
-				<i class="fa {{ project.icon }}"></i>
-				{% endif %}
-				<div class="project-desc">
-					{{ project.short-desc }}
-				</div>
-				<div class="project-title">
-					{{ project.project }}
-					{% if project.cat-icon %}
-					<i class="fa {{ project.cat-icon }}"></i>
 					{% endif %}
+					{% if project.icon %}
+					<i class="fa {{ project.icon }}"></i>
+					{% endif %}
+					<div class="project-desc">
+						{{ project.short-desc }}
+					</div>
+					<div class="project-title">
+						{{ project.project }}
+						{% if project.cat-icon %}
+						<i class="fa {{ project.cat-icon }}"></i>
+						{% endif %}
+					</div>
 				</div>
-			</div>
 		</a>
 		{% endif %}
-	{% endfor %}
+		{% endfor %}
 	</div>
 </article>

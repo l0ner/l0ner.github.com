@@ -6,82 +6,87 @@ date: 2012-07-09
 
 For some time I've been searching for an audio player that would suit me
 perfectly. What I needed was a clean GUI, Library, possibility of automatic
-Library cleanups (like automatic copying and renaming of files upon add), id3
-tag editor and light and fast feel[^1]. For past 3 years I've been using iTunes,
-since it's the only application that can be used to manage music on my iPod[^2].
-I've grown pretty accustomed to it, but it felt kinda slow, and there were
-things that I didn't like[^3]. So I've begun searching for a replacement.
+Library cleanups (like automatic copying and renaming of files upon add),
+id3 tag editor and light and fast feel[^1]. For past 3 years I've been using
+iTunes, since it's the only application that can be used to manage music on
+my iPod[^2]. I've grown pretty accustomed to it, but it felt kinda slow, and
+there were things that I didn't like[^3]. So I've begun searching for a
+replacement.
 
-I've noticed while testing that some players sort library top level (Artists)
-by "**Artist**" instead of "**Album Artist**" tag. This led to unimaginable
-clutter of my music library, since I have many compilation and remix albums,
-where every track has a different artist. In iTunes those get sorted by "**Album
-Artist**" tag, which exist for a reason.
+I've noticed while testing that some players sort library top level
+(Artists) by "**Artist**" instead of "**Album Artist**" tag. This led to
+unimaginable clutter of my music library, since I have many compilation and
+remix albums, where every track has a different artist. In iTunes those get
+sorted by "**Album Artist**" tag, which exist for a reason.
 
-This made me curious. I've started to test different audio players to see how
-their handle this stuff with default settings. Using wikipedia and aptitude on
-ubuntu I've picked a list of media players, both for windows and linux and
-started testing. For this test I've choose 2 albums that are compilations of
-tracks done by different artists: one containing remixes and one OST.
+This made me curious. I've started to test different audio players to see
+how their handle this stuff with default settings. Using wikipedia and
+aptitude on ubuntu I've picked a list of media players, both for windows and
+linux and started testing. For this test I've choose 2 albums that are
+compilations of tracks done by different artists: one containing remixes and
+one OST.
 
 ### Test environment:
 
-The albums that I've choosen were: Appleseed soundtrack, and Celldwellers "Take
-it & break it vol. 1" remix album. In both cases pretty much every track on
-ablum was done by different artist (stored in "**Artist**" tag).
+The albums that I've choosen were: Appleseed soundtrack, and Celldwellers
+"Take it & break it vol. 1" remix album. In both cases pretty much every
+track on ablum was done by different artist (stored in "**Artist**" tag).
 
-So, tl;dr: Players should group library by "Album Artist" and not by "Artist".
-Let's see which pass this test. Screenshots as proofs.
+So, tl;dr: Players should group library by "Album Artist" and not by
+"Artist". Let's see which pass this test. Screenshots as proofs.
 
 ### Tests:
 
 #### players for Windows[^4]:
 
 1. [AIMP3][aimp_w] ([screenshot][aimp])
-   : groups library by Album Artist. This is the expected behaviour. Can't say
-     much more about this player, since I've never used it before. ***Passed***.
+   : groups library by Album Artist. This is the expected behaviour. Can't
+   say much more about this player, since I've never used it before.
+   ***Passed***.
 2. [aTunes][atunes_w] ([screenshot][atunes])
-   : Player written in Java. Strongly reminds my of Amarok 1.5. Groups library
-     by Album Artist as you can see on the screenshot. ***Passed***.
+   : Player written in Java. Strongly reminds my of Amarok 1.5. Groups
+   library by Album Artist as you can see on the screenshot. ***Passed***.
 3. [iTunes][itunes_w] ([screnshot][itunes])
-   : Groups by Album Artist. Not much to test since this was the player I was
-     comparing others to. **Passed**.
+   : Groups by Album Artist. Not much to test since this was the player I
+   was comparing others to. **Passed**.
 4. [Saw Player][saw_w]
-   : Our first fail. Allows grouping only by Artist ([screenshot0][saw_artist])
-     or by Album title ([screenshot1][saw_album]). After playing with it for 5
-     minutes got labeled as "crapware". Not even worth trying. **Failed**
+   : Our first fail. Allows grouping only by Artist
+   ([screenshot0][saw_artist]) or by Album title ([screenshot1][saw_album]).
+   After playing with it for 5 minutes got labeled as "crapware". Not even
+   worth trying. **Failed**
 5. [MediaMonkey][mediamonkey_w] ([screenshot0][mediamonkey])
    : By default groups by Artist but allows to configure grouping
-     ([screenshot1][mediamonkey_config]). On defaults it's a **Fail** but the
-     configuration options make it a **Pass**.
-     [screenshot2][mediamonkey_configured])
+   ([screenshot1][mediamonkey_config]). On defaults it's a **Fail** but the
+   configuration options make it a **Pass**.
+   [screenshot2][mediamonkey_configured])
 6. [Songbird][songbird_w] ([screenshot0][songbird])
-   : Again: defaults to grouping by Artist and again give us option to change
-     it in it's configuration ([screenshot1][songbird_config],
-     [screenshot2][songbird_configured]). **Passed**
+   : Again: defaults to grouping by Artist and again give us option to
+   change it in it's configuration ([screenshot1][songbird_config],
+   [screenshot2][songbird_configured]). **Passed**
 7. [Nightingale][night_w] ([screenshot0][nightingale])
    : Since it's a Songbird fork it behaves identically to it's original.
-     ([screenshot1][nightingale_config], [screenshot2][nightingale_configured])
-     **Passed**.
+   ([screenshot1][nightingale_config],
+   [screenshot2][nightingale_configured]) **Passed**.
 
 #### Players availble on Linux and Windows:
 
 1. [Amarok 2.5][amarok_w] ([screenshot0][amarok])
-   : Defaults to grouping by Artist but allows for configuration
-     ([screenshot1][amarok_config], [screenshot2][amarok_configured]).
-     **Passed**.
+   : Defaults to grouping by
+   Artist but allows for configuration ([screenshot1][amarok_config],
+   [screenshot2][amarok_configured]). **Passed**.
 2. [Clementine][clementine_w] ([screenshot][clementine])
-   : Amarok 1.5 ported to qt4 and stripped off KDE integration. Works same as
-     Amarok, defaulting to grouping by Artist, but allows configuration
-     ([screenshot1][clementine_config1], [screenshot2][clementine_config2],
-     [screenshot3][clementine_configured]). **Passed**.
+   : Amarok 1.5 ported
+   to qt4 and stripped off KDE integration. Works same as Amarok, defaulting
+   to grouping by Artist, but allows configuration
+   ([screenshot1][clementine_config1], [screenshot2][clementine_config2],
+   [screenshot3][clementine_configured]). **Passed**.
 
 #### Players for Linux:
 
 1. [Banshee][banshee_w] ([screenshot0][banshee])
    : Defaults to grouping by Artist but allows configuration
-     ([screenshot1][banshee_config], [screenshot2][banshee_configured]).
-     **Passed**.
+   ([screenshot1][banshee_config], [screenshot2][banshee_configured]).
+   **Passed**.
 2. [Bluemindo][bluemindo_w]
    : **Not starting** for me on ubuntu VM, so *??*
 3. [cmus][cmus_2] ([screenshot][cmus]).
@@ -89,49 +94,54 @@ Let's see which pass this test. Screenshots as proofs.
 4. [Decibel Media Player][decibel_w] ([screenshot][decibel]).
    : Groups by Album Artist. **Passed**.
 5. [Exaile][exaile_w] ([screenshot][exaile])
-   : groups by Artist and does not allow for any kind of configuration. Can show
-     compilations as "Various Artist" field, but still **Fail**.
+   : groups by Artist and does not allow for any kind of configuration. Can
+   show compilations as "Various Artist" field, but still **Fail**.
 6. [gmusicbrowser][gmusicbrowser_w] ([screenshot0][gmusicbrowser])
    : defaults to grouping by Artist but allows configuration
-     ([screenshot1][gmusicbrowser_config],
-      [screenshot2][gmusicbrowser_configured]). **Passed**.
+   ([screenshot1][gmusicbrowser_config],
+   [screenshot2][gmusicbrowser_configured]). **Passed**.
 7. [Goggles Music Manager][gogglesmm_w] ([screenshot][gogglesmm])
     : Groups by Album Artist. **Passed**.
 8. [Guaydeque Music Player][guayadeque_w] ([screenshot0][guayadeque])
    : defaults to grouping by Artist but allows configuration
-     ([screenshot1][guayadeque_config], [screenshot2][guayadeque_configured]).
-     **Passed**.
+   ([screenshot1][guayadeque_config], [screenshot2][guayadeque_configured]).
+   **Passed**.
 9. [Jajuk][jajuk_w] ([screenshot][jajuk])
-   : groups by Artist and does not allow any kind of configuration. **Failed**.
+   : groups by Artist and does not allow any kind of configuration.
+   **Failed**.
 10. [JuK][juk_w] ([screenshot][juk])
     : In tree view mode groups tracks by Artist. No configuration options.
-      **Failed**.
+    **Failed**.
 11. [Listen Music Player][listen_2] ([screenshot][listen])
-    : groups by Artist and does not allow any kind of configuration. **Failed**.
+    : groups by Artist and does not allow any kind of configuration.
+    **Failed**.
 12. [Miro][miro_2] ([screenshot][miro])
-    : This one is particular. It does not group media in it's library at all.
-      Displays them as single files allowing only different sorting options.
-      **Failed**.
+    : This one is particular. It does not group media in it's library at
+    all. Displays them as single files allowing only different sorting
+    options. **Failed**.
 13. [Musique][musique_w] ([screenshot][musique])
-    : I don't  know... Seems it groups by Artist tag and shows only the artists
-      that it can find on last.fm. I'm at loss what to think about this one, but
-      certainly it's a **Fail**
+    : I don't  know... Seems it groups by Artist tag and shows only the
+    artists that it can find on last.fm. I'm at loss what to think about
+    this one, but certainly it's a **Fail**
 14. [pytone][pytone_w]
-    : **Does not start**. It has started once but was unresponsive. I couldn't
-      test it, but from what I've seen it defaults to grouping by Artist tag.
-      **Failed**
+    : **Does not start**. It has started once but was unresponsive. I
+    couldn't test it, but from what I've seen it defaults to grouping by
+    Artist tag. **Failed**
 15. [Quod Libet][quod_w] ([screenshot][quodlibet])
-    : Groups by Artist and does not allow any kind of configuration. **Failed**.
+    : Groups by Artist and does not allow any kind of configuration.
+    **Failed**.
 16. [Rhythmbox][rhythm_w] ([screenshot][rhythmbox])
-    : groups by Artist and does not allow any kind of configuration. **Failed**.
+    : groups by Artist and does not allow any kind of configuration.
+    **Failed**.
 
 #### XMMS2 Clients:
 
 1. [Abraca][abraca_w]
    : Hard fail. It seems that is has some sort of library, but don't use it.
-     **Failed**.
+   **Failed**.
 2. [Esperanza][esperanza_w] ([screenshot][esperanza])
-   : groups by Artist and does not allow any kind of configuration. **Failed**.
+   : groups by Artist and does not allow any kind of configuration.
+   **Failed**.
 3. [gxmms2][gxmms2_w]
    : Same as above. **Failed**.
 
@@ -141,34 +151,36 @@ Little note here: XMMS2 clients suck hard. They don't work as they should IMHO.
 
 1. [Ario][ario_w] ([screenshot0][ario])
    : Defaults to grouping by Artist but allows configuration
-     ([screenshot1][ario_config], [screenshot2][ario_configured]). **Passed**.
+   ([screenshot1][ario_config], [screenshot2][ario_configured]). **Passed**.
 
 2. [gimmix][gimmix_w] ([screenshot][gimmix])
-   : Groups library tracks by Album. Does not allow grouping by Artist.
-     I can't imagine finding anything in a bigger library like this. **Failed**.
+   : Groups library tracks by Album. Does not allow grouping by Artist. I
+   can't imagine finding anything in a bigger library like this. **Failed**.
 
 3. [Gnome Music Player Client][gmpc_w] ([screenshot][gmpc])
-   : groups by Artist. Theoretically it hase option for configuring this in it's
-     Preferences, but it does not work. Button that should allow you to chhose
-     what field you want to add to grouping options by default adds "artist" and
-     refuses to add anything else. Broken. **Failed**.
+   : groups by Artist. Theoretically it hase option for configuring this in
+   it's Preferences, but it does not work. Button that should allow you to
+   chhose what field you want to add to grouping options by default adds
+   "artist" and refuses to add anything else. Broken. **Failed**.
 
 4. [mpc][mpc_w] ([screenshot][mpc])
    : groups library tracks by Album. **Failed**.
 
 5. [ncmpc][ncmpc_w] ([screenshot][ncmpc])
-   : groups by Artist and does not allow any kind of configuration. **Failed**.
+   : groups by Artist and does not allow any kind of configuration.
+   **Failed**.
 
 6. [ncmpcpp][ncmpcpp_w] ([screenshot0][ncmpcpp]).
    : Defaults to grouping by Artist but allows configuration
-     ([screenshot1][ncmpcpp_config], [screenshot2][ncmpcpp_configured]).
-     Personally I think it's the best MPD client. **Passed**.
+   ([screenshot1][ncmpcpp_config], [screenshot2][ncmpcpp_configured]).
+   Personally I think it's the best MPD client. **Passed**.
 
 7. [pygmy][pygmy_w] ([screenshot][pygmy])
    : groups library tracks by Album. **Failed**.
 
 8. [QMPDClient][qmpdc] ([screenshot][qmpdclient])
-   : groups by Artist and does not allow any kind of configuration. **Failed**.
+   : groups by Artist and does not allow any kind of configuration.
+   **Failed**.
 
 9. [sonata][sonata_w] ([screenshot][sonata])
    : groups library tracks by Album. **Failed**.
@@ -178,23 +190,23 @@ Little note here: XMMS2 clients suck hard. They don't work as they should IMHO.
 
 #### Conclusion:
 
-Not much to say here, the tests results are clear. 16 players from pool of 38
-passed. The stuation on windows is good (7 of 8 passed) while on Linux not so
-(10 of 31 passes).
+Not much to say here, the tests results are clear. 16 players from pool of
+38 passed. The stuation on windows is good (7 of 8 passed) while on Linux
+not so (10 of 31 passes).
 
-Personally I've decded to manually keep my Library sorted using
-`Album Artist/Year - Album/Disk Number Track - Title.extension` scheme.
-For my anime music collection I'll use `Anime'/Anime Title/Year - Album/Disk
-Number Track - Title.extension` and for soundtracks `Soundtrack/Year - Album/Disk
-Number Track - Title.extension` scheme. It should keep my library clean and fast
-for browsing. And I won't need to worry about the id3 tags correctness
-anymore[^6]. As player I'll use Mpxplay on windows (built in directory browsing
-rules!) and mocp or MPD+ncmpcpp[^7] on linux.
+Personally I've decded to manually keep my Library sorted using `Album
+Artist/Year - Album/Disk Number Track - Title.extension` scheme. For my
+anime music collection I'll use `Anime/Anime Title/Year - Album/Disk Number
+Track - Title.extension` and for soundtracks `Soundtrack/Year - Album/Disk
+Number Track - Title.extension` scheme. It should keep my library clean and
+fast for browsing. And I won't need to worry about the id3 tags correctness
+anymore[^6]. As player I'll use Mpxplay on windows (built in directory
+browsing rules!) and mocp or MPD+ncmpcpp[^7] on linux.
 
 ##### Footnotes:
 
-[^1]: So nothing like hour-long waits because player is parsing library or no
-      major hangups. Yes I'm looking at you Songbird.
+[^1]: So nothing like hour-long waits because player is parsing library or
+      no major hangups. Yes I'm looking at you Songbird.
 
 [^2]: I know that there may be others. I think i've even tried some, but
       everything except iTunes suck in this.
@@ -204,8 +216,9 @@ rules!) and mocp or MPD+ncmpcpp[^7] on linux.
 [^4]: I know, windows is 3vil, but I can't use linux on my laptop because of
       overheating problems.
 
-[^5]: Nice player for dos with ncurses-like interface. Really fast and simple.
-      Naturally it doesn't have library, but I decided to manage this myself.
+[^5]: Nice player for dos with ncurses-like interface. Really fast and
+      simple. Naturally it doesn't have library, but I decided to manage
+      this myself.
 
 [^6]: But probably I'll still spend hours completing and correcting them
 
