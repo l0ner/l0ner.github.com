@@ -86,6 +86,7 @@ header a:visited {
 header a:hover {
 	color: #fff;
 	text-shadow: -4px 3px #00FFFF, 4px -5px #FF00FF;
+	transition: all .15s ease-in-out;
 	-webkit-transition: none .15s ease-in-out;
 	-moz-transition: none .15s ease-in-out;
 }
@@ -121,6 +122,7 @@ nav ul li:not(:first-child):hover {
 
 nav ul li:not(:first-child):hover a {
 	text-shadow: -4px 3px #00FFFF, 4px -5px #FF00FF;
+	transition: none .15s ease-in-out;
 	-webkit-transition: none .15s ease-in-out;
 	-moz-transition: none .15s ease-in-out;
 }
@@ -435,12 +437,14 @@ h6 {
 
 a {
 	color: #000;
+	transition: all .15s ease-in-out;
 	-webkit-transition: all .15s ease-in-out;
 	-moz-transition: all .15s ease-in-out;
 }
 
 a:hover {
 	color: #0099CC;
+	transition: all .15s ease-in-out;
 	-webkit-transition: all .15s ease-in-out;
 	-moz-transition: all .15s ease-in-out;
 }
@@ -453,29 +457,19 @@ em {
 	font-style: italic;
 }
 
-pre {
-	padding: 15px;
-	margin: 0px 0px 22px 0px;
-	border: 1px solid #dadada;
-	text-indent: 0px;
+pre
+{
 	overflow-x: auto;
 	overflow-y: auto;
 	white-space: pre-wrap;
 	word-wrap: break-word;
 	font-variant: normal;
 	text-align: left;
-	font-family: monospace;
-	background-color: #f0f0f0;
 	font-size: 12px;
 	line-height: 1.3em;
-	color: #000000;
-	font-weight: normal;
-	font-style: normal;
-	letter-spacing: normal;
 	orphans: 2;
 	text-transform: none;
 	widows: 2;
-	word-spacing: 0px;
 }
 
 :not(pre) > code {
@@ -502,9 +496,11 @@ sub {
 	bottom: -0.25em;
 }
 
-table {
+table:not(.rouge-table) {
 	border-collapse: collapse;
 	border-spacing: 0;
+	padding: 10px;
+	margin-bottom: 20px;
 }
 
 em, i {
@@ -527,7 +523,6 @@ blockquote {
 
 blockquote cite {
 	display: inline-block;
-	float: right;
 	padding: 3px 10px;
 	background: #f0f0f0;
 	color: #111;
@@ -547,11 +542,6 @@ ins {
 	text-decoration: none;
 }
 
-table {
-	padding: 10px;
-	margin-bottom: 20px;
-}
-
 th {
 	padding: 3px 8px;
 	text-align: center;
@@ -564,147 +554,19 @@ tr:nth-child(odd) {
 	background: #ddd;
 }
 
-tr, td {
+td, tr
+{
 	padding: 3px 8px;
 	border: 1px solid #eee;
 }
 
-/*
- * COMMENTS
- */
-.comments {
-	clear: both;
-	margin-top: 20px;
+.rouge-table td, .rouge-table tr
+{
+	padding: inherit;
+	border: inherit;
 }
 
-.comments h3 {
-	margin: 20px 0px;
-	font-weight: bold;
-	font-size: 23px;
-}
-
-.comment {
-	padding: 0px 0px 40px;
-	margin: 0px 0px 40px;
-	position: relative;
-	border-bottom: 3px solid #f0f0f0;
-}
-
-.comment-post {
-	margin-left: 13.461538%;
-	margin-bottom: 3.3%;
-}
-
-.comment-avatar {
-	float: left;
-}
-
-.comment-avatar img {
-	border-radius: 100%;
-}
-
-.comment .date {
-	margin-bottom: 10px;
-	font-size: 11px;
-	text-transform: uppercase;
-	color: #777;
-}
-
-.comment .comment-name {
-	margin-bottom: 5px;
-	font-weight: bold;
-}
-
-.comment-post p {
-	margin-bottom: 26px;
-}
-
-.reply-to-comment {
-	display: inline-block;
-	padding: 0px 15px;
-	border: 3px solid #f0f0f0;
-	border-radius: 100px;
-	font-size: 12px;
-	font-weight: bold;
-	color: #000;
-}
-
-.reply-to-comment:hover {
-	border-color: #000;
-	color: #000;
-}
-
-.logged-in-as {
-	margin-bottom: 16px;
-	font-weight: bold;
-	font-size: 15px;
-}
-
-/*--------------------------------------------------------*/
-/*- THREADED COMMENTS - ITS TIME TO THREAD THIS BEAST ----*/
-.commentlist .children {
-	clear: both;
-	margin: 30px 0 0;
-	padding: 0 0 0 13.4615%;
-}
-
-.commentlist .children li.comment {
-	padding: 20px 0px;
-	margin: 0px;
-	border-top: 3px solid #F0F0F0;
-}
-
-.commentlist .children h5.date {
-	top: 20px;
-	right: 20px;
-}
-
-.commentlist .children li.comment:last-child {
-	border-bottom: medium none;
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-
-.commentlist .children .comment-avatar img {
-	height: 40px;
-	width: 40px;
-}
-
-/*------------------------------------*/
-/*- POST A COMMENT -------------------*/
-.comment-notes {
-	margin-bottom: 20px;
-}
-
-.comment-form-comment label {
-	display: none;
-}
-
-.comment-form-comment textarea {
-	margin-bottom: 20px;
-}
-
-#commentform input {
-	margin: 0px 0px 15px 0px;
-}
-
-#commentform p label {
-	margin-right: 15px;
-	font-weight: bold;
-	font-size: 11px;
-	text-transform: uppercase;
-}
-
-#respond, .comment-form-content {
-	width: 100%;
-	padding: 40px;
-	margin-left: -40px;
-}
-
-.logged-in-as {
-	margin-bottom: 10px;
-}
-
-.form-allowed-tags {
-	display: none;
+.rouge-table tr:nth-child(2n+1)
+{
+	background: inherit;
 }
