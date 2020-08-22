@@ -1,4 +1,4 @@
---- 
+---
 layout: default
 title: Throbbing Gristle - Persuasion
 type: Transcription

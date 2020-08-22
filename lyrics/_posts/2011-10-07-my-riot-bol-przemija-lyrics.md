@@ -1,4 +1,4 @@
---- 
+---
 layout: default
 title: "My Riot - Ból przemija"
 type: Translation
@@ -72,21 +72,20 @@ languages: Polish, English, Italian
 | [Chorus]
 | |
 | I keep on looking, at myself in the mirror again | I keep on looking, at myself in the mirror again| Continuo a guardarmi, di nuovo, nello specchio
-| (Znów obserwuje się w lustrze) | | 
+| (Znów obserwuje się w lustrze) | |
 | I keep on asking myself, How I ended up here     | I keep on asking myself, How I ended up here    | Continuo a chiedermi, come sono finito qui
-| (Pytam się, jak skończyłem tutaj)    |                                                 | 
+| (Pytam się, jak skończyłem tutaj)    |                                                 |
 | What went wrong down the way                     | What went wrong down the way                    | cosa è andato storto per strada
-| (Co poszło nie tak po drodze)                |                                                 | 
+| (Co poszło nie tak po drodze)                |                                                 |
 | I say, You used me                               | I say, You used me                              | dico, mi hai usato
-| (Mówię, użyłeś mnie)         |                                                 | 
+| (Mówię, użyłeś mnie)         |                                                 |
 | I said You used me brother again                 | I said You used me brother again                | ho detto, mi hai usato fratello
-| (Mówię że użyłeś mnie bracie) |                                                 | 
+| (Mówię że użyłeś mnie bracie) |                                                 |
 | It's alright                                     | It's alright                                    | va bene
-| (W porządku)                                 |                                                 | 
+| (W porządku)                                 |                                                 |
 | I keep on asking myself now                      | I keep on asking myself now                     | continuo a chiedermi
-| (Ciągle pytam się)                       |                                                 | 
+| (Ciągle pytam się)                       |                                                 |
 | Should I pick up the gun again?                  | Should I pick up the gun again?                 | devo riprendere l'arma?
-| (Powinienem wziąć znów broń?)    |                                                 | 
+| (Powinienem wziąć znów broń?)    |                                                 |
 | |
 | [Chorus] |
-

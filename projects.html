@@ -4,25 +4,25 @@ title: Projects
 meta-robots: "noodp, noydir"
 ---
 
-<article id="Code portfolio">                                                      
-	<h1>Code portfolio</h1>                                                          
-	<h3>Created</h3>                                                                 
-	{% for project in site.data.projects_created %}                                
+<article id="Code portfolio">
+	<h1>Code portfolio</h1>
+	<h3>Created</h3>
+	{% for project in site.data.projects_created %}
 	{% if project.publish == true %}
 
 	<div class="project-tile-big">
 		<div class="tile-title">
-			{% if project.cat-icon %}                                                
-			<i class="fa {{ project.cat-icon }}"></i>                                
-			{% endif %}                                                              
+			{% if project.cat-icon %}
+			<i class="fa {{ project.cat-icon }}"></i>
+			{% endif %}
 			{{ project.project }}
 		</div>
-		{% if project.thumb %}                                                       
+		{% if project.thumb %}
 		<div class="tile-img-container">
 			<img src="/assets/img/projects/{{ project.thumb }}" width="220px" />
 		</div>
-		{% endif %}                                                                
-		{% if project.thumb %}                                                       
+		{% endif %}
+		{% if project.thumb %}
 		<div class="tile-desc">
 			{% else %}
 			<div class="tile-desc-full">
@@ -34,25 +34,25 @@ meta-robots: "noodp, noydir"
 			</div>
 		</div>
 
-		{% endif %}                                                                    
-		{% endfor %}                                                                   
-		<h3>Contributed</h3>                                                                 
-		{% for project in site.data.projects_contributed %} 
+		{% endif %}
+		{% endfor %}
+		<h3>Contributed</h3>
+		{% for project in site.data.projects_contributed %}
 		{% if project.publish == true %}
 
 		<div class="project-tile-big">
 			<div class="tile-title">
-				{% if project.cat-icon %}                                                
-				<i class="fa {{ project.cat-icon }}"></i>                                
-				{% endif %}                                                              
+				{% if project.cat-icon %}
+				<i class="fa {{ project.cat-icon }}"></i>
+				{% endif %}
 				{{ project.project }}
 			</div>
-			{% if project.thumb %}                                                       
+			{% if project.thumb %}
 			<div class="tile-img-container">
 				<img src="/assets/img/projects/{{ project.thumb }}" width="220px" />
 			</div>
-			{% endif %}                                                                
-			{% if project.thumb %}                                                       
+			{% endif %}
+			{% if project.thumb %}
 			<div class="tile-desc">
 				{% else %}
 				<div class="tile-desc-full">
@@ -64,8 +64,8 @@ meta-robots: "noodp, noydir"
 				</div>
 			</div>
 
-			{% endif %}                                                                    
-			{% endfor %}                                                                   
+			{% endif %}
+			{% endfor %}
 			<h3>Assignments and others</h3>
 			<p>Various assignments I did for online programming courses and simple stuff done for the pleasure of coding and challenge or for exercise</p>
 			<div class="tile-container">
@@ -98,22 +98,22 @@ meta-robots: "noodp, noydir"
 
 					<h3>Old and abandoned</h3>
 					<p>Old stuff I did years ago and I'm not ever going back to (probably)</p>
-					{% for project in site.data.projects_old %}                                
+					{% for project in site.data.projects_old %}
 					{% if project.publish == true %}
 
 					<div class="project-tile-big">
 						<div class="tile-title">
-							{% if project.cat-icon %}                                                
-							<i class="fa {{ project.cat-icon }}"></i>                                
-							{% endif %}                                                              
+							{% if project.cat-icon %}
+							<i class="fa {{ project.cat-icon }}"></i>
+							{% endif %}
 							{{ project.project }}
 						</div>
-						{% if project.thumb %}                                                       
+						{% if project.thumb %}
 						<div class="tile-img-container">
 							<img src="/assets/img/projects/{{ project.thumb }}" width="220px" />
 						</div>
-						{% endif %}                                                                
-						{% if project.thumb %}                                                       
+						{% endif %}
+						{% if project.thumb %}
 						<div class="tile-desc">
 							{% else %}
 							<div class="tile-desc-full">
@@ -125,6 +125,6 @@ meta-robots: "noodp, noydir"
 							</div>
 						</div>
 
-						{% endif %}                                                                    
-						{% endfor %}                                                                   
+						{% endif %}
+						{% endfor %}
 </article>

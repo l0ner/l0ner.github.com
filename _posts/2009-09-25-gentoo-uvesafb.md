@@ -1,4 +1,4 @@
---- 
+---
 layout: default
 title: Gentoo + UvesaFb + widescreen
 ---
@@ -16,8 +16,9 @@ howto: uvesafb widescreen
 
 2. build the kernel: make
 
-3. reemerge klibc: 
- 
+1. emerge klibc
+2. emerge v86d
+
    ~~~~
    # emerge klibc
    ~~~~
