@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Teensy the hard way: blink
+title: "Teensy the hard way: blink"
 date: 2020-08-24 20:00
-publish: true
 ---
 
 Or how i stopped worrying and loved writing to memory locations.
