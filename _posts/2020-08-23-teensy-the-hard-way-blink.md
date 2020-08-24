@@ -160,7 +160,7 @@ pointing to, but will be able to change the variables value.
 In the fouth case we will be able to only read from the variable throuth the
 pointer.
 
-## `pinMode(pinx, OUTPUT)`
+## pinMode(pinx, OUTPUT)
 
 So what is happening inside the `pinMode()` function?
 
@@ -655,7 +655,7 @@ output:
 PORTC GPIO PDDR value: 0b100000
 ```
 
-## `digitalWrite(pin, state)`
+## digitalWrite(pin, state)
 
 Now we can start writing to the pins!
 
@@ -813,7 +813,7 @@ while(1)
 }
 ```
 
-## `return 0;`
+## return 0;
 
 And thats it. Wasn't actually that hard, although it is more complicated
 than using the functions provided by the Arduino (or in our case
